@@ -1,0 +1,70 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+ body {
+   padding-bottom: 70px;
+   color: var(--global-text-color);
+   background-color: var(--global-bg-color);
+ }
+
+ body.fixed-top-nav {
+   // Add some padding for the nav-bar.
+   padding-top: 56px;
+ }
+
+ body.sticky-bottom-footer {
+   // Remove padding below footer.
+   padding-bottom: 0;
+ }
+
+.container {
+  max-width: 90vw;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
+}
+
+// Text Panes
+
+#pane-container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 10px;
+  max-height: 100vh;
+}
+
+.pane {
+  padding: 20px;
+  flex: 1;
+  text-align: justify;
+}
+
+.pane h3 {
+  color: coral;
+  margin-bottom: 40px;
+}
+
+#annotations {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .accordion-button, .accordion-button:not(.collapsed) {
+    color: coral;
+    font-size: calc(1.3rem + .6vw);
+  }
+
+  .accordion-body {
+    min-height: 150px;
+  }
+}
