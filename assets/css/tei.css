@@ -12,3 +12,11 @@ tei-note {
 tei-num {
   font-weight: bold;
 }
+tei-del {
+  text-decoration: line-through;
+  color: red;
+}
+tei-add {
+  font-weight: bold;
+  color: green;
+}
