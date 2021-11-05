@@ -33,27 +33,18 @@ layout: default
     ></script>
   </head>
   <body>
-    <h1>Antiquities</h1>
-    <div class="book-select">
-      <form>
-        <label for="book" as="h4">Select a book:</label>
-        <select id="book-selector"></select>
-      </form>
-    </div>
-    <hr />
+    {% include display-settings.html %}
     <div id="pane-container">
-      <div id="left" class="pane card">
+      <div id="latin" class="pane">
         <h3>Latin</h3>
       </div>
-      <div id="center" class="pane card">
+      <div id="english" class="pane">
         <h3>English</h3>
       </div>
-      <div id="right" class="pane card">
+      <div id="greek" class="pane">
         <h3>Greek</h3>
       </div>
-
       {% include annotations-bar.html %}
-
     </div>
   </body>
 </html>

@@ -1,0 +1,89 @@
+<script src="{{ site.baseurl }}/assets/js/renderTei.js"></script>
+
+<div class="accordion card" id="display-settings">
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="display-settings-header">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#collapse-settings"
+        aria-expanded="false"
+        aria-controls="collapse-settings"
+      >
+        <h1>Antiquities</h1>
+      </button>
+    </h3>
+    <div
+      id="collapse-settings"
+      class="accordion-collapse collapse"
+      aria-labelledby="display-settings-header"
+      data-mdb-parent="#display-settings"
+    >
+      <div class="accordion-body">
+
+        <div id="book-select">
+          <form class="accordion-row">
+            <label for="book-selector">Select a book:</label>
+            <select id="book-selector"></select>
+          </form>
+        </div>
+
+        <div id="chapter-select">
+          <form class="accordion-row hidden">
+            <label for="chapter-selector">Select a chapter:</label>
+            <select id="chapter-selector"></select>
+          </form>
+        </div>
+
+        <div id="section-select">
+          <form class="accordion-row hidden">
+            <label for="section-selector">Select a section:</label>
+            <select id="section-selector"></select>
+          </form>
+        </div>
+
+        <div id="languages-select" class="accordion-row">
+          <label for="book">Select panes:</label>
+          <div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="latin-pane-select" value="latin" checked disabled />
+              <label class="form-check-label" for="latin-pane-select">Latin</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="english-pane-select" value="english" checked />
+              <label class="form-check-label" for="english-pane-select">English</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="greek-pane-select" value="Greek" checked />
+              <label class="form-check-label" for="greek-pane-select">Greek</label>
+            </div>
+          </div>
+        </div>
+
+        <div id="level-select" class="accordion-row">
+          <label for="book">Select viewing level:</label>
+          <div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="level-options" id="book-level" value="book-level" checked />
+              <label class="form-check-label" for="book-level">Book</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="level-options" id="chapter-level" value="chapter-level" />
+              <label class="form-check-label" for="chapter-level">Chapter</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="level-options" id="section-level" value="section-level" />
+              <label class="form-check-label" for="section-level">Section</label>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
