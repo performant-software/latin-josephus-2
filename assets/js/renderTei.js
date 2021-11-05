@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let latinData;
   let englishData;
   let greekData;
-  let latinChapters = [];
 
   const setBookSelectOptions = () => {
     let optionList = bookSelectMenu.options;
@@ -35,15 +34,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const loadText = async () => {
     const tei = new CETEI();
     const bookNum = bookSelectMenu.value;
+    const chapterNum = chapterSelectMenu.value;
+    const sectionNum = sectionSelectMenu.value;
+    const viewingLevel = document.querySelector('input[name="level-options"]:checked').value;
 
     await tei.getHTML5(`../assets/xml/Latin/book-${bookNum}.xml`, (data) => {
       latinData = data;
-      latinChapters = [];
+      let latinChapters = [];
       latinData.getElementsByTagName("tei-div2").forEach(el => {
         chapterNumber = parseInt(el.id.split("-")[2].replace("chapter",""));
         latinChapters.push(chapterNumber);
-      })
-      setChapterSelectOptions(latinChapters)
+      });
+      setChapterSelectOptions(latinChapters);
+      if (chapterNum) {
+        let chapterSections = [];
+        chapter = latinData.querySelector(`[id*="latin-book${bookNum}-chapter${chapterNum}"]`);
+        chapter.getElementsByTagName("tei-p").forEach(el => {
+          sectionNumber = parseInt(el.id.split("-")[2].replace("num",""));
+          chapterSections.push(sectionNumber);
+        })
+        setSectionSelectOptions(chapterSections.sort());
+      }
     });
     await tei.getHTML5(`../assets/xml/English/book-${bookNum}.xml`, (data) => {
       englishData = data;
@@ -51,12 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
     await tei.getHTML5(`../assets/xml/Greek/book-${bookNum}.xml`, (data) => {
       greekData = data;
     });
-
-    const chapterNum = chapterSelectMenu.value;
-    const sectionNum = sectionSelectMenu.value;
-    const viewingLevel = document.querySelector('input[name="level-options"]:checked').value;
-
-    // setSectionSelectOptions();
 
     // clear panes if text already loaded
     [latinPane, englishPane, greekPane].forEach(pane => {
@@ -79,11 +84,12 @@ document.addEventListener("DOMContentLoaded", () => {
         selectedGreekData = greekData.querySelector(`[sameAs*="latin-book${bookNum}-chapter${chapterNum}"]`);
         break;
       case "section-level":
-        selectedLatinData = latinData;
-        selectedEnglishData = englishData;
-        selectedGreekData = greekData;
+        selectedLatinData = latinData.querySelector(`[id*="latin-book${bookNum}-num${sectionNum}"]`);
+        selectedEnglishData = englishData.querySelector(`[sameAs*="latin-book${bookNum}-num${sectionNum}"]`);
+        selectedGreekData = greekData.querySelector(`[sameAs*="latin-book${bookNum}-num${sectionNum}"]`);
+      break;
     };
-    debugger
+
     latinPane.appendChild(selectedLatinData);
     englishPane.appendChild(selectedEnglishData);
     greekPane.appendChild(selectedGreekData);
@@ -97,7 +103,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const setChapterSelectOptions = (chapters) => {
     let optionList = chapterSelectMenu.options;
+    optionList.length = 0;
     let options = chapters.map(num => ({
+      "text": (num + 1).toLocaleString(),
+      "value": (num + 1).toLocaleString()
+    }));
+    options[0].selected = true;
+
+    options.forEach(option =>
+      optionList.add(
+        new Option(option.text, option.value, option.selected)
+      )
+    );
+  };
+
+  const setSectionSelectOptions = (sections) => {
+    let optionList = sectionSelectMenu.options;
+    optionList.length = 0;
+    let options = sections.map(num => ({
       "text": (num + 1).toLocaleString(),
       "value": (num + 1).toLocaleString()
     }));
@@ -112,7 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     setBookSelectOptions();
-  // setChapterSelectOptions();
     loadText();
 
 
