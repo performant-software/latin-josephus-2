@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const latinPane = document.getElementById("latin");
   const englishPane = document.getElementById("english");
   const greekPane = document.getElementById("greek");
-  const englishPaneCheckbox = document.querySelector('input[id="english-pane-select"]');
+  const englishPaneCheckbox = document.getElementById("english-pane-select");
   const greekPaneCheckbox = document.getElementById("greek-pane-select");
 
   let latinData;
@@ -133,39 +133,45 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   };
 
+  // Add event listeners
+  const addEventListeners = () => {
+    [
+      bookSelectMenu,
+      chapterSelectMenu,
+      sectionSelectMenu
+    ].forEach(
+      element => element.addEventListener("change", loadText)
+    );
 
+    viewingLevelSelectMenu.addEventListener("change", (event) => {
+      switch(event.target.value) {
+        case "book-level":
+          chapterSelectForm.classList.add("hidden");
+          sectionSelectForm.classList.add("hidden");
+          break;
+        case "chapter-level":
+          chapterSelectForm.classList.remove("hidden");
+          sectionSelectForm.classList.add("hidden");
+          break;
+        case "section-level":
+          chapterSelectForm.classList.remove("hidden");
+          sectionSelectForm.classList.remove("hidden");
+          break;
+      };
+      loadText;
+    });
+
+    [
+      [englishPaneCheckbox, englishPane],
+      [greekPaneCheckbox, greekPane]
+    ].forEach(
+      el => el[0].addEventListener("change", () => el[1].classList.toggle("hidden"))
+    )
+
+  };
+
+    addEventListeners();
     setBookSelectOptions();
     loadText();
-
-
-  // Add event listeners for things that require a text reload
-  [
-    bookSelectMenu,
-    chapterSelectMenu,
-    sectionSelectMenu,
-  ].forEach(element => element.addEventListener("change", loadText));
-
-  viewingLevelSelectMenu.addEventListener("change", (event) => {
-    switch(event.target.value) {
-      case "book-level":
-        chapterSelectForm.classList.add("hidden");
-        sectionSelectForm.classList.add("hidden");
-        break;
-      case "chapter-level":
-        chapterSelectForm.classList.remove("hidden");
-        sectionSelectForm.classList.add("hidden");
-        break;
-      case "section-level":
-        chapterSelectForm.classList.remove("hidden");
-        sectionSelectForm.classList.remove("hidden");
-        break;
-    };
-    loadText;
-  })
-
-  // englishPaneCheckbox.addEventListener("change", (event) => {
-  //   event.stopPropagation();
-  //   englishPane.classList.toggle("hidden");
-  // });
 
 });
