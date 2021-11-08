@@ -1,20 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
   // DOM Elements
+  const bookLabel = document.getElementById("book-label");
+  const bookSelectForm = document.querySelector("#book-select form");
   const bookSelectMenu = document.getElementById("book-selector");
+  const chapterLabel = document.getElementById("chapter-label");
   const chapterSelectForm = document.querySelector("#chapter-select form");
-  const sectionSelectForm = document.querySelector("#section-select form");
   const chapterSelectMenu = document.getElementById("chapter-selector");
+  const englishPane = document.getElementById("english");
+  const englishPaneCheckbox = document.getElementById("english-pane-select");
+  const greekPane = document.getElementById("greek");
+  const greekPaneCheckbox = document.getElementById("greek-pane-select");
+  const latinPane = document.getElementById("latin");
+  const sectionLabel = document.getElementById("section-label");
+  const sectionSelectForm = document.querySelector("#section-select form");
   const sectionSelectMenu = document.getElementById("section-selector");
   const viewingLevelSelectMenu = document.getElementById("level-select");
-  const latinPane = document.getElementById("latin");
-  const englishPane = document.getElementById("english");
-  const greekPane = document.getElementById("greek");
-  const englishPaneCheckbox = document.getElementById("english-pane-select");
-  const greekPaneCheckbox = document.getElementById("greek-pane-select");
 
-  let latinData;
+  const tei = new CETEI();
+
   let englishData;
   let greekData;
+  let latinData;
+  let fullLatinData;
+  let fullEnglishData;
+  let fullGreekData;
+
+  let state = {
+    bookNum: "01",
+    chapterNum: null,
+    sectionNum: null,
+    viewingLevel: 'book-level'
+  };
 
   const setBookSelectOptions = () => {
     let optionList = bookSelectMenu.options;
@@ -31,38 +47,43 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   };
 
-  const loadText = async () => {
-    const tei = new CETEI();
-    const bookNum = bookSelectMenu.value;
-    const chapterNum = chapterSelectMenu.value;
-    const sectionNum = sectionSelectMenu.value;
-    const viewingLevel = document.querySelector('input[name="level-options"]:checked').value;
+  const fetchData = async () => {
 
-    await tei.getHTML5(`../assets/xml/Latin/book-${bookNum}.xml`, (data) => {
-      latinData = data;
-      let latinChapters = [];
-      latinData.getElementsByTagName("tei-div2").forEach(el => {
-        chapterNumber = parseInt(el.id.split("-")[2].replace("chapter",""));
-        latinChapters.push(chapterNumber);
-      });
-      setChapterSelectOptions(latinChapters);
-      if (chapterNum) {
-        let chapterSections = [];
-        chapter = latinData.querySelector(`[id*="latin-book${bookNum}-chapter${chapterNum}"]`);
-        chapter.getElementsByTagName("tei-p").forEach(el => {
-          sectionNumber = parseInt(el.id.split("-")[2].replace("num",""));
-          chapterSections.push(sectionNumber);
-        })
-        setSectionSelectOptions(chapterSections.sort());
-      }
-    });
-    await tei.getHTML5(`../assets/xml/English/book-${bookNum}.xml`, (data) => {
-      englishData = data;
-    });
-    await tei.getHTML5(`../assets/xml/Greek/book-${bookNum}.xml`, (data) => {
-      greekData = data;
+    await tei.getHTML5(`../assets/xml/Latin/book-${state.bookNum}.xml`, (data) => {
+      fullLatinData = data;
     });
 
+    await tei.getHTML5(`../assets/xml/English/book-${state.bookNum}.xml`, (data) => {
+      fullEnglishData = data;
+    });
+
+    await tei.getHTML5(`../assets/xml/Greek/book-${state.bookNum}.xml`, (data) => {
+      fullGreekData = data;
+    });
+
+    switch(state.viewingLevel) {
+      case "book-level":
+        latinData = fullLatinData;
+        englishData = fullEnglishData;
+        greekData = fullGreekData;
+        break;
+      case "chapter-level":
+        latinData = state.chapterNum ? fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullLatinData;
+        englishData = state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
+        greekData = state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
+        break;
+      case "section-level":
+        latinData = state.sectionNum ? fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullLatinData;
+        englishData = state.sectionNum ? fullEnglishData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
+        greekData = state.sectionNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
+      break;
+    };
+
+    setChapterSelectOptions();
+    setSectionSelectOptions();
+  };
+
+  const renderUI = () => {
     // clear panes if text already loaded
     [latinPane, englishPane, greekPane].forEach(pane => {
       pane.childNodes.forEach(node => {
@@ -72,43 +93,39 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    switch(viewingLevel) {
-      case "book-level":
-        selectedLatinData = latinData;
-        selectedEnglishData = englishData;
-        selectedGreekData = greekData;
-        break;
-      case "chapter-level":
-        selectedLatinData = latinData.querySelector(`[id*="latin-book${bookNum}-chapter${chapterNum}"]`);
-        selectedEnglishData = englishData.querySelector(`[sameAs*="latin-book${bookNum}-chapter${chapterNum}"]`);
-        selectedGreekData = greekData.querySelector(`[sameAs*="latin-book${bookNum}-chapter${chapterNum}"]`);
-        break;
-      case "section-level":
-        selectedLatinData = latinData.querySelector(`[id*="latin-book${bookNum}-num${sectionNum}"]`);
-        selectedEnglishData = englishData.querySelector(`[sameAs*="latin-book${bookNum}-num${sectionNum}"]`);
-        selectedGreekData = greekData.querySelector(`[sameAs*="latin-book${bookNum}-num${sectionNum}"]`);
-      break;
-    };
+    englishPane.appendChild(englishData);
+    greekPane.appendChild(greekData);
+    latinPane.appendChild(latinData);
 
-    latinPane.appendChild(selectedLatinData);
-    englishPane.appendChild(selectedEnglishData);
-    greekPane.appendChild(selectedGreekData);
+    bookLabel.innerText = `Book ${state.bookNum}`;
+    chapterLabel.innerText = (state.chapterNum && state.viewingLevel !== "book-level") ? `Chapter ${state.chapterNum}` : '';
+    sectionLabel.innerText = (state.sectionNum && state.viewingLevel === "section-level") ? `Section ${state.sectionNum}` : '';
   };
 
-  const isInViewRange = (elem, container) => {
-    const containerBounds = container.getBoundingClientRect();
-    const { top, bottom } = elem.getBoundingClientRect();
-    return (top <= containerBounds.bottom && bottom >= containerBounds.top);
-  }
+  // const isInViewRange = (elem, container) => {
+  //   const containerBounds = container.getBoundingClientRect();
+  //   const { top, bottom } = elem.getBoundingClientRect();
+  //   return (top <= containerBounds.bottom && bottom >= containerBounds.top);
+  // }
 
-  const setChapterSelectOptions = (chapters) => {
+  const setChapterSelectOptions = () => {
+    if (state.viewingLevel === "book-level" || state.chapterNum) return;
+
+    let latinChapters = [];
+    fullLatinData.getElementsByTagName("tei-div2").forEach(el => {
+      chapterNumber = parseInt(el.id.split("-")[2].replace("chapter",""));
+      latinChapters.push(chapterNumber);
+    });
     let optionList = chapterSelectMenu.options;
     optionList.length = 0;
-    let options = chapters.map(num => ({
-      "text": (num + 1).toLocaleString(),
-      "value": (num + 1).toLocaleString()
+    let options = latinChapters.map(num => ({
+      "text": (num).toLocaleString(),
+      "value": (num).toLocaleString()
     }));
-    options[0].selected = true;
+    options.unshift({
+      "text": '',
+      "value": ''
+    });
 
     options.forEach(option =>
       optionList.add(
@@ -117,48 +134,97 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   };
 
-  const setSectionSelectOptions = (sections) => {
+  const setSectionSelectOptions = () => {
+    if (state.viewingLevel !== "section-level" || !state.chapterNum || state.sectionNum) return;
+
+    let chapterSections = [];
+    let chapter = fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`);
+    chapter.getElementsByTagName("tei-p").forEach(el => {
+      let sectionNumber = parseInt(el.id.split("-")[2].replace("num",""));
+      chapterSections.push(sectionNumber);
+    });
     let optionList = sectionSelectMenu.options;
     optionList.length = 0;
-    let options = sections.map(num => ({
-      "text": (num + 1).toLocaleString(),
-      "value": (num + 1).toLocaleString()
+    let options = chapterSections.map(num => ({
+      "text": (num).toLocaleString(),
+      "value": (num).toLocaleString()
     }));
-    options[0].selected = true;
+    options.unshift({
+      "text": '',
+      "value": ''
+    });
 
     options.forEach(option =>
       optionList.add(
         new Option(option.text, option.value, option.selected)
       )
     );
+  };
+
+  const reload = async () => {
+    await fetchData();
+    renderUI();
+  }
+
+  const setState = async (callback) => {
+    await callback();
+    reload();
+    console.log(state)
   };
 
   // Add event listeners
   const addEventListeners = () => {
-    [
-      bookSelectMenu,
-      chapterSelectMenu,
-      sectionSelectMenu
-    ].forEach(
-      element => element.addEventListener("change", loadText)
-    );
+
+    bookSelectMenu.addEventListener("change", (event) => {
+      bookLabel.innerText = `Book ${parseInt(event.target.value)}`
+      setState(() => {
+        state.bookNum = event.target.value;
+        state.chapterNum = null;
+        state.sectionNum = null;
+      });
+    });
+
+    chapterSelectMenu.addEventListener("change", (event) => {
+      chapterLabel.innerText = `Chapter ${parseInt(event.target.value)}`
+      setState(() => {
+        state.chapterNum = event.target.value;
+        state.sectionNum = null;
+      });
+    });
+
+    sectionSelectMenu.addEventListener("change", (event) => {
+      sectionLabel.innerText = `Section ${parseInt(event.target.value)}`
+      setState(() => { state.sectionNum = event.target.value });
+    });
 
     viewingLevelSelectMenu.addEventListener("change", (event) => {
+      setState(() => {
+        state.viewingLevel = event.target.value;
+      });
+
       switch(event.target.value) {
         case "book-level":
           chapterSelectForm.classList.add("hidden");
           sectionSelectForm.classList.add("hidden");
+          bookSelectMenu.disabled = false;
+          chapterSelectMenu.disabled = true;
+          sectionSelectMenu.disabled = true;
           break;
         case "chapter-level":
           chapterSelectForm.classList.remove("hidden");
           sectionSelectForm.classList.add("hidden");
+          bookSelectMenu.disabled = true;
+          chapterSelectMenu.disabled = false;
+          sectionSelectMenu.disabled = true;
           break;
         case "section-level":
           chapterSelectForm.classList.remove("hidden");
           sectionSelectForm.classList.remove("hidden");
+          bookSelectMenu.disabled = true;
+          chapterSelectMenu.disabled = true;
+          sectionSelectMenu.disabled = false;
           break;
       };
-      loadText;
     });
 
     [
@@ -166,12 +232,12 @@ document.addEventListener("DOMContentLoaded", () => {
       [greekPaneCheckbox, greekPane]
     ].forEach(
       el => el[0].addEventListener("change", () => el[1].classList.toggle("hidden"))
-    )
+    );
 
   };
 
-    addEventListeners();
-    setBookSelectOptions();
-    loadText();
+  addEventListeners();
+  reload();
+  setBookSelectOptions();
 
 });

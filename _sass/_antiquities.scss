@@ -38,6 +38,11 @@
   display: none;
 }
 
+.inline {
+  display: flex;
+  align-items: baseline;
+}
+
 #pane-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -63,4 +68,9 @@ input.form-check-input[type=radio]:checked:after {
   left: auto;
   top: auto;
   transform: none;
+}
+
+.label {
+  color: darkgray;
+  margin-left: 15px;
 }
