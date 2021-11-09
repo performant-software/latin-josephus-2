@@ -158,17 +158,16 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const setSectionSelectOptions = () => {
-    if (state.viewingLevel !== "section-level" || !state.chapterNum || state.sectionNum) return;
+    if (state.viewingLevel !== "section-level" || state.sectionNum) return;
 
-    let chapterSections = [];
-    let chapter = fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`);
-    chapter.getElementsByTagName("tei-p").forEach(el => {
-      let sectionNumber = parseInt(el.id.split("-")[2].replace("num",""));
-      chapterSections.push(sectionNumber);
+    let sections = [];
+    fullLatinData.getElementsByTagName("tei-p").forEach(el => {
+      let sectionNumber = parseInt(el?.id?.split("-")[2]?.replace("num",""));
+      if (sectionNumber) { sections.push(sectionNumber) }
     });
     let optionList = sectionSelectMenu.options;
     optionList.length = 0;
-    let options = chapterSections.map(num => ({
+    let options = sections.map(num => ({
       "text": (num).toLocaleString(),
       "value": (num).toLocaleString()
     }));
@@ -229,23 +228,14 @@ document.addEventListener("DOMContentLoaded", () => {
         case "book-level":
           chapterSelectForm.classList.add("hidden");
           sectionSelectForm.classList.add("hidden");
-          bookSelectMenu.disabled = false;
-          chapterSelectMenu.disabled = true;
-          sectionSelectMenu.disabled = true;
           break;
         case "chapter-level":
           chapterSelectForm.classList.remove("hidden");
           sectionSelectForm.classList.add("hidden");
-          bookSelectMenu.disabled = true;
-          chapterSelectMenu.disabled = false;
-          sectionSelectMenu.disabled = true;
           break;
         case "section-level":
           chapterSelectForm.classList.remove("hidden");
           sectionSelectForm.classList.remove("hidden");
-          bookSelectMenu.disabled = true;
-          chapterSelectMenu.disabled = true;
-          sectionSelectMenu.disabled = false;
           break;
       };
     });
