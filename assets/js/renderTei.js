@@ -191,7 +191,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const setState = async (callback) => {
     await callback();
     reload();
-    console.log(state)
   };
 
   // Add event listeners
@@ -249,7 +248,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     highlightCheckbox.addEventListener("change", () => {
       annotatedParagraphs.forEach(paragraphId => document.getElementById(paragraphId).classList.toggle("highlight"));
-      console.log("check")
     });
 
   };
