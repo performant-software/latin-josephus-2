@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let state = {
     bookNum: "01",
     chapterNum: null,
-    // highlightAnnotations: false,
     sectionNum: null,
     viewingLevel: 'book-level'
   };
@@ -82,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
         greekData = state.sectionNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
       break;
     };
-    parseAnnotations();
     setChapterSelectOptions();
     setSectionSelectOptions();
   };
@@ -113,22 +111,29 @@ document.addEventListener("DOMContentLoaded", () => {
   // }
 
   const parseAnnotations = () => {
-    annotations = latinData.getElementsByTagName("tei-listannotation");
+    annotations = fullLatinData.getElementsByTagName("tei-listannotation");
     annotatedParagraphs = [];
     htmlString = '';
 
     annotations.forEach(anno => {
       paragraphId = anno.id.replace("note", "latin");
+      if (!(latinData.id === paragraphId || latinData.querySelector(`[id*="${paragraphId}"]`))) return;
+
       annotatedParagraphs.push(paragraphId);
       htmlString += `<br /><b>${paragraphId}</b> <br />`
       anno.children.forEach(child => {
-        witnessText = latinData.querySelector(`[id*="${child.attributes.source.value.replace("#","")}"]`).innerText;
+        witnessText = fullLatinData.querySelector(`[id*="${child.attributes.source.value.replace("#","")}"]`).innerText;
         if (child.attributes.source.value !== "#FlaviusJosephusAntiquities") {
           htmlString += `${witnessText}: <em>${child.innerText}</em> <br />`
         }
       })
     });
+
     annotationsList.innerHTML = htmlString;
+
+    if (highlightCheckbox.checked) {
+      annotatedParagraphs.forEach(paragraphId => document.getElementById(paragraphId).classList.add("highlight"));
+    }
   };
 
   const setChapterSelectOptions = () => {
@@ -186,6 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const reload = async () => {
     await fetchData();
     renderUI();
+    parseAnnotations();
   }
 
   const setState = async (callback) => {
