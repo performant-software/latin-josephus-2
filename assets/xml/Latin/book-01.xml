@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:id="header">
+   <fileDesc>
+    <titleStmt>
+     <title>Latin Josephus</title>
+    </titleStmt>
+    <publicationStmt>
+     <p/>
+    </publicationStmt>
+    <sourceDesc>
+     <listWit>
+      <witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+      <witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+      <witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+      <witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+      <witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+      <witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+      <witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+      <witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+      <witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+      <witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+     </listWit>
+    </sourceDesc>
+   </fileDesc>
+  </teiHeader>
  <text>
   <body>
    <note>Bamberg Msc. Class. 78</note>
@@ -134,4 +158,24 @@
    </div1>
   </body>
  </text>
+ <standoff>
+  <listAnnotation xml:id="note-book01-num115">
+   <note source="#FlaviusJosephusAntiquities">[IV.iii.115] Multitudo autem prona erat, ut nebroth praeceptionibus oboediret. graue putantes seruitium obsequi deo. Et turrem aedificabant, in nullo sua studia deferentes. Sumebat ergo altitudo facilitatem: et plus quam sperare quis posset multis manibus utique fabricata crescebat. Latitutdo tamen ita erat fortissimia, ut propteream respicientibus longitudo uideretur inminui. 119 Edificabatur autem ex latere cocto colligato bitumine ne forte penetraretur, acsolueretur aquis. Sic illos insanientes deus intendens exterminare omnes pariter non decreuit. Quoniam nec aliis dudum perditis formidabant. Sed discordiam illis inmisit diuersarum linguarum, ut per multas absonasque uoces intellectu carere potuissent. Locus autem in quo turrem aedificauerunt nunc babylon uocatur, dicta propter confusionem babel appellant. De hac uero turre diuersique uocibus hominum, hoc meminit et sibilla dicens. Cum omnes homines unius uocis existerent: quidam turrem aedificauerunt excelsam, tamquam ascensuri per eam ad caelum, dei uero uentos immittentes, euerterunt turrem, et uocem propriam unicuique partiti sunt, et propterea babyloniam uocari contigit ciuitatem. De campo uero qui uocatur sennaar in regione babylonis, meminit estius ita dicens, qui uero de sacerdotibus sunt erepti, iouis sacra sumentes in sennaar babylonis uenerunt. </note>
+   <note source="#LeidenUBVLF17">[3r](@3)linguue diuiduntur[@4] uerba sibille</note>
+   <note source="#MonzaBCMsb20">[¤10v] (£1) uerba sibillȩ (#2 crisimon en marge)</note>
+   <note source="#RomeBAVPalLat814">[¤4r](¢1)lingua diuiduntur (@1)uerba sibill*</note>
+  </listAnnotation>
+  <listAnnotation xml:id="note-book01-num120">
+   <note source="#FlaviusJosephusAntiquities">[V.i.120] Diuisi sunt itaque post haec diuersitate linguarum migrationes agentes iniquae, et terram adpraehendentes unusquisque felicem, et ad quam eos deus adduceret ut ita omnis terra per eos complecteretur, mediterranea simul atque maritima. Quidam autem etiam nauibus transeuntes, insulas habitarunt unde alique gentes ab institutoribus positas appellationes actenus seruant. Quemdam uero placita sibi nomina mutuauerunt. Alii autem ut in habitatoribus clarius esse uisum est, conuersationum nominum fecerunt. Greci sunt tamen rei huius auctores qui posteris temporibus confortari: etiam antiquorum gloriam propriam effecerunt, et gentes nominibus exhornarunt: ut eis sapiens esse uidebatur. Ornatum utique ponentes eorum rei publicae uelut a se constitutae: </note>
+   <note source="#BernBBMs50">Another sample annotation here</note>
+   <note source="#MilanBACimelioSP">A different sample annotation from a different source</note>
+   <note source="#CopenhagenGKS1572o">Yet another sample annotation from yet another source</note>
+  </listAnnotation>
+  <listAnnotation xml:id="note-book01-num130">
+   <note source="#FlaviusJosephusAntiquities">[VI.ii.130] Filii uero Cham a prouincia syria: et aman et libano montibus cunctas terras obtinuerunt, quecumque ad mare sunt posite. Ad praehendentes etiam eas quae usque ad occeanum sunt, et proprias facientes appellationes tamen aliorum quidem omnino perierunt. Aliorum uero in alias transmutatae et transformatae nimis ignotae sunt. Quattuor enim filiis existentibus cham, chuso quidem nichil nocuit tempus. Nam aethiopes quorum princeps fuit actenus et a semetipsis et ab omnibus asianis chusei uocitantur. Seruata uero est etiam merseis secundum appellationem prisca memoria. Aegyptum namque mersim et merseos omnes uocamus aegyptios. Instituit autem methfuth libiam fotossas euocans prouinciales. Est autem et fluuius in mauritania prouincia qui isto nomine nuncupatur. Unde et plurimos grecorum historiograforum inuenimus huius fluminis memoriam facientes, et ex adiacenti prouincia quae fuht uocatur ei nomen inpositum. Mutatum est autem nomen ei quod nunc est ab uno filiorum mersaim qui libius dictus est. Post paululum uero dicemus et causam, pro qua eam contigit africam nominari. Chanan[e]us uero quartus existens filius cham, quae nunc iudaea uocatur inhabitans regionem, a se chananaeam appellauit. Fuerunt autem ex istis filii, chuso quidem sabas ex quo sabei. Euilas autem ex quo euilei, qui nunc getili uocantur. Sabath uero ex quo sabatheni qui nominantur a grecis ustabarri. Condidit autem etiam saba sabathenos. Ram uero rameos instituit, et duos filios habuit, quorum iudadas quidem aegyptiacam gentem hesperiorum inhabitans iudaeis cognomen suum reliquit. Sabas autem sabatheos. Nebroth autem filius chusi permanens apud babylonios, tyrannidem exercuit sicut a me etiam primitus declaratum est. Porro mesroth cum essent octo filii, omnem terram a gaza aegyptum usque tenuerunt. Solius autem filistim cognomen prouincia custodiuit, cuius partem greci palestinam appellant. Ex aliis autem, id est nomeo et anamia et labim, solus labim a se prouinciam libiam nominauit. Nedem autem et petrosim et ceslim et cephthos, ultra nomina nihil scimus. Bello enim ethiopico de quo postea declarabimus, eorum ciuitates euersae sunt, fuerunt autem et chananaei filiis idon, qui et ciuitatem sui nominis aedificauit in phenicae. Sidon autuem a grecis appellata est. Amath autem amatheos instituit, quae etiam nunc est et a prouincialibus amathi uocatur. Macedones autem uero e[a]m epyphaniam ab uno priscorum [nomine] uocauerunt. Arudeus autem aradum insulam habuit. Eruceus autem arcem quae in libano posita est. De aliis uero septem id est eu[e]geo, chitheo, iebuseo, amorreo, gergeseo, eudeo, sineo, samareo, praeter nomina in sacris libris nihil habuimus. Ebrei namque eorum destruxere <pb n="6r"/> ciuitates huiusmodi causa calamitatibus adpraehensas. </note>
+   <note source="#ChartresBMMs29">Another sample annotation here</note>
+   <note source="#BernBBMs118">A different sample annotation from a different source</note>
+   <note source="#RomeBAVPalLat814">Yet another sample annotation from yet another source</note>
+  </listAnnotation>
+ </standoff>
 </TEI>

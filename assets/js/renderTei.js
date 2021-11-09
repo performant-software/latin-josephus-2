@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // DOM Elements
+  const annotationsList = document.getElementById("annotations-list");
   const bookLabel = document.getElementById("book-label");
   const bookSelectForm = document.querySelector("#book-select form");
   const bookSelectMenu = document.getElementById("book-selector");
@@ -10,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const englishPaneCheckbox = document.getElementById("english-pane-select");
   const greekPane = document.getElementById("greek");
   const greekPaneCheckbox = document.getElementById("greek-pane-select");
+  const highlightCheckbox = document.getElementById("highlight-annotations");
   const latinPane = document.getElementById("latin");
   const sectionLabel = document.getElementById("section-label");
   const sectionSelectForm = document.querySelector("#section-select form");
@@ -18,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const tei = new CETEI();
 
+  let annotatedParagraphs;
   let englishData;
   let greekData;
   let latinData;
@@ -28,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let state = {
     bookNum: "01",
     chapterNum: null,
+    // highlightAnnotations: false,
     sectionNum: null,
     viewingLevel: 'book-level'
   };
@@ -78,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
         greekData = state.sectionNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
       break;
     };
-
+    parseAnnotations();
     setChapterSelectOptions();
     setSectionSelectOptions();
   };
@@ -107,6 +111,25 @@ document.addEventListener("DOMContentLoaded", () => {
   //   const { top, bottom } = elem.getBoundingClientRect();
   //   return (top <= containerBounds.bottom && bottom >= containerBounds.top);
   // }
+
+  const parseAnnotations = () => {
+    annotations = latinData.getElementsByTagName("tei-listannotation");
+    annotatedParagraphs = [];
+    htmlString = '';
+
+    annotations.forEach(anno => {
+      paragraphId = anno.id.replace("note", "latin");
+      annotatedParagraphs.push(paragraphId);
+      htmlString += `<br /><b>${paragraphId}</b> <br />`
+      anno.children.forEach(child => {
+        witnessText = latinData.querySelector(`[id*="${child.attributes.source.value.replace("#","")}"]`).innerText;
+        if (child.attributes.source.value !== "#FlaviusJosephusAntiquities") {
+          htmlString += `${witnessText}: <em>${child.innerText}</em> <br />`
+        }
+      })
+    });
+    annotationsList.innerHTML = htmlString;
+  };
 
   const setChapterSelectOptions = () => {
     if (state.viewingLevel === "book-level" || state.chapterNum) return;
@@ -234,6 +257,11 @@ document.addEventListener("DOMContentLoaded", () => {
       el => el[0].addEventListener("change", () => el[1].classList.toggle("hidden"))
     );
 
+    highlightCheckbox.addEventListener("change", () => {
+      annotatedParagraphs.forEach(paragraphId => document.getElementById(paragraphId).classList.toggle("highlight"));
+      console.log("check")
+    });
+
   };
 
   addEventListeners();
@@ -241,3 +269,16 @@ document.addEventListener("DOMContentLoaded", () => {
   setBookSelectOptions();
 
 });
+
+// var timer;
+//
+// $(window).scroll(function() {
+// 	if(timer) {
+// 		window.clearTimeout(timer);
+// 	}
+//
+// 	timer = window.setTimeout(function() {
+// 		// actual callback
+// 		console.log( "Firing!" );
+// 	}, 100);
+// });
