@@ -3,8 +3,8 @@
  <text>
   <body>
    <note>Bamberg Msc. Class. 78</note>
-   <div1 id="bk14" type="book" n="XIIII" subtype="Latin" xml:id="latin-book14">
-    <div2 id="ch00" type="chapter" n="0" xml:id="latin-book14-chapter0">
+   <div1 type="book" n="XIIII" subtype="Latin" xml:id="latin-book14">
+    <div2 type="chapter" n="0" xml:id="latin-book14-chapter0">
      <milestone n="sbb00000114_00330.jpg"/>
      <pb n="163v"/>
      <cb n="1/2"/>
@@ -30,7 +30,7 @@
      <p>XXVII Quemadmodum ierosolima sossio ut herode obsidentibus antigonus interiit.</p>
     </div2>
     <head>EXPLICIUNT BREUES LIBRI XIIII CONTINET HIC LIBER TEMPUS ANNORUM XXII </head>
-    <div2 id="ch01" type="chapter" n="1" xml:id="latin-book14-chapter1">
+    <div2 type="chapter" n="1" xml:id="latin-book14-chapter1">
      <head>CONTINET HIC LIBER TEMPUS ANNORUM XXII</head>
      <p xml:id="latin-book14-num1"><num>[I.i.1]</num> <cb n="2/2"/> Alexandrae reginae morte in supe riore uolumine demonstrata sequen tia referamus, nihil aliud festinantes, nisi minime quicquam digestis rebus memo riae prouidendo praeterire, nam qui con scribunt historias et res ueteres indicant, oportet eos propter antiquitatem narra tioni decus inponere, uel explanationi rerum studere propter legentes, quati nus cum aliqua gratia uel delectatione ex perientiam possint rerum concipere. Super omnia uero certius conscriptores debent et ueritate dicere, ut rerum ignari possint credere electioni.</p>
      <p xml:id="latin-book14-num4"><num>[I.ii.4]</num> Centesima octogesima tertia olimpiade, quinto ortensio, et quinto metello cretico consulibus, bellum contra hyrcanum aristobolus praeparauit, pugnaque facta propre hiericuntem multi milites hyrcani ad fratrem eius transfugerit. Quo facto hyrcanus ad arcem ubi aristoboli uxor et filii a matre eius erant conclusi confugit. Cui aristobolus de reconciliatione uerba faciens inimicitias deposuit, ut ip se quidem regnum teneret, frater autem priuatus uiueret in sua possessione conten tus. Cumque haec disposuissent in templo et ius uirandum et dextras dedissent omni populo uidente, discesserunt, ille quidem in aulam regiam, hyrcanus uero ut priuatus in aristoboli domum.</p>
