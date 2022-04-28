@@ -81,6 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
         greekData = state.sectionNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
       break;
     };
+
     setChapterSelectOptions();
     setSectionSelectOptions();
   };
@@ -111,18 +112,35 @@ document.addEventListener("DOMContentLoaded", () => {
   // }
 
   const parseAnnotations = () => {
-    annotations = fullLatinData.getElementsByTagName("tei-listannotation");
-    annotatedParagraphs = [];
-    htmlString = '';
+    const annotations = fullLatinData.getElementsByTagName("tei-app");
+    const annotatedParagraphs = [];
+    let htmlString = '';
 
     annotations.forEach(anno => {
-      paragraphId = anno.id.replace("note", "latin");
-      if (!(latinData.id === paragraphId || latinData.querySelector(`[id*="${paragraphId}"]`))) return;
+      if (anno.children.length < 1) return;
+
+      const paragraphTag = anno.children[0].getAttribute('source')
+
+      if (!paragraphTag) return;
+
+      const paragraphId = paragraphTag.replace('#', '');
+
+      if (!latinData.querySelector(`[source="#${paragraphId}"]`)) return;
 
       annotatedParagraphs.push(paragraphId);
       htmlString += `<br /><b>${paragraphId}</b> <br />`
+
       anno.children.forEach(child => {
-        witnessText = fullLatinData.querySelector(`[id*="${child.attributes.source.value.replace("#","")}"]`).innerText;
+        if (
+          !child.getAttribute('source')
+          || child.getAttribute('source') === ''
+          || child.getAttribute('source').includes('latin-book')
+        ) return null
+
+        const witnessElement = fullLatinData.querySelector(`[id*="${child.getAttribute('source').replace("#","")}"]`)
+
+        const witnessText = witnessElement.innerText;
+
         if (child.attributes.source.value !== "#FlaviusJosephusAntiquities") {
           htmlString += `${witnessText}: <em>${child.innerText}</em> <br />`
         }
