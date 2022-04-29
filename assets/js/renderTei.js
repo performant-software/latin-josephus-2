@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const paragraphId = paragraphTag.replace('#', '');
 
       // Only show annotations that refer to displayed paragraphs
-      if (!latinData.querySelector(`[id*="${paragraphId}"]`)) return;
+      if (!latinData.querySelector(`[id*="${paragraphId}"]`) && !latinData.id.includes(paragraphId)) return;
 
       annotatedParagraphs.push(paragraphId);
       htmlString += `<br /><b>${paragraphId}</b> <br />`
