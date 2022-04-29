@@ -121,11 +121,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const paragraphTag = anno.children[0].getAttribute('source')
 
-      if (!paragraphTag) return;
+      if (!paragraphTag || !paragraphTag.includes('latin-book')) return;
 
       const paragraphId = paragraphTag.replace('#', '');
 
-      if (!latinData.querySelector(`[source="#${paragraphId}"]`)) return;
+      // Only show annotations that refer to displayed paragraphs
+      if (!latinData.querySelector(`[id*="${paragraphId}"]`)) return;
 
       annotatedParagraphs.push(paragraphId);
       htmlString += `<br /><b>${paragraphId}</b> <br />`
@@ -135,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
           !child.getAttribute('source')
           || child.getAttribute('source') === ''
           || child.getAttribute('source').includes('latin-book')
-        ) return null
+        ) return;
 
         const witnessElement = fullLatinData.querySelector(`[id*="${child.getAttribute('source').replace("#","")}"]`)
 
