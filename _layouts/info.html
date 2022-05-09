@@ -1,0 +1,37 @@
+<!-- This layout is for pages that just have a bunch of text and no major interactive components. -->
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% if page.redirect %}<meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />{% endif %}
+    {% include head.html %}
+  </head>
+
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+
+    {% include header.html %}
+
+    <!-- Content -->
+
+    <div class="info-container less-margin">
+      {{ content }}
+      {% include logos.html %}
+    </div>
+
+
+    <!-- Footer -->
+
+    <!-- {% include footer.html %} -->
+
+  </body>
+
+  {% include scripts/jquery.html %}
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+  {% include scripts/analytics.html %}
+
+</html>

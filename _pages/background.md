@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: info
 permalink: /background/
 title: background
 description: Background
 nav: true
 ---
 
-_Who Translated Josephus' Works into Latin?_
+# Background
+
+## Who Translated Josephus' Works into Latin?
 
 Cassiodorus (d. 580 CE) was a Roman aristocrat and scholar, who founded a monastery on his familial lands in southern Italy.  This monastery was named _Vivarium_.  Around the middle of the sixth century, Cassiodorus wrote the _Institutions_, a book meant to act as a study guide for monks in his monastery.  In it, he speaks highly of Josephus, and mentions commissioning a Latin translation of the _Antiquities_.  Cassiodorus also notes that he has access to an earlier translation of the _Jewish War_, seemingly made around 400 CE.
 
