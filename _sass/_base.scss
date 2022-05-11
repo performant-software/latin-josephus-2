@@ -567,3 +567,31 @@ html.transition *:after {
 .less-margin {
   margin-top: 1rem !important;
 }
+
+.logo-flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-flex img {
+  max-height: 60px;
+}
+
+.info-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .logo-flex {
+    // flex-flow: column;
+  }
+
+  .logo-flex img {
+    max-height: 36px;
+  }
+}
