@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -122,4 +133,40 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book20-num17">Eo siquidem tempore helena ad iabenorum</rdg>
+				<rdg>[¤161r] (@1) licotibi* (@2) epist(olis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num60">Regem haec dicens eleuauit artabanem. Ipse</rdg>
+				<rdg source="#LeidenUBVLF17">[¤160r] (#1 frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num118">X Post haec igitur inter samaritas atque iudęos</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤170v] (#1 metobeli)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num137">XIII Misit autem et claudius felicem pallantis</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤172v] (#1 obelus) (@2) nomine amicum suum gegereciprium* (légèrement effacé, difficile à lire le nom propre)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num141">Nuptiae siquidem inter drusillam et aziorum cęlebrate, non multo</rdg>
+				<rdg source="#LeidenUBVLF17">[¤162r] (#1 frontis) (#2 frontis) (#3 frontis) (#4 frontis) (#5 frontis) (#6 frontis) (#7 frontis) (#8 frontis) (#9 frontis) (#10 obelus) (@11) erat autem ei antonia filia senior quas ex prima uxore nomine petinam abuerat octauiam</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num160">XIIII. Res itaque iudaeorum crementum semper</rdg>
+				<rdg source="#LeidenUBVLF17">[¤162v] (#1 frontis) (#2 frontis) (#3 frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num189">XVIII Hoc tempore rex agrippas fabricatus est</rdg>
+				<rdg source="#LeidenUBVLF17">[¤163r] (#1 obelus) (@2) aspectum abstulit sed etiam occidentalem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book20-num224">Necessarium itaque credo et historiae praesenti</rdg>
+				<rdg source="#LeidenUBVLF17">[¤163v] (#1 obelus) (@2) nisi de semine aaron ex alio namque genere neque si in regno constitutus sit pontifactum</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>

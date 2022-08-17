@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -132,4 +143,495 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book03-num1">[I.i.1] Igitur inopinabiliter hebraeos ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤60r](£1)ueniunt in mara</rdg>
+				<rdg source="#LeidenUBVLF17">[¤21v](@1)ueniunt in amara</rdg>
+				<rdg source="#MonzaBCMsb20">[¤50v] (£1) ueniunt in mara</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤24v](¢1)ueniunt in arama</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num5">[ii.5] Uidens itaque moyses ...</rdg>
+				<rdg source="#BernBBMs118">[¤48v] (£1) aqua indulcatur</rdg>
+				<rdg source="#ColognyBodmer98">[¤60v](£1)amara aqua indulcatur</rdg>
+				<rdg source="#LeidenUBVLF17">[¤22r](@1)aqua indulcatur</rdg>
+				<rdg source="#MonzaBCMsb20">[¤51r] (£1) amara aqua indulcatur</rdg>
+				<rdg source="#RomeBAVPalLat814">[24v](¢2)aqua indulcatur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num9">[iii.9] Hinc itaque castrametati ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤61r](£1)alias cenosum [¤61v](£1)moyse uerba ad turbam</rdg>
+				<rdg source="#MonzaBCMsb20">[51r] (£2 - # trigon) uel cenosum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num13">[iv.13] Ille uero ita ...</rdg>
+				<rdg source="#BernBBMs118">[¤49r] (£1) moise uerba ad turbam (#2 croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[22r](#trigon)(@2)moyses uerba ad turbam</rdg>
+				<rdg source="#MonzaBCMsb20">[¤51v] (£1) moysi uerba ad…</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤25r](¢1)moysi uerba ad turba</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num22">[v.22] Sic itaque mitigauit ...</rdg>
+				<rdg source="#BernBBMs118">[¤49v] (@1) coturme et manna</rdg>
+				<rdg source="#ColognyBodmer98">[¤62r](£1)coturnix uenit (@1)alia prebere</rdg>
+				<rdg source="#LeidenUBVLF17">[¤22v](#trigon)(@1)coturnix et manus</rdg>
+				<rdg source="#MonzaBCMsb20">[¤52r] (£1) coturnix uenit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤25v](¢1)coturnix et mappa</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num26">[vi.26] Mox autem post ...</rdg>
+				<rdg source="#BernBBMs118">[¤50r] (#1 nota NOT) (@1) mel* (@2) ab* XX …</rdg>
+				<rdg source="#ColognyBodmer98">[¤62v](£1)...na descendit</rdg>
+				<rdg source="#MonzaBCMsb20">[52r] (£2) manna descendit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num33">[vii.33] Cum uero inde ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤63r](£1)aqua de petra</rdg>
+				<rdg source="#MonzaBCMsb20">[¤53r] (£1) § (# deux traits verticaux à côté du Cum en marge à gauche - première colonne)</rdg>
+				<rdg source="#RomeBAVPalLat814">[25v](¢1)aqua de petra</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num39">[II.i.39] Cum uero hebraeorum ...</rdg>
+				<rdg source="#BernBBMs118">[¤50v] (£1) aqua de petra</rdg>
+				<rdg source="#ColognyBodmer98">[63r](@1)quoda. ent... tibi * sunt *(£2)in timore</rdg>
+				<rdg source="#LeidenUBVLF17">[¤23r](@1)(§ annotation illisible en marge à gauche)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num43">[ii.43] Moyses itaque cum ...</rdg>
+				<rdg source="#BernBBMs118">[¤51r] (£1) moysi uerba</rdg>
+				<rdg source="#MonzaBCMsb20">[¤53v] (£1) moysi uerba</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤26r](¢1)moysi uerb</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num47">[iii.47] Et moyses quidem ...</rdg>
+				<rdg source="#BernBBMs50">[¤27r] (#1 trigon)</rdg>
+				<rdg source="#ColognyBodmer98">[¤64r](£1)quid in prelium * dicendum sit [¤64v](@1)exhortatio d…s euntis ad bellum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num53">[iv.53] Miscebantur itaque hostes ...</rdg>
+				<rdg source="#BernBBMs118">[¤51v] (£1) moyses in monte orando pugnat</rdg>
+				<rdg source="#ColognyBodmer98">[64v](£1)moyses in monte orando pugnat</rdg>
+				<rdg source="#LeidenUBVLF17">[¤23v](#trigon)(#triangle)(@1)moyses in monte orando pugnat (@2)moyses orando triumphat</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤26v](¢1)moyses in monte orando pugnat</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num59">[v.59] Postea uero moyses ...</rdg>
+				<rdg source="#BernBBMs118">[¤52r] (£1) moises orando triumphat</rdg>
+				<rdg source="#ColognyBodmer98">[¤65r](£1)peritur fora malechitas nihil</rdg>
+				<rdg source="#RomeBAVPalLat814">[26v](¢2)moyses orando triumphat</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num63">[III.i.63] Cui raguel socer ...</rdg>
+				<rdg source="#BernBBMs118">[52r] (§)</rdg>
+				<rdg source="#ColognyBodmer98">[¤65v](£1)lethros raguhel ad moysen aduenit</rdg>
+				<rdg source="#LeidenUBVLF17">[23v](@3)letro et raguel ad moysen uenit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤54v] (£1) ethaios raguhel ad moysen aduenit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num66">[IV.i.66] Deinde uidens raguel ...</rdg>
+				<rdg source="#BernBBMs118">[¤52v] (£1) raguel docet moysen</rdg>
+				<rdg source="#ColognyBodmer98">[65v](@1)constitutus in m..tit. di.e rerum morsu (£2)consilium getro [¤66r](£1)raguhel docet moysen</rdg>
+				<rdg source="#LeidenUBVLF17">[¤24r](#trigon)(#triangle)(@1)rachel docet moysenà</rdg>
+				<rdg source="#MonzaBCMsb20">[¤55r] (£1) raguhel moysen</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num73">[ii.73] Haec enim raguhel ...</rdg>
+				<rdg source="#BernBBMs118">[¤53r] (£1) moises constituit in populo centuriones … (#2 obelus penché) (£3 avec le signe) timere</rdg>
+				<rdg source="#ColognyBodmer98">[66r](£2)moyses constitut in populo centuriones et decanos et cetera</rdg>
+				<rdg source="#LeidenUBVLF17">[24r](#triangle)(@2)moyses constituit in populo centuriones et decanos et cetera</rdg>
+				<rdg source="#MonzaBCMsb20">[55v] (en marge difficilement lisible) §</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤27r](¢1)moyses constituit in populo centuriones et decanos</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num75">[V.i.75] Moyses [autem] conuocata ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤66v](£1)in adhibilis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num79">[ii.79] Et duobus quidem ...</rdg>
+				<rdg source="#BernBBMs118">[53r] (£3) mons fumat et tonitrua audiuntur (#4 require)</rdg>
+				<rdg source="#ColognyBodmer98">[66v](£2)mons fumat et tonitrua audiuntur</rdg>
+				<rdg source="#LeidenUBVLF17">[24r](#trigon)(@3)mons fumat et tonitrua audiuntur</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤27v](¢1)mons fumat et tonitrua audiuntur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num83">[iii.83] Cum uero ita ...</rdg>
+				<rdg source="#BernBBMs118">[¤53v] (£1) moisi uerba ad populum</rdg>
+				<rdg source="#ColognyBodmer98">[¤67r](@1)uerbam moysi reuerso desinar (£2)moyse uerba ad populum (£3)tudinem</rdg>
+				<rdg source="#LeidenUBVLF17">[24r](#trigon)(@4) moysi uerba ad populum</rdg>
+				<rdg source="#RomeBAVPalLat814">[27v](¢2)moysi uerba ad populum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num89">[iv.89] Cum haec dixisset ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤67v](£1)deus de celo loquitur</rdg>
+				<rdg source="#LeidenUBVLF17">[¤24v](@1)deus de cęlo loquitur</rdg>
+				<rdg source="#MonzaBCMsb20">[¤56r] (£1) deus de celo loquitur</rdg>
+				<rdg source="#RomeBAVPalLat814">[27v](¢3)deus de caelo loquitur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num91">[v.91] Docet itaque nos ...</rdg>
+				<rdg source="#BernBBMs50">[¤28v] (¬1) uox **</rdg>
+				<rdg source="#BernBBMs118">[¤54r] (£1) deus de caelo loquitur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num93">[vi.93] [Et plebs] quidem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num95">[vii.95] Igitur cum circa ...</rdg>
+				<rdg source="#BernBBMs118">[¤54v] (£1) moyses ieiunauit xl dies et xl noctes</rdg>
+				<rdg source="#ColognyBodmer98">[¤68r](£1)moyses ieiunat XL dies et XL noctes</rdg>
+				<rdg source="#LeidenUBVLF17">[24v](#trigon)(@2) moyses ieiunat XL dies et XL noctes</rdg>
+				<rdg source="#MonzaBCMsb20">[¤56v] (difficilement lisible en marge à gauche en bas) §</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤28r](¢1)moyses ieiunat XL dies etXL noctes</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num99">[viii.99] Cumque iam quadraginta ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num102">[VI.i.102] Illi uero gaudentes ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤68v](£1)hic ponas congrimo alias purpurea flore tinctas alias uero</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num108">[ii.108] Omnibus itaque in ...</rdg>
+				<rdg source="#BernBBMs118">[¤55r] (£1) moysen atrium tabernaculi faciti [¤55v] (£1) ecce ipsum tabernaculum facit idem</rdg>
+				<rdg source="#ColognyBodmer98">[¤69r](£1)moyses atrium tabernaculi fecit (@1)mensura tabernaculi (@2)aspersorum</rdg>
+				<rdg source="#LeidenUBVLF17">[¤25r](@1)moyses atrium tabernaculi facit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤57r] (£1) moyses moyses ut his tabernaculi fecit [¤57v] (¬1) aspersoria aeneum (£1) ecce ipsum tabernaculum facit idem</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤28v](¢1)moyses atrium tabernaculum facit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num115">[iii.115] Tabernaculum autem statuit</rdg>
+				<rdg source="#BernBBMs118">[¤56r] (#1 require)</rdg>
+				<rdg source="#ColognyBodmer98">[¤69v](£1)ecce ipsum tabernaculum facit idem</rdg>
+				<rdg source="#LeidenUBVLF17">[¤25v](#trigon)(@1)ecce ipsum tabernaculum facit idem</rdg>
+				<rdg source="#MonzaBCMsb20">[57v] (# - crisimon)</rdg>
+				<rdg source="#RomeBAVPalLat814">[28v](¢2)ecce ipsum tabernaculum facit idem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num122">[iv.122] Intrinsecus autem eius</rdg>
+				<rdg source="#BernBBMs118">[¤56v] (#1 require)</rdg>
+				<rdg source="#ColognyBodmer98">[¤70v](£1)alias pictores (£2)thalam (#nota) [¤71r](£1)nota uerbum</rdg>
+				<rdg source="#MonzaBCMsb20">[¤58r] (£1 - # trigon) uel pictures</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num134">[v.134] Facta est [autem]</rdg>
+				<rdg source="#ColognyBodmer98">[71r](£2)moyses arcam fec (¦1)et cherubum in sede dei ao.. se uisa</rdg>
+				<rdg source="#LeidenUBVLF17">[¤26r](#trigon)(@1)moyses arcam fecit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤58v] (£1) moyses arcam fecit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤29r](¢1)moyses arcam fecit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num139">[vi.139] In templo uero</rdg>
+				<rdg source="#BernBBMs118">[¤57r] (£1) de mensa dicit (#2 quaerite)</rdg>
+				<rdg source="#ColognyBodmer98">[71r](£2)de mensa dicit [¤71v](dimitte)(£1)nota candelabrum factum (#nota)</rdg>
+				<rdg source="#LeidenUBVLF17">[26r](#trigon)(@2)demensa dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤59r] (1) § (£2) notufande labram factum (3) §</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤29v](¢1)de mensa dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num144">[vii.144] Contra faciem uero ...</rdg>
+				<rdg source="#BernBBMs50">[¤28r] (#1 cryphia)</rdg>
+				<rdg source="#BernBBMs118">[¤57v] (£1) nota candelabrum factum</rdg>
+				<rdg source="#ColognyBodmer98">[71v](#nota)</rdg>
+				<rdg source="#LeidenUBVLF17">[26r](#trigon)(@3)nota candelabrum factum</rdg>
+				<rdg source="#RomeBAVPalLat814">[29v](¢2)nota candelabrum factum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num147">[viii.147] inter quod candelabrum ...</rdg>
+				<rdg source="#BernBBMs118">[57v] (£2) et altare dicit pactum</rdg>
+				<rdg source="#ColognyBodmer98">[¤72r](£1)et altare dicit factum</rdg>
+				<rdg source="#LeidenUBVLF17">[26v](#trigon)(@1)et altare dicit factum</rdg>
+				<rdg source="#RomeBAVPalLat814">[29v](¢2)et altare dicit fastum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num151">[VII.i.151] Factae sunt autem ...</rdg>
+				<rdg source="#BernBBMs118">[57v] (£3) ecce uester sacerdotum [¤58r] (#1 require Rx)</rdg>
+				<rdg source="#ColognyBodmer98">[72r](£2)ecce uester sacerdotum (@1)quam uestem sacerdotes primam indiebantur (#dimitte)</rdg>
+				<rdg source="#LeidenUBVLF17">[26v](#trigon)(@2)ecce uester sacerdotum</rdg>
+				<rdg source="#MonzaBCMsb20">[¤59v] (£1) ec* uestes sacerdotum</rdg>
+				<rdg source="#RomeBAVPalLat814">[29v](#triangle)(¢4)ecce uester sacerdotum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num153">[ii.153] Super hoc autem ...</rdg>
+				<rdg source="#ColognyBodmer98">[72r](@2)secumdum (@3)de uestibus sacerdotum [¤72v](@1)tertium (³1)yo</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num157">[iii.157] Super caput autem ...</rdg>
+				<rdg source="#BernBBMs118">[¤58v] (£1) de pontificis * dicit</rdg>
+				<rdg source="#ColognyBodmer98">[72v](@2)illisible(#dimitte)(@3)excedo utare (@4)quartum</rdg>
+				<rdg source="#LeidenUBVLF17">[26v](#trigon)(@3)de pontificis ueste dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num159">[iv.159] Princeps uero sacerdotum ...</rdg>
+				<rdg source="#ColognyBodmer98">[72v](@5)de uestibus principis sacerdotum (#i)(£1)de pontificis ueste dicit [¤73r](@1)de ephotbat</rdg>
+				<rdg source="#MonzaBCMsb20">[¤60r] (£1) depones ficis ues redicit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤30r](#triangle)(¢1)de pontificis ueste dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num162">[v.162] Ad haec autem ...</rdg>
+				<rdg source="#BernBBMs118">[58v] (@2) infiblant [¤59r] (#1 quotation marks)</rdg>
+				<rdg source="#ColognyBodmer98">[73r](#chresimon)(£1)alias tres (@2)superhumerale [¤73v](#asteriscus)(¦1)per circuitum (@1)de ordinibus lapidum</rdg>
+				<rdg source="#MonzaBCMsb20">[60r] (# - crisimon)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤30r](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num172">[vi.172] Pilium autem priori ...</rdg>
+				<rdg source="#BernBBMs118">[59r] (@2) iusciamos herba [¤59v] (£1) de herba achar dicit (#2 require)</rdg>
+				<rdg source="#ColognyBodmer98">[¤74r](£1)de herba acchoro dicit(#dimitte)(#dimitte)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤27r](#trigon)(@1)de herba acchoro dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤60v] (£1) de herba acharo dicit (£2) uero duodecim panes…</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤30v](¢1)de herba acchoro dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num179">[vii.179] Hoc est igitur ...</rdg>
+				<rdg source="#BernBBMs50">[¤31v] (#1 trigon) (#2 nota NOA) (#3 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤60r] (£1) quid significat tabernaculum trifaniae diuisum et mensam … AIES (#2 require)</rdg>
+				<rdg source="#ColognyBodmer98">[¤74v](@1)quid tabernaculum significet [¤75r](£1)aaron ad sacerdotum et lectum a deo dicit</rdg>
+				<rdg source="#LeidenUBVLF17">[¤27v](#trigon)(#triangle)(@1)quid significet tabernaculum trifanie diuisum et mensam cum panibus, et candelabrum et uettes sacerdotales</rdg>
+				<rdg source="#MonzaBCMsb20">[¤61r] (£1) quid significet tabernaculum trifarie diuisum et mensam cum panibus et candelabra et uestes sacerdotibus (£2) propheta purpura uero mare eo quod pisciu sanguineo eloretur. Aer autem uoluit significare… [¤61v] (£1) aaron ad sacerdotium electum a deo dicit</rdg>
+				<rdg source="#RomeBAVPalLat814">[30v](¢2)quid significent tabernaculum trifanie diuisum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num188">[VIII.i.188] Igitur dum praedictarum ...</rdg>
+				<rdg source="#BernBBMs118">[¤60v] (£1) aaron ad sacerdotum electum addicit</rdg>
+				<rdg source="#ColognyBodmer98">[75r](@1)qualiter aaron ad sacerdotium sit electus (@2)quia per… [¤75v](£1)induetur</rdg>
+				<rdg source="#LeidenUBVLF17">[27v](#trigon)(@2)aaron ad sacerdotium electum a deo dicit [¤28r](¦1)iosep safanet (en marge du haut) (¦2)moises populum alloquitur</rdg>
+				<rdg source="#MonzaBCMsb20">[61v] (£2) de mensura sycli</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤31r](¢1)aaron ad sacerdotium electum a deo dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num193">[ii.193] Quaecumque uero ad ...</rdg>
+				<rdg source="#BernBBMs118">[60v] (£2) de mensura sicli (£3) numerum dicit offenrentium munera detorum milium et lae*</rdg>
+				<rdg source="#ColognyBodmer98">[75v](£2)de mensura sicli (£3)numerum dicit offenrentium munera sex centorum quinquaginta</rdg>
+				<rdg source="#LeidenUBVLF17">[28r](#trigon)(@1)deum surasidi (#trigon)(@2)numerum dicit offerentium menera sex in gentis, V milia et quinquaginta</rdg>
+				<rdg source="#MonzaBCMsb20">[61v] (£3) numerum dicit offerentium munera sex centorum quinquagentum</rdg>
+				<rdg source="#RomeBAVPalLat814">[31r](¢2)dominum surasicli (¢3)dicit offerentium nunera numerorum dicit D Jecentorum, V milium et L</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num197">[iii.197] Purificauit autem et ...</rdg>
+				<rdg source="#BernBBMs118">[¤61r] (#1 obelus) (£2) miseri (#3 quaerite) (§) (§)</rdg>
+				<rdg source="#ColognyBodmer98">[75v](@1)purificatio sacerdotum (£4)purificauit tabernaculum et sacerdotes [¤76r](£1)de lucernis que lucebant in templo</rdg>
+				<rdg source="#LeidenUBVLF17">[28r](#croix)(¢1)cynamomi et calami (#trigon)(@3)purificauit tabernaculum et sacerdotes(#trigon)(#triangle)(@4)de lucernis que lucebant en templo (#trigon)(@5)beselel et abias opifices</rdg>
+				<rdg source="#MonzaBCMsb20">[¤62r] (£1) purificauit tabernacula et sacerdotes (£2) de lucernis et lucebant in templo</rdg>
+				<rdg source="#RomeBAVPalLat814">[31r](¢4)purificauit tabernaculum et sacerdotes [¤31v](¢1)de lucernis quae libebant in templo</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num200">[iv.200] Omnium uero quae ...</rdg>
+				<rdg source="#BernBBMs118">[61r] (§) (§) (§) (tous dans la marge difficile à lire)</rdg>
+				<rdg source="#ColognyBodmer98">[76r](£2)beselehel et eliab opifices (£3)consecratio templi anno secundo migrationis ex egypto nisa mense (#chresimon)</rdg>
+				<rdg source="#LeidenUBVLF17">[28r](@6)consecratio templi annum II migrationis ex aegypto nisa mense</rdg>
+				<rdg source="#MonzaBCMsb20">[62r] (£3) beselel et heliab opifices (£3) consecratio templi anno seculo migrationis ex aegypnis a mense*</rdg>
+				<rdg source="#RomeBAVPalLat814">[31v](¢2)beselehel et heliab opifices (¢3)consecratio templo anno secundo migrationis ex aegypto mense nisan</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num202">[v.202] Ostendit autem se ...</rdg>
+				<rdg source="#BernBBMs118">[76r](#nota)(@1)quomodo deus super tabernaculam suam presentiam demonstrauit(£4)de iube caliginosa super templum</rdg>
+				<rdg source="#LeidenUBVLF17">[28r](#trigon)(@7) de nube caliginoso super templum</rdg>
+				<rdg source="#MonzaBCMsb20">[62r] (£4) de nube caliginosa super templum</rdg>
+				<rdg source="#RomeBAVPalLat814">[31v](¢4)de nube caliginoso super templum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num204">[vi.204] Moyses autem cum ...</rdg>
+				<rdg source="#BernBBMs118">[¤61v] (£1) sedentes uirtem dierum consecratieris templi (£2) octaui diei pertinitas (£3) spontaneus ignis accensurem et consumauit hostias</rdg>
+				<rdg source="#ColognyBodmer98">[76r](£5)remunerauit moyses opifices [¤76v](£1)sollemnitas spetem dierum consecrationis templi (£2)octaua diei festiuitas (£3)spontaneus ignis accensus est et consumpsit hostias</rdg>
+				<rdg source="#LeidenUBVLF17">[28r](@8)remunerauit moyses opifices [¤29v](#trigon)(@1)sollemnitas VII dierum consecrationis templi (#trigon)(#triangle)(@2) octaui dies festiuitas</rdg>
+				<rdg source="#MonzaBCMsb20">[62r] (£4) remanerauit moyses opifices [¤62v] (£1) solemnitas septem dierum consecrationis templi (£2) octa naues festiuitas (£3) spontaneus ignis accensus est…</rdg>
+				<rdg source="#RomeBAVPalLat814">[31v](¢5)remunerauit moyses opifices (¢6) sollemnitas VII dierum consecrationis templi (¢7)octaui diei festauitas (¢8)et consumauit hostias</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num208">[vii.208] Contigit autem post ...</rdg>
+				<rdg source="#BernBBMs118">[61v] (£4) de pr(oe)lis aaron nabath et abi* igne conbustes</rdg>
+				<rdg source="#ColognyBodmer98">[76v](£4)de filiis aaron nabad et cabiud igne conbustis [¤77r](#asteriscus)(@1)ad prelatum dicit monte parentum dolentem (#asteriscus)</rdg>
+				<rdg source="#LeidenUBVLF17">[28v](#trigon)(@3)spontaneus ignis accensus est et consumauit hostias (@4)de filius aaron nabac et habu ydugne combustis</rdg>
+				<rdg source="#MonzaBCMsb20">[62v] (£4) de silue…</rdg>
+				<rdg source="#RomeBAVPalLat814">[31v](¢9)de filiis aaron nadab et abiu digni combustis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num212">[viii.212] Itaque moyses omnem ...</rdg>
+				<rdg source="#BernBBMs118">[¤62r] (£1) legem moyses scripsit (@2) aliter tentent (correction) (£3) delapides ardenices scribre quo … (difficile à lire) (£4) de XII lapidibus splendor ueribus (§)</rdg>
+				<rdg source="#ColognyBodmer98">[77r](£1)legem moyses scripsit (@2)de conuersatione iudeorum</rdg>
+				<rdg source="#LeidenUBVLF17">[28v](#trigon)(@5)legem moyses scripsit</rdg>
+				<rdg>[¤32r](¢1)legem moyses scripsit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num214">[ix.214] Quod autem de ...</rdg>
+				<rdg source="#ColognyBodmer98">[77r](£2)de lapide sardonice scribit quomodo fulgeret in ueste sacerdotis [¤77v](#nota)(£1)de duodecim lapidibus splendentibus (@1)miraculum lapidum (#nota)(£2)cessabat lapis sardonix splend ere ante annos ducentos (@2)transgressio legum quid fecit</rdg>
+				<rdg source="#LeidenUBVLF17">[28v](#trigon)(@6)de lapide sacerdonice scribit quomodo fulgeret in ueste sacerdotis (#trigon)(@7) de XII lapidibus splendescentibus (#trigon)(#triangle)(@8)cessauit lapis sardonix spendesecere ante annum actos</rdg>
+				<rdg source="#MonzaBCMsb20">[¤63r] (£1 - en marge) § (£2) de duodecim lapidibus… (£3) cessabat apis* sardonix splendere ante annos ducentos</rdg>
+				<rdg source="#RomeBAVPalLat814">[32r](¢2)de lapide sacerdonico scribit quomodo fulgeret in ueste sacerdotis (¢3)de XII lapidibus splendescentibus (¢4)cessabit lapis sardonix splendesecere ante annum CC</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num219">[x.219] tabernaculo scilicet iam ...</rdg>
+				<rdg source="#ColognyBodmer98">[77v](#trigon) [¤78r](@1)opera moysi</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num224">[IX.i.224] Nunc tamen quarundam</rdg>
+				<rdg source="#BernBBMs118">[¤62v] (£1) de sacrificiis dei (#2 croix)</rdg>
+				<rdg source="#ColognyBodmer98">[78r](£1) de sacrificiis dei (@2)de duobus sacrificiis (@3)holocausta pro gratiarum actione</rdg>
+				<rdg source="#LeidenUBVLF17">[¤29r](@1)de sacrificiis dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤63v] (£1) de sacrificiis dei</rdg>
+				<rdg source="#RomeBAVPalLat814">[32r](¢5)de sacrificiis dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num228">[ii.228] Pro gratiarum uero ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤78v](@1)sacrificium pro peccato</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num230">[iii.230] Similiter hoc praedicto ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num233">[iv.233] Lex autem praecipit ...</rdg>
+				<rdg source="#BernBBMs50">[¤33r] (#1 digitum)</rdg>
+				<rdg source="#ColognyBodmer98">[78v](£1)quid sit hin [¤79r](£1)sacrificia pro langonibus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num237">[X.i.237] Ex publico autem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num239">[ii.239] Septimo uero mense</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num241">[iii.241] Offerunt autem super</rdg>
+				<rdg source="#BernBBMs118">[¤63v] (#1 quaerite)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num244">[iv.244] quinta uero eiusdem ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤79v](@1)quo mense pasca sit celebranda</rdg>
+				<rdg source="#LeidenUBVLF17">[¤29v](#trigon)(¢1)hostias</rdg>
+				<rdg source="#MonzaBCMsb20">[¤64v] (#1 - chrisimon) (§ 2 mots difficillement lisible, peut-être id*bos)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num248">[v.248] Mense uero rumantico ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num252">[vi.252] Septima uero septimana</rdg>
+				<rdg source="#BernBBMs118">[¤64v] (#1 quaerite)</rdg>
+				<rdg source="#ColognyBodmer98">[80r](@2)festiuitas pente costen (#dimitte)(£1)alias duo</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num255">[vii.255] ex communi tamen ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num258">[XI.i.258] Moyses autem tribum ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num259">[ii.259] et de animalibus ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤30r](¢1)hic insanit iosephus</rdg>
+				<rdg source="#MonzaBCMsb20">[¤65v] (§1 Steinova décrit le N comme un signe "nota No" cf. appendix VII p. 406 dans le cas des manuscrits bavarois) No sanguinis*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num261">[iii.261] Expulit autem a ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num265">[iv.265] unde etiam irridebit ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤81r](¦1)horum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num269">[v.269] Mulieres autem quando ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num270">[vi.270] Si quis autem ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤81v](#dimitte)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num274">[XII.i.274] Adulterium quidem omnino ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤30v](#trigon)(@1)deplicem purgationem sacerdotum dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num276">[ii.276] Sacerdotum uero duplicem ...</rdg>
+				<rdg source="#BernBBMs118">[¤66r] (§)</rdg>
+				<rdg source="#ColognyBodmer98">[¤82r](£1)duplicem purgationem sacerdotum dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤66r] (£1) duplicem purgationem sacerdotum dicit (¢2 - probablement une correction de pandociis) pandorem*</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤34r](¢1)duplicem purgationem sacerdotum dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num280">[iii.280] Haec igitur etiam ...</rdg>
+				<rdg source="#BernBBMs50">[¤34v] (#1 nota NO) (#2 digitum) (#3 digitum)</rdg>
+				<rdg source="#BernBBMs118">[66r] (£1) *beleo dicit</rdg>
+				<rdg source="#ColognyBodmer98">[¤82v](@1)septimum annum (£1)de iubeleo dicit (#croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤31r](@1)de iube eo dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤66v] (£1) de iubelȩo dicit.</rdg>
+				<rdg source="#RomeBAVPalLat814">[34r](¢2)de iubele dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num287">[iv.287] Cum uero circa ...</rdg>
+				<rdg source="#BernBBMs118">[¤66v] (£1) numerus pugnatorum sexcenta milia et * sexcenti quinquaginta</rdg>
+				<rdg source="#ColognyBodmer98">[¤83r](£1)numerum pugnatorum sex centa milla et tria sex centi quinquatinta</rdg>
+				<rdg source="#LeidenUBVLF17">[31r](@2)ume* pugna* sexta mille *ia e*nti *nqua *a</rdg>
+				<rdg source="#MonzaBCMsb20">[¤67r] (£1) numerus pugnatorum sexcentium milium et tria et sexcenti quinquaginta</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤34v](¢1)numerum pugnatorum DCa milla et tria et DCa L</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num289">[v.289] Figentes autem castra ...</rdg>
+				<rdg source="#BernBBMs118">[¤67r] (£1) tuba argeitea pacta</rdg>
+				<rdg source="#LeidenUBVLF17">[31r](@3) *entea *a</rdg>
+				<rdg source="#MonzaBCMsb20">[67r] (£2) taba exargentofacte</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num291">[vi.291] Ad inuenit autem ...</rdg>
+				<rdg source="#ColognyBodmer98">[83r](£2)tuba argentea facta (#dimitte)</rdg>
+				<rdg source="#RomeBAVPalLat814">[34v](¢2)tuba argentea factae</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num295">[XIII.i.295] et post paululum ...</rdg>
+				<rdg source="#BernBBMs50">[¤35r] (#1 visage?)</rdg>
+				<rdg source="#BernBBMs118">[¤67v] (£1) cotus nices dicit plebem colligisse</rdg>
+				<rdg source="#LeidenUBVLF17">[¤31v][#triangle](@1)conturnices dicit plebem colligisse</rdg>
+				<rdg source="#RomeBAVPalLat814">[34v](¢3)conturnices dicit plebem colligisse</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num300">[XIV.i.300] Deducens autem eos ...</rdg>
+				<rdg source="#BernBBMs118">[67v] (£2) exploratores XII missos</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num303">[XIV.ii.303] Haec itaque cum ...</rdg>
+				<rdg source="#BernBBMs118">[¤68r] (£1) prolem gigantum in hebrei se uidisse testati*</rdg>
+				<rdg source="#ColognyBodmer98">[¤84v](£1)hic ponis iter agentibus et ciuitates muris (£2)prolem gigantum in ebron se in uenis se dicunt</rdg>
+				<rdg source="#LeidenUBVLF17">[31v](@2)exploratores XII missos (@3)prolem gigantum in hebron seuidisse testatis</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤35r](¢1)exploratores XII missos(¢2)prolem gigantum in hebron se uidisse testatis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num306">[iii.306] Illi autem ex ...</rdg>
+				<rdg source="#BernBBMs50">[¤35v] (#1 digitum)</rdg>
+				<rdg source="#BernBBMs118">[68r] (£2) seditio facta in castris contra moysen et aaron</rdg>
+				<rdg source="#ColognyBodmer98">[84v](£3)seditio facta in castris contra moysen et aaron (£4)iosue et caleph plebi contradixerunt</rdg>
+				<rdg source="#LeidenUBVLF17">[31v](@4)seditio facta in castris contra moysen et aaron</rdg>
+				<rdg source="#RomeBAVPalLat814">[35r](¢3)seditio facta in castris contra moysen et aaron</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num308">[iv.308] Unus autem exploratorum ...</rdg>
+				<rdg source="#BernBBMs118">[68r] (£3) iosue et caleph plebi contradixerunt [¤68v] (£1) moyses et aaron …</rdg>
+				<rdg source="#ColognyBodmer98">[¤85r](£1)moyses et aaron in tabernaculum currunt</rdg>
+				<rdg source="#LeidenUBVLF17">[¤32r](@1)sus et ca* ioseph plebi tradixerit (@2)moyses et aaron tabernaculum *rrunt</rdg>
+				<rdg source="#MonzaBCMsb20">[¤68r] (§ en marge à gauche illisible probablement la même main que la majorité des annotations) (§ idem) (£1) iosue et caleph plebi contradixerunt (£2) moyses et aaron in tabernaculo currunt</rdg>
+				<rdg source="#RomeBAVPalLat814">[35r](¢4)iosue et cal. plebi contradixerit (¢5)moyses et aaron in tabernaculum currunt</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num311">[XV.i.311] Moyses autem iam ...</rdg>
+				<rdg source="#BernBBMs50">[35v] (#2 digitum) (#3 digitum)</rdg>
+				<rdg source="#BernBBMs118">[68v] (£2) moyses increpebat eorum duritiam</rdg>
+				<rdg source="#ColognyBodmer98">[85r](£2)moyses increpabat eorum duritiam (#signe inconnu)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤32r](@3)moyses et pabat *um duri *m (@4)*pulus in *stitia conuersus, in non habe leuitatem *manita moyses *t</rdg>
+				<rdg source="#MonzaBCMsb20">[68r] (£3) moyses increpabat eorum duritiam</rdg>
+				<rdg source="#RomeBAVPalLat814">[35r](¢6)moyses increpabat eorum duntiam [¤35v](¢1)populus in tristitiam conuersus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num315">[ii.315] Cum haec itaque ...</rdg>
+				<rdg source="#BernBBMs118">[68v] (£3) populus irrestitiam conuersus (£4) deum non habere leuitatem humanitatem moyses dicit (#4 croix) (@5) oportere</rdg>
+				<rdg source="#ColognyBodmer98">[85r](£3)populus in tristitiam conuersus [¤85v](£1)deum non habere leuitatem humanitatem moyses dicit</rdg>
+				<rdg source="#LeidenUBVLF17">[32r](@5)moyse *tute *titu *e dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤68v] (£1) populus intristitium conuersus (£2) deum non haberet leuitatem humanitatem moyses dicit.</rdg>
+				<rdg source="#RomeBAVPalLat814">[35v](¢2)dominum non habere leuitatem humanam moyses dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book03-num317">[iii.317] Mirabilis itaque uirtute ...</rdg>
+				<rdg source="#BernBBMs118">[68v] (@6) aliter cognouisent (£7) de moise uirtute eos stitudine* dicit [¤69r] (£1) item quattuor mensum ad sacrificia caelebrantur in hierusalem (£2) * in iudea * claudie</rdg>
+				<rdg source="#ColognyBodmer98">[85v](£2)iter quattuor mensium ad sacrificia celebrantes in hierusalem [¤86r](£1)fames in iudea regnante claudio</rdg>
+				<rdg source="#LeidenUBVLF17">[32r](@6)attuor ad sa *acele *es in *usalem (@7)*is in *a *ante *dio</rdg>
+				<rdg source="#MonzaBCMsb20">[68v] (£3) item quattuor mensiis ad sacrificia caelebrantes in * [¤69r] (§ illisible en marge - probablement la même main)</rdg>
+				<rdg source="#RomeBAVPalLat814">[35v](¢3)de moysi uirtute et fortitudine dicit(¢4) IIII mensuam * facium * In hierusalem(¢5)famis in iudea regnante claudio</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>
