@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -90,4 +101,151 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book11-num8">[I.iii.8] haec cyrus cum isralhelitis dixisset</rdg>
+				<rdg source="#LeidenUBVLF17">[¤108v](obelus)(¢1)uel uenditioni (#frontis)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤123r](#obelus)(£1)milia</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num19">[II.i.19] Sed cum mitterent templi fundamenta</rdg>
+				<rdg source="#LeidenUBVLF17">[108v](¦1)nota nomina *errencium ex captiuitate(#frontis)(¢2)moabitide</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num31">[III.i.31] Post magorum uero interitum qui</rdg>
+				<rdg source="#LeidenUBVLF17">[¤109r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num33">[III.ii.33] Primo uero imperii anno darius</rdg>
+				<rdg source="#BernBBMs50">[¤113r] (¬1) gressione sequeret</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num49">[III.v.49] isto quoque tacente de mulieribus</rdg>
+				<rdg source="#BernBBMs118">[¤238v] (@1) sic ergo praecipue considerate mulierum fortitudinem (#2 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num59">[III.viii.59] Rex autem in hoc laetatus surrexit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤125v](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num64">[III.ix.64] Zorobabel existens de regia do mo</rdg>
+				<rdg source="#RomeBAVPalLat814">[125v](£1)est</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num68">[III.x.68] at illi ad hierosolimam conscendebant ab una</rdg>
+				<rdg source="#BernBBMs118">[¤239v] (#1 nota N)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤110r](#frontis)</rdg>
+				<rdg source="#RomeBAVPalLat814">[125v](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num84">[IV.iii.84] Cumque dangores tu barum audissent</rdg>
+				<rdg source="#BernBBMs118">[¤240v] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num88">[IV.iv.88] Post quam uero haec audierunt cuthei</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤126v](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num104">[IV.vii.104] Haec inueniens in commentis cyri darius rescriptis</rdg>
+				<rdg source="#BernBBMs118">[¤241v] (@1) templi</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num109">[IV.viii.109] Ueniente autem die festo azymorum primo</rdg>
+				<rdg source="#BernBBMs50">[¤115r] (#1 ancorae ?)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num131">[V.ii.131] Tunc esdras hanc epistolam accipiens legatus</rdg>
+				<rdg source="#BernBBMs118">[¤243r] (#1 quotation marks)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num139">[V.iii.139] Haec igitur quem ad modum et ipse</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤127v](#obelus)(£1) et genus sacerdotale confundentes(en marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num145">[V.iv.145] qui post quam orando consticuit cunctis lugentibus</rdg>
+				<rdg source="#BernBBMs118">[¤243v] (@1) statim [¤244r] (@1) ihesum* et fratrum et sacerdotum (#2 require)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤112r](#obelus)(¢1)zelu</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤128r](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num154">[V.v.154] Septimo uere mane scenophegiam caelebrantes</rdg>
+				<rdg source="#LeidenUBVLF17">[112r](#obelus)(¢2)postum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num168">[V.vii.168] Ueniens ergo ad babiloniam et multos</rdg>
+				<rdg source="#BernBBMs50">[¤115v] (#1 digitum)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤112v](#obelus)(¢1)contentione</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤128v](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num174">[V.viii.174] Audientes uero murorum aedificatione accellerari am manitae</rdg>
+				<rdg source="#LeidenUBVLF17">[112v](#obelus)(¢2)duodecim</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num184">[VI.i.184] Defuncto uero xerxe regnum ad filium eius</rdg>
+				<rdg source="#BernBBMs50">[¤117r] (#1 nota NOA)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤129r](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num195">[VI.ii.195] At ille amo re conlugis detentus, grauiter</rdg>
+				<rdg source="#BernBBMs50">[¤117v] (#1 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤246v] (#1 croix) (#2 croix)</rdg>
+				<rdg source="#latin-book11-num195">[¤129v](£1)pieta</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num215">[VI.vi.215] Post quam amari haec intimauit rex</rdg>
+				<rdg source="#BernBBMs118">[¤247r] (¢1) manda* per omnes gentes quȩ a rege perceperat praeceptam (§ effacé)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num221">[VI.vii.221] quod mardocheus cognoscens uestem rupit</rdg>
+				<rdg source="#BernBBMs50">[¤118r] (#1 trigon) (#2 trigon) (#3 trigon) (#4 trigon) (#5 trigon) (#6 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤248r] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num229">[VI.viii.229] Mardoche us autem secundum hester mandata</rdg>
+				<rdg source="#BernBBMs118">[¤248v] (#1 croix) (#2 croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤114r](¢1)sanctis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num234">[VI.ix.234] Nam aman quoque regis odium concitaret</rdg>
+				<rdg source="#BernBBMs118">[¤249r] (#1 croix) (#2 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num244">[VI.x.244] Cumque rex promisisset aman egressus</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤123v](#obelus)(£1) dum nullus ahus talem honorem potuisset adipisci (en marge du bas)[¤131r] (£1)quam</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num260">[VI.xi.260] dumque haec ab inuicem loquerentur, uenerunt</rdg>
+				<rdg source="#BernBBMs50">[¤119r] (#1 trigon) (#2 trigon) (#3 barbot)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤114v](#obelus)(¢1)regine [¤115r](¦1)aman digna morte perimitur</rdg>
+				<rdg source="#RomeBAVPalLat814">[131r](#obelus)(£2)petere [¤123v](#obelus)(£1) et ceteros ac hoc senare permisit (en marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num269">[VI.xii.269] Itaque aman honorem quam a rege perceperat supra</rdg>
+				<rdg source="#BernBBMs50">[¤119v] (#1 trigon) (#2 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤250v] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num284">[VI.xiii.284] Igitur equites epistulas deportantes exierunt</rdg>
+				<rdg source="#LeidenUBVLF17">[¤115v](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num306">[BJ 4.105a] adyssam quidam qui mediterranius est tyriorum</rdg>
+				<rdg source="#BernBBMs118">[¤252v] (#1 quaerite) (#2 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num329">[VIII.v.329] quem audiens esse non longe</rdg>
+				<rdg source="#LeidenUBVLF17">[¤116r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num340">[VIII.vi.340] Igitur alexander ita disponens hierosolimam</rdg>
+				<rdg source="#BernBBMs50">[¤121v] (#1 nota NOA) (#2 trigon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book11-num346">[VIII.vii.346] Igitur defuncto alexandro principatum</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤133v](£1)permansit</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>

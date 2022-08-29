@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -138,4 +149,370 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book08-num1">[I.i.1] David itaque eius ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤94] (@1) amarin</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-chapter3">[I.ii.3] Adonias autem qui ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤95] (§)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-chapter9">[I.iii.9] Hoc uerbum rex ...</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤86r](#obelus)(£1)generum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num13">[I.iv.13] Igitur ioab militiae ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num17">[I.v.17] Semei uero praecepit ...</rdg>
+				<rdg source="#BernBBMs50">[¤84r] (#1 trigon)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤96] (@1) aneas princeps (@2) adoc sacerdos (@3) famel (#4 obelus) </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤88v](¢1)magna(#obelus)(£1)putant nihil</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num21">[II.i.21] Cumque salomon iam ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num26">[II.ii.26] His itaque diebus ...</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤79v](#triangle)(@1)iudicium salominis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num35">[II.iii.35] Isti quidem principes ...</rdg>
+				<rdg source="#BernBBMs118">[¤173r] (#1 s shaped quotation marks)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num39">[II.iv.39] Erant autem regi ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num42">[II.v.42] Tantam itaque deus ...</rdg>
+				<rdg source="#BernBBMs118">[¤174r] (@1) de intulo* salomonis</rdg>
+			</app>
+			<app>
+				<rdg source="#BernBBMs50">[II.vi.50] Audiens autem iras ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num53">[II.vii.53] Legens autem iram ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num55">[II.viii.55] harum igitur epistolarum ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num57">[II.ix.57] Rex itaque salomon ...</rdg>
+				<rdg source="#BernBBMs118">[¤175r] (#1 require) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num61">[III.i.61] Coepit autem salomon ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤80r](£1)ANNI ab adam usque a dauid</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num63">[III.ii.63] Deposuit itaque rex ...</rdg>
+				<rdg source="#BernBBMs118">[¤175v] (#1 s shaped quotation marks) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num71">[III.iii.71] Diuisitque templum in ...</rdg>
+				<rdg source="#BernBBMs118">[¤176r] (#1 s shaped quotation marks)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num76">[III.iv.76] Misit ergo rex ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num79">[III.v.79] Fudit autem et ...</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤91r](#obelus)(£1)incumbebat cuius semispherii</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num81">[III.vi.81] Fecit autem decem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num88">[III.vii.88] Fecit autem et ...</rdg>
+				<rdg source="#BernBBMs118">[¤177v] (#1 croix) (#2 require) </rdg>
+				<rdg source="#LeidenUBVLF17">[¤81r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num91">[III.viii.91] Fecit itaque rex ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num95">[III.ix.95] Haec omnia ad ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤97] (§) (§) (@1) de ec*tion (§) tem* te* (§) VII pl*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num99">[IV.i.99] Cum haec igitur ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤98] (§) aculum ysi (§) (@1) amesatio</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num106">[IV.ii.106] Cumque omnia sacerdotes ...</rdg>
+				<rdg source="#BernBBMs118">[¤178v] (#1 require) </rdg>
+				<rdg source="#LeidenUBVLF17">[¤81v](#obelus)(#trigon)(¢1)iam transacta</rdg>
+				<rdg source="#MilanBACimelioSP">[98] (@2) altar</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num111">[IV.iii.111] Cumque haec dixisset ...</rdg>
+				<rdg source="#BernBBMs118">[¤179r] (#1 require)  (#2 s shaped quotation marks)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤92v](#obelus)(£1)aliis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num118">[IV.iv.118] Haec dicens prostratus ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num122">[IV.v.122] Haec ergo locutus ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num124">[IV.vi.124] Cum haec fusset ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤82v](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num130">[V.i.130] Post templi uero ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num133">[V.ii.133] Erat magna basilica ...</rdg>
+				<rdg source="#LeidenUBVLF17">[82v](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num141">[V.iii.141] Haec salomon uiginti ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤103] (@1) sacerdos* (§) (@3) sed</rdg>
+			</app>
+			<app>
+				<rdg>[V.iv.14?]Meminit autem horum ...</rdg>
+				<rdg source="#BernBBMs118">[¤181v] (¬1 pas médiévale) Menandes (#2 require) [¤182r] (¬1) Abdimus</rdg>
+				<rdg source="#LeidenUBVLF17">[¤83r](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤104] (@1 longue et partiellement lisible) ag* .. Ere* sigr* facit (§) (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num150">[VI.i.150] Cumque rex salomon ...</rdg>
+				<rdg source="#BernBBMs50">[¤88v] (§) (#1 croix)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤105] (@1) abdimus doctor (@2) aron (§) (§) (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num155">[VI.ii.155] Haec itaque salomon ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤106] (@1) pharao signans* rege (@2) de regibus alexandri et phtoleme… quare dicti sunt</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num160">[VI.iii.160] Rex itaque salomon ...</rdg>
+				<rdg source="#MilanBACimelioSP">[106] (@3) et de romanis regibus (@4) pharaoth (@5) nicaua mulier (@6) pharaoth socer salomonis (#7 croix) (@ avec le signe) remque (#8 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num163">[VI.iv.163] Fecit autem rex ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num165">[VI.v.165] Igitur regina aegypti ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤107] (@1) soploes m* (§)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num174">[VI.vi.174] Ostendens autem post ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤108] (§) (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num176">[VII.i.176] Eodem uero tempore ... </rdg>
+				<rdg source="#LeidenUBVLF17">[¤84r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num179">[VII.ii.179] Allati auro illo ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num182">[VII.iii.182] Tunc enim regis ...</rdg>
+				<rdg source="#LeidenUBVLF17">[84r](#frontis)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤95r](#obelus)(£1)de uulgans ita ut omnes undique</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num187">[VII.iv.187] Huc ergo causa ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num190">[VII.v.190] Quidum fuisset omnium ...</rdg>
+				<rdg source="#BernBBMs118">[¤185r] (#1 nota NO) (#2 nota N) [¤185v] (#1 nota NO) (#2 nota NO) </rdg>
+				<rdg source="#LeidenUBVLF17">[¤84v](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤109] (@1) LX uxorem… trecenta (#2 require) </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤95v](#dh)(£1)retinere deum quidem proprium duabus lecite uxorem lugit* honorabat, sed etiam ante haec peccar**t et (en marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num199">[VII.vi.199] Haec audiens salomon ...</rdg>
+				<rdg source="#LeidenUBVLF17">[84v](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤110] (@1) ad herodis regis * salomon (@2) uenit ad herodem idumea (@3) ipse ad herodem regem… est latro (@4) postea rex factus est (@5) hierolioam uir fortis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num205">[VII.vii.205] Inter haec autem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num209">[VII.viii.209] Elatus itaque hieroboam ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤111] (@1) athias propheta (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num212">[VIII.i.212] Post mortem uero ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num215">[VIII.ii.215] Quicum uocatis paternis ...</rdg>
+				<rdg source="#BernBBMs50">[¤90v] (#1 trigon) (#2 nota NOA)</rdg>
+				<rdg source="#BernBBMs118">[¤186v] (#1 nota NO) </rdg>
+				<rdg source="#LeidenUBVLF17">[¤85r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num219">[VIII.iii.219] Tunc ergo cuncti ...</rdg>
+				<rdg source="#LeidenUBVLF17">[85r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num225">[VIII.iv.225] Igitur hieroboam constitus ...</rdg>
+				<rdg source="#BernBBMs118">[¤187v] (#1 require) </rdg>
+				<rdg source="#MilanBACimelioSP">[¤113] (@1) samea propheta (@2 phanahel ciuitas (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num230">[VIII.v.230] Igitur dum instaret ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤85v](#frontis)(#frontis) [¤86r](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤114] (@1) hanc propheta (@2) ionas rex</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num236">[IX.236] Erat autem quidam ...</rdg>
+				<rdg source="#BernBBMs50">[¤91v] (#1 trigon) (#2 trigon)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤115] (@1) de falso propheta</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num246">[X.i.246] Filiis autem salomonis ... </rdg>
+				<rdg source="#MilanBACimelioSP">[¤116] (@1) de morte prophetȩ (@2) utam*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num251">[X.ii.251] Reor enim quia ...</rdg>
+				<rdg source="#BernBBMs50">[¤92r] (#1 trigon) (#2 nota NOA) (#3 trigon) (#4 trigon)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤86v](#frontis)(#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤117] (@1) machan filia thamar filii abes salo (@2) sesoth rex egypti (@3) sesotri</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num255">[X.iii.255] ubi roboam et ...</rdg>
+				<rdg source="#LeidenUBVLF17">[86v](#frontis) [¤87r](#frontis)(#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num263">[X.iv.263] Igitur descendenti sisoch ... </rdg>
+				<rdg source="#BernBBMs50">[92r] (#3 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤190r] (@1) apnis*</rdg>
+				<rdg source="#MilanBACimelioSP">[¤118] (@1) prophetas ameas (@2) area finia*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num266">[XI.i.266] contra quas impietates ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤119] (@1) abimem achia prophete</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤98v](#dh)(£1)de populo cauebat contra quas impietates. (en marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num274">[XI.ii.274] Hieroboam itaque nihil ...</rdg>
+				<rdg source="#BernBBMs118">[¤191r] (#1 require) </rdg>
+				<rdg source="#LeidenUBVLF17">[¤87v](#obelus)(@1)alii deo</rdg>
+				<rdg source="#MilanBACimelioSP">[¤120] (@1) abias</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num282">[XI.iii.282] Haec aequidem abias ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num287">[XI.iv.287] Hoc ergo modo ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤122] (@1) asaph rex iudet mater eius… (@2) nabali</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num290">[XII.i.290] Rex autem hierosolimorum ...</rdg>
+				<rdg source="#BernBBMs118">[¤192r] (#1 s shaped quotation marks)</rdg>
+				<rdg source="#MilanBACimelioSP">[122] (@3) haara (@4) saraph (@5) zareas rex et hii…</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num294">[XII.ii.294] Haec orante asa ...</rdg>
+				<rdg source="#BernBBMs50">[¤93r] (#1 trigon)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤88r](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤123] (§) propheta (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num298">[XII.iii.298] Sic igitur asar ...</rdg>
+				<rdg source="#LeidenUBVLF17">[88r](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num304">[XII.iv.304] Metuens etiam asa ...</rdg>
+				<rdg source="#BernBBMs118">[¤193r] (@1) ueniens</rdg>
+				<rdg source="#LeidenUBVLF17">[¤88v](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤124] (@1) gimon propheta (#2 require) (@3) aram aphon … (@4) uerum * uero</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num309">[XII.v.309] Perimens itaque helan ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤125] (@1) zamarias (@2) giman propheta (@3) amarin (@4) thaman (@5) amarin (#6 croix) (@7 avec le signe) marean samaria a gentis apellatur et sanare a samaro quodam qu* montem uendidi (§) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num314">[XII.vi.314] Ex his namque ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num316">[XIII.i.316] Igitur achab israhelitarum ...</rdg>
+				<rdg source="#LeidenUBVLF17">[88v](#obelus)(¢1)uel ministraturos</rdg>
+				<rdg source="#MilanBACimelioSP">[¤126] (@1) asaps rex herosoli (@2) iosaphat (@3) achab (@4) nobal* rex (@5) propheta decium thesebon (#6) propheta</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num319">[XIII.ii.319] Quadam igitur propheta ... </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤100v](#S-shaped flourish) 4 de suite (#h)(£1)usque ad alium annum hyper uerite (en marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num325">[XIII.iii.325] Mulier itaque quam ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤127] (@1) meneos de historia (@2) it*bali re*thiam</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num328">[XIII.iv.328] Transacto siquidem paruo ... </rdg>
+				<rdg source="#BernBBMs118">[¤195r] (#1 require Rx) (§ effacé)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤128] (@1) ob ethan (§) (#3 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num335">[XIII.v.335] Dumque rei quod ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num343">[XIII.vi.343] Hoc uidentes israhelitae ... </rdg>
+				<rdg source="#MilanBACimelioSP">[¤129] (@1) alteri (#2 require Rx) (@3) ad cinus puluerent</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num347">[XIII.vii.347] Audiens itaque uxor ...</rdg>
+				<rdg source="#BernBBMs50">[¤96r] (#1 trigon)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤90r](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤130] (@1) bersabe in ultimo sortis… in terra idumȩorum (@2) areta</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤101v](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num355">[XIII.viii.355] Quidam igitur naboth ... </rdg>
+				<rdg source="#MilanBACimelioSP">[¤131] (@1) aliter alios (#2 require) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num363">[XIV.i.363] Is itaque temporibus ...</rdg>
+				<rdg source="#LeidenUBVLF17">[90r](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤132] (@1) adadus (@2) samaria (£3) QXVI</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num371">[XIV.ii.371] Adadus autem audiens ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤133] (#1 require) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num379">[XIV.iii.379] adadus autem cum ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤90v](#frontis)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤134] (#1 require) (#2 require) </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤102v](#trigon)(£1)preliis (marge du haut)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num389">[XIV.v.389] Interea quidam propheta ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤135] (@1) mic* propheta</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num393">[XV.i.393] Igitur de achab ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤136] (@1) saphat ex hierosolima</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤103r](#trigon)(£1)clausum (marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num395">[XV.ii.395] Anno siquidem tertio ...</rdg>
+				<rdg source="#BernBBMs118">[¤200r] (@1) gauisus est</rdg>
+				<rdg source="#LeidenUBVLF17">[¤91r](#frontis)(¢1)et propter ostilias</rdg>
+				<rdg source="#MilanBACimelioSP">[¤137] (@1) arcarios</rdg>
+				<rdg source="#RomeBAVPalLat814">[103r](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num398">[XV.iii.398] is filio suo ...</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤103v](#require)(#obelus)(£1)tantum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num401">[XV.iv.401] Uocans ergo achab ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤91r](#frontis)</rdg>
+				<rdg>[¤138] (@1) micheas propheta (@2) *solutus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num411">[XV.v.411] Igitur achab et ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book08-num416">[XV.vi.416] Igitur syrorum exercitus ...</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>

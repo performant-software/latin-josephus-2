@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -143,4 +154,495 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book05-num1">[I.i.1] Moyses itaque praedicto ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num5">[I.ii.5] Cumque fuisset illic</rdg>
+				<rdg source="#LeidenUBVLF17">[¤42r](¢1)arbitrati</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num16">[I.iii.16] Metuentes uero duces ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num20">[I.iv.20] Illis uero quinquaginta ...</rdg>
+				<rdg source="#BernBBMs118">[¤90v] (£1) manna populo defecit</rdg>
+				<rdg source="#ColognyBodmer98">[¤112v](£1)manna populo defecit</rdg>
+				<rdg source="#LeidenUBVLF17">[¤42v](@1)manna populo defecit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤87v] (£1) manna populo defecit (#2 s-shaped quotation marks) (£3) circum se rebant arcam ciuitatem repente cecidit murus (£4) raab in cenaculo seruata</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤47r](#obelus)(incertain en marge de gauche, dur à lire)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num22">[I.v.22] Cum haec uero ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num27">[I.vi.27] haec dicens iesus</rdg>
+				<rdg source="#BernBBMs118">[¤90r] (£1) circum serebant arcam ciuitatem repente cecidit muros</rdg>
+				<rdg source="#ColognyBodmer98">[112v](£2)circum ferebant arcam ciuitatem repente cecidit murus</rdg>
+				<rdg source="#LeidenUBVLF17">[42v](#trigon)(@2)circum ferebant arcam ciuitatem repente cecidit murus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num28">[I.vii.28] Illi uero ingredientes ...</rdg>
+				<rdg source="#BernBBMs118">[90r] (£2) raab in cenaculo seruata</rdg>
+				<rdg source="#LeidenUBVLF17">[42v](#trigon)(@3)raab in cenaculo seruata</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num31">[I.viii.31] Si quem uero ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤113r](£1)raab in cenaculo seruata</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num32">[I.ix.32] Congregatae igitur in ...</rdg>
+				<rdg source="#BernBBMs118">[¤91v] (£1) achar furatus clamidem (@2) quidem</rdg>
+				<rdg source="#LeidenUBVLF17">[42v](#triangle)(@4)achar furatur damidem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num33">[I.x.33] Hoc ergo modo ...</rdg>
+				<rdg source="#ColognyBodmer98">[113r](£2)achar furatus clamidem</rdg>
+				<rdg source="#MonzaBCMsb20">[¤88r] (£1) achar furatus numidem (£2) triginta sex iuri perempti hebrȩarum (£3) iesus consuluit donimum pro afflictionem exercitus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num34">[I.xi.34] Uocatus est autem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num35">[I.xii.35] Post paucos uero ...</rdg>
+				<rdg source="#BernBBMs118">[91v] (£3) XXXVI uiri empti hebreorum (£4) iesus consuluit dominum pro adflictione ex exercitus</rdg>
+				<rdg source="#ColognyBodmer98">[¤113v](£1)triginta sex uiri perempti hebreorum (£2)iesus consuluuit dominum pro adflicionem execitus</rdg>
+				<rdg source="#LeidenUBVLF17">[42v](@5)triginta et VI uiri empti hebreorum [¤43r](@1)ihesus consulum dominum pro adflictione exercitus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num38">[I.xiii.38] Uidens autem [iesus] ...</rdg>
+				<rdg source="#BernBBMs118">[¤92r] (£1) repensio dei ad iesum ducem</rdg>
+				<rdg source="#LeidenUBVLF17">[43r](@2)responsio dei ad iegum ducem</rdg>
+				<rdg source="#MonzaBCMsb20">[¤88v] (£1) responsio dei ad iesum ducem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num42">[I.xiv.42] Sic equidem iesus ...</rdg>
+				<rdg source="#BernBBMs118">[92r] (£2) achar inuentus furto reatu</rdg>
+				<rdg source="#ColognyBodmer98">[113v](£3)responsio dei ad iesu ducem [¤114r](£1)achar inuentus furto reatus</rdg>
+				<rdg source="#LeidenUBVLF17">[43r](@3)achar inuentus furto* *accu</rdg>
+				<rdg source="#MonzaBCMsb20">[88v] (£2) achar inuentus fusto reatus (£3) ciuitas dan capta</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num45">[I.xv.45] Iesus autem purgatum ...</rdg>
+				<rdg source="#BernBBMs118">[¤92v] (£1) ciuitas dan capta (£2) gabonitarum calliditas</rdg>
+				<rdg source="#ColognyBodmer98">[114r](£2)ciuitas dan capta [¤114v](£1)gabaonitarum caladitas</rdg>
+				<rdg source="#LeidenUBVLF17">[43r](@4)ciuitas * ad *ptia (@5)gabaoni tarum calliditas (¦1)si dicerent</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num49">[I.xvi.49] Gabaonitae uero habitantes ...</rdg>
+				<rdg source="#BernBBMs118">[¤93r] (£1) amicicias fecit cum gabaonitis iesus</rdg>
+				<rdg source="#ColognyBodmer98">[114v](£2)amicitias fecerunt gabaonitis lesus</rdg>
+				<rdg source="#LeidenUBVLF17">[43r](¦1)si dicerent [¤43v](#triangle)(@1)amicitias fecit cum gabaonitis iesus</rdg>
+				<rdg source="#MonzaBCMsb20">[¤89r] (§1) (£2) amicetias fecerunt cum gubaonitis iesus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num58">[I.xvii.58] Cum uero [rex] ...</rdg>
+				<rdg source="#BernBBMs50">[¤48r] (@1) propter amicitias existimarent</rdg>
+				<rdg source="#BernBBMs118">[93r] (£2) gabaonite auxiliatorem … [¤93v] (£1) solstitie in gabaon orta …</rdg>
+				<rdg source="#ColognyBodmer98">[¤115r](£1)gabaonite auxiliatore uocant iesum</rdg>
+				<rdg source="#LeidenUBVLF17">[43v](#trigon)(@2)gabaonitae auxiliatorem uocauerit ihesum (@triangle)(@3) solstetit in gabaon ortante ihesus et quinque reges latenter occidit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤89v] (£1) gabaonite auxiliatore uocant iesum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num62">[I.xviii.62] Sic igitur exterminatis ...</rdg>
+				<rdg source="#BernBBMs50">[¤48v] (@1) HIC EST LIBER SANCTI MAXIMINI (f.50r) MONASTERII QUEM AGUSTINUS PRESBITER DIE VIII KALENDARUM APRILIUM DEO ET SANCTO MXIMINO (@2) UT QUISQUIS DE ISTO LOCO ALIQUO IN GENIO NON REDITURUS (sur f.50r) ABSTRAXERIT CUM IUDA PRODITORE (@3) MICIACENSIS (#3 trigon)</rdg>
+				<rdg source="#BernBBMs118">[93v] (£3) exercitus chananeorum CCC milia et duo milia curruum (£4) cananeorum reges cum exercitu extincti</rdg>
+				<rdg source="#ColognyBodmer98">[¤115v](£1)chananȩorum reges cum exercitu perempti</rdg>
+				<rdg source="#LeidenUBVLF17">[43v](@4)exercitus canan eorum CCC mille et duo mille currum (@5)cananeorum reges cum exercitu extincti</rdg>
+				<rdg source="#MonzaBCMsb20">[¤90r] (£1) chananeorum reges cum exere ita perempti</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num68">[I.xix.68] quintus iam annus ...</rdg>
+				<rdg source="#BernBBMs118">[93v] (£5) sacrum tabernaculum iesus constituit [¤94r] (@1) aliter buli (#2 croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[43v](#triangle)(@6)sacrum tabernaculum iesus constituit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num71">[I.xx.71] Iesus autem cum ...</rdg>
+				<rdg source="#BernBBMs118">[94r] (£3) congregauit populum iesus et allocutus</rdg>
+				<rdg source="#LeidenUBVLF17">[43v](@7)congreruum populum allocutus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num276">[I.xxi.76] Et iesus quidem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num80">[I.xxii.80] Tunc iesus eleazarum ...</rdg>
+				<rdg source="#BernBBMs118">[¤94v] (#1 croix) (£2) terram repromissienis ser* misit iesus [¤95r] (@1) aliter gesta *</rdg>
+				<rdg source="#ColognyBodmer98">[¤117r](£1)alias mensuratur (£2)alias ut posset</rdg>
+				<rdg source="#LeidenUBVLF17">[¤44r](@1)..re promis*onis sor*e diuisit ihesus</rdg>
+				<rdg source="#MonzaBCMsb20">[¤91r] (#1 trigon) uel mensuratur (#2 trigon) uel ut posset (#3 s-shaped quotation marks)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num88">[I.xxiii.88] Sic itaque diuisit ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num90">[I.xxiv.90] Iesus autem cum ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num93">[I.xxv.93] Post haec autem ...</rdg>
+				<rdg source="#BernBBMs50">[¤49r] (@1) ANNA ET CAIPHA DAMNATIONEM ACCIPIAT (@2) HABENDUM OBTULIT SUB HUIUS MODI UOTO</rdg>
+				<rdg source="#BernBBMs118">[95r] (£2) exercitum congragauit ita milium iesus … [¤95v] (£1) laudat exercitum rubenitarum et gaditarum iesus (#2 quotation marks) (#3 quotation marks) (#4 require) (£5) iesus singulos maiorum salutans</rdg>
+				<rdg source="#LeidenUBVLF17">[¤44v](#trigon)(@1)exercitum congragauit ita milium ihesus et locutus est multa (#trigon)(@2)laudat exercitum rubenitarum et gaditarum ihesus (@3)ihesus singulos maiorum salutans</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num100">[I.xxvi.100] Transiens autem fluuium ...</rdg>
+				<rdg source="#BernBBMs118">[95v] (£6) altare collocauere super ripam iordanis [¤96r] (£1) nouem et demedium tribus parati ad ultionem (£2) retenuit eos iesus cum senioribus (£3) missos legatos ab iesu trans iordanem (#4 s shaped quotation marks) (@5) aliter sciam*</rdg>
+				<rdg source="#LeidenUBVLF17">[44v](@4)altare collocauere super ripam iordanis (@5)nouem et dimidium tribus parati ad ultionem (@6)retenuit eos ihesus cum senioribus (#trigon)(@7)missos legictos ab iesu nen</rdg>
+				<rdg source="#MonzaBCMsb20">[¤92r] (@1) habitare uidebantur existeret ; audientes autemque intra iordanem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num111">[I.xxvii.111] Haec finees dicente ...</rdg>
+				<rdg source="#BernBBMs118">[¤96v] (£1) respensio rubenitarum et gaditarum pradentissima</rdg>
+				<rdg source="#LeidenUBVLF17">[¤45r](@1)responsio rubenitarum et gaditarum pradentissima</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num114">[I.xxviii.114] Haec dicentes laudans ...</rdg>
+				<rdg source="#BernBBMs118">[96v] (£2) placatus fineres et reuersus (§ illisible)</rdg>
+				<rdg source="#LeidenUBVLF17">[45r](#trigon)(@2)placatus fine es et reuersus (@3)ihesus senex commonebat populum commemorans beneficia dei</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num117">[I.xxix.117] Et ille quidem ...</rdg>
+				<rdg source="#BernBBMs118">[¤97r] (£1)iesus mortuus est … (§)</rdg>
+				<rdg source="#LeidenUBVLF17">[45r](@4)ihesus mortuus est cum uixisset annis C et X (@5)eodem tempore dicit mortuum eleazarum sacerdotum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num120">[II.i.120] Post horum itaque ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num121">[II.ii.121] Cananaeis autem uidentibus ...</rdg>
+				<rdg source="#BernBBMs118">[¤97v] (£1) pugnantes tribus iudae et sy* … percusserunt</rdg>
+				<rdg source="#LeidenUBVLF17">[45r](@6)pugnantes tribus iudae et symeonos cum canan eis cum rege X mille percusserunt</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num125">[II.iii.125] unde castrametati sunt ...</rdg>
+				<rdg source="#BernBBMs118">[97v] (£2) gigantum gen(erum) per* adhuc dicit (£3) terram ad possidendum dederunt filiis hiethrim qui fuit gener moyse</rdg>
+				<rdg source="#ColognyBodmer98">[¤120r](£1)hic ponas hic enim fuit unus exploratorum quos misit moyses in chananea</rdg>
+				<rdg source="#LeidenUBVLF17">[¤45v](@1)gigantum generum permansisse ad huc dicit (#trigon)(@2)terram ad possedendum dederunt filiis hiethrim qui fuit gener moysis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num128">[II.iv.128] tribus itaque iuda ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num129">[II.v.129] Beniamitae uero quorum ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num130">[II.vi.130] Tribus autem effrem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num132">[II.vii.132] Igitur post haec ...</rdg>
+				<rdg source="#BernBBMs118">[¤98r] (£1) israhelitae legem die transgressi sunt (£2) uir leuita duxit uxorem de bethlem et adhuc clade ben*</rdg>
+				<rdg source="#ColognyBodmer98">[¤120v](£1)israhelitae legem dei transgressi sunt</rdg>
+				<rdg source="#LeidenUBVLF17">[45v](@3)israhelitae legem dei transgressi sunt (@4)uir leuita duxit uxorem de bethlem et ad hoc clades beniaminitarum</rdg>
+				<rdg source="#MonzaBCMsb20">[¤94r] (£1) israelitȩ legem transgressi sunt (£2) iur lȩuitia duxit iuxorem debet...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num136">[II.viii.136] Uir laeuita de ...</rdg>
+				<rdg source="#BernBBMs50">[¤51v] (#1 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤98v] (£1) iuuenculi gabaonitarum uidentes inplatea [¤99r] (£1) rapientes mulierem gabaonie (£2) mulier lectulo decem bensanilam derelinquit (£3) uir mulierem secans per membra distinabit per singulos tribus</rdg>
+				<rdg source="#ColognyBodmer98">[¤121r](£1)uir leuita duxit uxorem de bethlem et ad hoc clades beniaminitarum</rdg>
+				<rdg source="#LeidenUBVLF17">[¤46r](@trigon)(@1)iuuenculi gabaonitarum uidentes in platea (@2)rapientes mulierem gabaonitae (#trigon)(@3)mulier lectulo decum bensanimam derelinquit (#trigon)(#triangle)(@4)uir mulierem secans per membra distinabit per singulos tribus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num150">[II.ix.150] Illi autem et ...</rdg>
+				<rdg source="#BernBBMs118">[¤99v] (£1) beniamite nimis instructi ad bellandum</rdg>
+				<rdg source="#LeidenUBVLF17">[46r](@5)beniamitę nimis instructi ad bellandum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num155">[II.x.155] Cumque talia fuissent ...</rdg>
+				<rdg source="#BernBBMs118">[99v] (£2) ius iurandum hebreorum (£3) beniamite pugnantes ad uersus israhelitas percusserunt que XXCI milia duo (£4) altera die percusserunt XVIII milia</rdg>
+				<rdg source="#LeidenUBVLF17">[46r](#trigon)(@6)ius iurandum hebrehorum (#trigon)(@7)beniamitę pugnantes ad uersus israhelitas percusserunt que XX * mille duo (#triangle)(@8)altera die percusserunt X et VIII milia</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num160">[II.xi.160] Duabus itaque partibus ...</rdg>
+				<rdg source="#BernBBMs50">[¤51v] (@1) gaba anitas</rdg>
+				<rdg source="#BernBBMs118">[¤100r] (£1) beniamite interire pr(ae)ter sexcentos dicit (£2) euocatos beniamitas perlegatos dicit</rdg>
+				<rdg source="#LeidenUBVLF17">[¤46v](#trigon)(@1) beniamitę interire preter sex centos dicit (#trigon)(@2)euocatos beniamitas per legato dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num166">[II.xii.166] Post haec autem ...</rdg>
+				<rdg source="#BernBBMs118">[100r] (£4) consilium de ducentis uiris quomodo et illi …[¤100v] (£1) eoti uiri rapientes * uxores</rdg>
+				<rdg source="#LeidenUBVLF17">[46v](#trigon)(#triangle)(@3)consilium deducentis uiris quomodo et illi uxores haberent et ius iurandum seruabitur [¤47r](@1)ccti uiri sapientes ducentes uxores;</rdg>
+				<rdg source="#MonzaBCMsb20">[¤96v] (§ illisble en bas, pointe sèche?)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num175">[III.i.175] horum uero similia ...</rdg>
+				<rdg source="#BernBBMs118">[100v] (£2) cannanei ei collogentes exercitum</rdg>
+				<rdg source="#LeidenUBVLF17">[47r](#trigon)(@2)cananei colligintes exercitum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num179">[III.ii.179] Israehelitis autem et ...</rdg>
+				<rdg source="#BernBBMs118">[¤101r] (£1) cursathus rex asyriorum castra ponit contra hebreos</rdg>
+				<rdg source="#LeidenUBVLF17">[47r](#trigon)(@3)cusarthus rex asyriorum castra ponit contra hebreos</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num182">[III.iii.182] Caeniz quidam de ...</rdg>
+				<rdg source="#BernBBMs118">[101r] (£2) ceniz quidam disrupit castra hostium</rdg>
+				<rdg source="#ColognyBodmer98">[¤124r](¦1)dux</rdg>
+				<rdg source="#LeidenUBVLF17">[47r](#trigon)(@4)caeniz quidam disrupit castra hostium</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num185">[IV.i.185] Hoc autem moriente ...</rdg>
+				<rdg source="#BernBBMs118">[¤101v] (£1) eglon rex moabrarum, israhelitas in seruitutem redigens annis decem et octo</rdg>
+				<rdg source="#LeidenUBVLF17">[47r](#trigon)(#triangle)(@5)eglon rex moabitarum israhelitas in seruitatem redigens annum decem et octo</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num188">[IV.ii.188] Quidam iuuenculus nomine ...</rdg>
+				<rdg source="#BernBBMs118">[101v] (£2) hoc modo liberatos a deo dicit (@3) aliter hiud (£4) eglonnem haiud in corde percursit</rdg>
+				<rdg source="#LeidenUBVLF17">[¤47v](#trigon)(#triangle)(@1)hoc modo liberatos a deo dicit (#trigon)(@2)eglonem haiud in corde percussit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num194">[IV.iii.194] haod uero in ...</rdg>
+				<rdg source="#BernBBMs118">[¤102r] (£1) X milia moabitarum peremptos dicit (£2) haiod LXXX an(te) principatum tenuit obiit</rdg>
+				<rdg source="#LeidenUBVLF17">[47v](#trigon)(@3)decem mille moabitarum peremptos dicit (#trigon)(@4)haiud LXXX ante principatum tenuit obiit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num198">[V.i.198] Igitur israehelitae calamitates ...</rdg>
+				<rdg source="#BernBBMs118">[102r] (£3) moabitarum exercitus (trace d'encre cache quelque chose) milia cum rege iabin</rdg>
+				<rdg source="#LeidenUBVLF17">[47v](#trigon)(@5)moabitarum exercitus CCC mille cum rege iabin</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num200">[V.ii.200] qui uiginti quidem ...</rdg>
+				<rdg source="#BernBBMs118">[¤102v] (£1) deborra apes interpr(ae)tata</rdg>
+				<rdg source="#LeidenUBVLF17">[47v](@6)debora apes interpretata</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num202">[V.iii.202] Euocans igitur [debora]</rdg>
+				<rdg source="#BernBBMs50">[¤52v] (#1 trigon) (#2 digitum)</rdg>
+				<rdg source="#BernBBMs118">[102v] (£2) barach corruscatio interpr(ae)tatus</rdg>
+				<rdg source="#LeidenUBVLF17">[¤48r](#trigon)(@1)barach coruscatio interpretatur</rdg>
+				<rdg source="#MonzaBCMsb20">[¤98v] (#1 - croix) (#2 - croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num205">[V.iv.205] Congressi[s] ergo atque</rdg>
+				<rdg source="#BernBBMs118">[102v] (£3) persis arrae timpus clauus confessus in terra [¤103r] (£1) iabin rex occisus a barach (£2) principes fuit per XL annum barach et deborra de tempore defuncti</rdg>
+				<rdg source="#LeidenUBVLF17">[48r](#trigon)(@2)persi sarae timpus clauus confossus interra (#trigon)(@3)iabin rex occisus a barach (#trigon)(croix)(@4)priceps fuit XL annum barach et deboreo de tempore defuncti</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num210">[VI.i.210] Eodem itaque tempore</rdg>
+				<rdg source="#BernBBMs118">[103r] (£3) mazbanite et …</rdg>
+				<rdg source="#ColognyBodmer98">[¤126r](£1)in quibus</rdg>
+				<rdg source="#LeidenUBVLF17">[48r](#trigon)(triangle)(@5)mazianite et amalachite et arabes ducentes exercitum</rdg>
+				<rdg source="#MonzaBCMsb20">[¤106v] (#1 deux-points) sami (§ illisible en marge on dirait un trigon) (#2 deux-points) ampho</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num213">[VI.ii.213] Gedeon autem iasi ...</rdg>
+				<rdg source="#BernBBMs118">[103r] (£4) angelos apparuit gedeon</rdg>
+				<rdg source="#LeidenUBVLF17">[48r](@6)angelis appauit gedeon</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num215">[VI.iii.215] Et cum hoc ...</rdg>
+				<rdg source="#BernBBMs118">[103r] (@5) deus adstitit gedeon per somnium</rdg>
+				<rdg source="#LeidenUBVLF17">[48r](#trigon)(@triangle)(@7)deus adstitit gedeoni per somnium</rdg>
+				<rdg source="#MonzaBCMsb20">[¤99r] (#1 trigon) uel betec</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num218">[VI.iv.218] et cum gedeon ...</rdg>
+				<rdg source="#BernBBMs118">[¤103v] (£1) somnium narrabat quidam ex inimicis audiente gedeonen</rdg>
+				<rdg source="#ColognyBodmer98">[¤126v](#N)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤48v](#trigon)(#triangle)(@1) somnium arrauit quidam exinimi eis audiente gedeone</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num222">[VI.v.222] Gedeon autem somnium ...</rdg>
+				<rdg source="#BernBBMs118">[¤104r] (£1) ab inuicem hostes perempti sunt (£2) reges esep et zeb occisi</rdg>
+				<rdg source="#ColognyBodmer98">[¤127r](£1)alias agendum (£2)alias iuxta (#chresimon)(£3)n in m</rdg>
+				<rdg source="#LeidenUBVLF17">[48v](#trigon)(@2) ab inuicem hostes perempti sunt (@3)reges zebee et zeb occisi</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num230">[VI.vi.230] Tribus autem ephrem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num232">[VI.vii.232] Gedeon itaque principatum ...</rdg>
+				<rdg source="#BernBBMs118">[¤104v] (£1) gedeon principatum ponere uolens</rdg>
+				<rdg source="#LeidenUBVLF17">[¤49r](#trigon)(@1)gedeon principatum ponere uolens</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num233">[VII.i.233] Habuit filios quidem ...</rdg>
+				<rdg source="#BernBBMs118">[104v] (£2) abimelech concubine filius</rdg>
+				<rdg source="#ColognyBodmer98">[¤128r](£1)alias beneficia</rdg>
+				<rdg source="#LeidenUBVLF17">[49r](#trigon)(@2)abimelech concubine filius</rdg>
+				<rdg source="#MonzaBCMsb20">[¤100v] (#1 trigon) uel beneficia</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num235">[VII.ii.235] Igitur dum quodam ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num240">[VII.iii.240] Hinc post non ...</rdg>
+				<rdg source="#BernBBMs118">[¤105r] (£1) gaal cum armatis uenit</rdg>
+				<rdg source="#LeidenUBVLF17">[49r](#trigon)(@3)gaal cum armatis uenit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num243">[VII.iv.243] Zebul quidam princeps ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num251">[VII.v.251] Abimelech autem israehelitas ...</rdg>
+				<rdg source="#BernBBMs118">[¤105v] (£1) percussus abimelech interiit</rdg>
+				<rdg source="#LeidenUBVLF17">[¤49v](#trigon)(@1)percussus abimelech interiit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num254">[VII.vi.254] Israehelitarum uero principatum ...</rdg>
+				<rdg source="#BernBBMs118">[¤106r] (£1) iamer iudex duo et XXII annum defunctus</rdg>
+				<rdg source="#LeidenUBVLF17">[49v](#trigon)(@2)iameri iudex duo et XX ti annum defunctus est</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num255">[VII.vii.255] et es [si] ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num257">[VII.viii.257] In terea ammanits ...</rdg>
+				<rdg source="#BernBBMs118">[106r] (£2) iephte principatum tenuit</rdg>
+				<rdg source="#LeidenUBVLF17">[49v](#trigon)(@3)iephte principatum tenuit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤102r] (#1 croix) (#2 s-shaped quotation marks)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num261">[VII.ix.261] et uelociter diligentia ...</rdg>
+				<rdg source="#BernBBMs118">[106r] (£3) iephte legatos misit ad regem …</rdg>
+				<rdg source="#LeidenUBVLF17">[¤50r](#trigon)(#triangle)(@1)iephte legatos misit ad regem ammonitarum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num263">[VII.x.263] Et haec quidem ...</rdg>
+				<rdg source="#BernBBMs118">[¤106v] (£1) uerum uenit pro uictoria iephtae (£2) filiam immolauit iephtae</rdg>
+				<rdg source="#ColognyBodmer98">[¤130r](¦1)uide</rdg>
+				<rdg source="#LeidenUBVLF17">[50r](#trigon)(@2)uo*um uouit pro uictoria iephte (#trigon)(@3)filiam immolauit iephte</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num267">[VII.xi.267] Igitur cum tribus ...</rdg>
+				<rdg source="#BernBBMs118">[106v] (£3) percussi de tribu iuda ad XL(a) milia…</rdg>
+				<rdg source="#ColognyBodmer98">[¤130v](#signe inconnu)</rdg>
+				<rdg source="#LeidenUBVLF17">[50r](#trigon)(@4)percussi de tribu iuda ad XL mille uirorum et duo</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num270">[VII.xii.270] Ipse uero cum ...</rdg>
+				<rdg source="#BernBBMs118">[¤107r] (£1) sex annis principatu functo iephte mortuus est</rdg>
+				<rdg source="#LeidenUBVLF17">[50r](#trigon)(@5)sex annis principatu functo iephta mortuus est</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num271">[VII.xiii.271] Moriente uero iepthe ...</rdg>
+				<rdg source="#ColognyBodmer98">[130v](#signe inconnu)</rdg>
+				<rdg source="#LeidenUBVLF17">[50r](#trigon)(@6)chilon decem annis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num272">[VII.xiv.272] Igitur ab sona[o] ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num273">[VII.xv.273] Post hunc a[b]ddon ...</rdg>
+				<rdg source="#BernBBMs118">[107r] (£4) abdon iuda (@5) aliter bonitorum (¢6) testimonio</rdg>
+				<rdg source="#LeidenUBVLF17">[50r](#trigon)(@7)abdon iudex</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num275">[VIII.i.275] hoc autem mortuo ...</rdg>
+				<rdg source="#BernBBMs118">[107r] (#7) croix (£8) israhelitae Xlta annis in seruitute sedit</rdg>
+				<rdg source="#LeidenUBVLF17">[50r](#trigon)(@8)israhelitate XL ta annis in seruitute redat</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num276">[VIII.ii.276] Quidam anuch de ...</rdg>
+				<rdg source="#BernBBMs50">[¤55r] (#1 trigon)</rdg>
+				<rdg source="#BernBBMs118">[107r] (£9) angelos dei promittens* filium muleri*</rdg>
+				<rdg source="#ColognyBodmer98">[¤131r](#signe inconnu)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤50v](#trigon)(@1)angelis dei promittens filium mulierum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num279">[VIII.iii.279] Illa uero marito ...</rdg>
+				<rdg source="#BernBBMs118">[¤107v] (£1) manoch angelum uidit</rdg>
+				<rdg source="#ColognyBodmer98">[131r](#nota)</rdg>
+				<rdg source="#LeidenUBVLF17">[50v](#trigon)(@2)manoch angelum uidit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num285">[VIII.iv.285] Cum[que] concepisset custodia ...</rdg>
+				<rdg source="#BernBBMs118">[107v] (£2) samson interpretatus</rdg>
+				<rdg source="#LeidenUBVLF17">[50v](#trigon)(@3)samson inter pretatur robustus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num286">[VIII.v.286] Hic itaque ueniens ...</rdg>
+				<rdg source="#BernBBMs118">[107v] (£3) leonem suffocauit samson</rdg>
+				<rdg source="#LeidenUBVLF17">[50v](@4)loenem suffocauit samson</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num288">[VIII.vi.288] Rursumque dum iret ...</rdg>
+				<rdg source="#BernBBMs50">[¤55v] (#1 digitum)</rdg>
+				<rdg source="#BernBBMs118">[¤108r] (@1) tres fauos mellis (§) (£2) indicauit samson puelle parabolam</rdg>
+				<rdg source="#ColognyBodmer98">[¤131v](£1)alias si lineus</rdg>
+				<rdg source="#LeidenUBVLF17">[¤51r](#trigon)(@1)indicauit samson puelle parabolam</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num295">[VIII.vii.295] pro qua iniuria ...</rdg>
+				<rdg source="#BernBBMs118">[¤108v] (§) (§) (@1) aliter esquesti</rdg>
+				<rdg source="#ColognyBodmer98">[¤132r](£1)alias adforet</rdg>
+				<rdg source="#LeidenUBVLF17">[¤51](#trigon)(@2)CCCtos uulpes adprehendens samson (#trigon)(@3)concremata uxer samson</rdg>
+				<rdg source="#MonzaBCMsb20">[¤104v] (#1 trigon) uel adforet</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num297">[VIII.viii.297] Sampson autem cum ...</rdg>
+				<rdg source="#BernBBMs118">[108v] (£2) alligatos duobus fundibus samson</rdg>
+				<rdg source="#LeidenUBVLF17">[51r](#trigon)(@4)alligatus duobus funibus samson</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num301">[VIII.ix.301] Sampson igitur plus ...</rdg>
+				<rdg source="#BernBBMs118">[108v] (£3) samson culpat [¤109r] (£1) samson rupit de maxilliasine*</rdg>
+				<rdg source="#LeidenUBVLF17">[51r](@5)samson culpat (@6) fonse rupit de maxilla…</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num304">[VIII.x.304] Post hanc pugnam ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num306">[VIII.xi.306] His ita gestis ...</rdg>
+				<rdg source="#BernBBMs118">[109r] (§) mulierem (£1) fallebat eam samson</rdg>
+				<rdg source="#LeidenUBVLF17">[¤51v](#trigon)(@1)mulierem meritricem concupiscens samson (#trigon)(@2)fallebat eam samson</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num314">[VIII.xii.314] Procedente uero tempore ...</rdg>
+				<rdg source="#BernBBMs50">[¤56r] (£1) de qui auferentes eius oculos ligutum circum duci ubique seuerunt</rdg>
+				<rdg source="#ColognyBodmer98">[¤133v](#nota)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num318">[IX.i.318] Post mortem uero ...</rdg>
+				<rdg source="#BernBBMs118">[¤110r] (@1) aliter cellon (@2) aliter mallon (¢3) disi ungi (#4 trigon) (¢5) socru</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num323">[IX.ii.323] ueniente siquidem ruth ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num328">[IX.iii.328] Ueniens autem non ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num332">[IX.iv.332] haec illa socrui ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤1] (§) (§) (illisible en marge à cause de l'état du papyrus)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num338">[X.i.338] Hebraei siquidem rebus ...</rdg>
+				<rdg source="#BernBBMs50">[¤57r] (#1 trigon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num341">[X.ii.341] Uolo siquidem primitus ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤2] (@1) samuhel adest postulatum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num346">[X.iii.346] Cum bona siquidem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num348">[X.iv.348] Porro samuel pleno ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤136r](£1)alias eleazar (¦1)alias eleazar</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num352">[XI.i.352] Eo siquidem tempore ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num353">[XI.ii.353] De summa uero ...</rdg>
+				<rdg source="#ColognyBodmer98">[136r](@1)notatotiones circa pre prope</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num357">[XI.iii.357] Nuntiata uero perditione ...</rdg>
+				<rdg source="#BernBBMs50">[¤57v] (#1 trigon)</rdg>
+				<rdg source="#ColognyBodmer98">[¤136v](#R)</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤57r] (#1) require</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num360">[XI.iv.360] Ea siquidem die ...</rdg>
+				<rdg source="#MonzaBCMsb20">[¤108r] (#1 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book05-num361">[XI.v.361] Habuit autem principatum ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤136](#chresimon)</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>

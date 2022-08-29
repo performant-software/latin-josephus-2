@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -134,4 +145,378 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book06-num1">[I.i.1] Tenentes igitur palestini ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤57v] (#1 require) (#2 require) ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num7">[I.ii.7] Desperati uero malis ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-chapter13">[I.iii.13] Haec itaque recte ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤6] (@1) et h*onis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num16">[I.iv.16] Ira uero atque ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤7] (@1) cariathiae (@2) animal* (@3) XX annos</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num19">[II.i.19] Cumque omnis populus ...</rdg>
+				<rdg source="#BernBBMs50">[¤58v] (§) (#2 flor) (#3 trigon)</rdg>
+				<rdg source="#ColognyBodmer98">[¤139v](£1)alias arresto (¦1)ornatum uerbi</rdg>
+				<rdg source="#MonzaBCMsb20">[¤110v] (#1 trigon) uel assesto</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num23">[II.ii.23] qui tamen ibidem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#ChartresBMMs29">[II.iii.29] Inimici uero post ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤58v] (#1 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num31">[III.i.31] propheta uero samuhel ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num32">[III.ii.32] Deinde senectute grauatus ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num35">[III.iii.35] Populus itaque dum ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num38">[III.iv.38] Cumque talia cogitaret ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num40">[III.v.40] Haec samuhel cum ...</rdg>
+				<rdg source="#BernBBMs50">[¤59v] (#1 trigon) (#2 digitum) (§) (§)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num43">[III.vi.43] erat autem populus ...</rdg>
+				<rdg source="#BernBBMs118">[¤117r] (¢1) uirorum (#2 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num245">[IV.i.45] Erat igitur quidem ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤11] (@1) chis) (#2 require) (@3) saul (@4) sibi (#5 require) (@6) uir p*uit ra* mult* (difficilement lisible en marge) [¤12] (@1) LXX (#2 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num53">[IV.ii.53] Die uero facto ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤59v] (#1 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num58">[IV.iii.58] Cumque uenisset in ...</rdg>
+				<rdg source="#BernBBMs50">[¤60r] (#1 trigon) (#2 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤118r] (¬1 gothique?) aliter benner</rdg>
+				<rdg source="#ColognyBodmer98">[¤142v](#chresimon)</rdg>
+				<rdg source="#MonzaBCMsb20">[¤113r] (#1 chrisimon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num60">[IV.iv.60] Samuhel autem conuocauit ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[59v] (#2 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num62">[IV.v.62] Quod dum hebraei ...</rdg>
+				<rdg source="#MonzaBCMsb20">[¤113v] (#1 chrisimon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num66">[IV.vi.66] Dicitur[xit]que prophetam hunc ...</rdg>
+				<rdg source="#BernBBMs50">[¤60v] (#1 visage couronné)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num68">[V.i.68] Postmodum uero honoris ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤143v](£1)alias pimense (£2)alias parum</rdg>
+				<rdg source="#MonzaBCMsb20">[¤114r] (#1 trigon) uel earum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num73">[V.ii.73] Nass autem spernens ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num77">[V.iii.77] uolens autem populum ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num83">[V.iv.83] Cumque samuhel dixissset ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤144v](£1)sumens ex</rdg>
+				<rdg source="#MilanBACimelioSP">[¤16] (@1) de duce moyse et*sue (@2) de iudicibus P/R*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num86">[V.v.86] Samuhel autem propheta ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num88">[V.vi.88] Samuhel aut cunctorum ...</rdg>
+				<rdg source="#BernBBMs50">[¤61r] (#1 digitum) (#2 digitum) (#3 trigon)</rdg>
+				<rdg source="#ColognyBodmer98">[¤145r](£1)alias dedistis</rdg>
+				<rdg source="#MonzaBCMsb20">[¤115r] (#1 trigon) uel dedisti</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num95">[VI.i.95] Saul igitur eligens ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤145v](#nota)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num100">[VI.ii.100] Misitque saul ad ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤17] (@1) elun* sacerdo*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num115">[VI.iii.115] Dumque exploratores saul ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤147r](£1)faciente (£2)hoc saul</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num120">[VI.iv.120] multa siquidem interficientes ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num122">[VI.v.122] mox itaque uolens ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤147v](£1)alias non habere [¤148r](£1)alias ego</rdg>
+				<rdg source="#MonzaBCMsb20">[¤117v] (£1) uel non habere</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num129">[VI.vi.129] Saul autem reuersus ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤19] (§) dep.</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num131">[VII.i.131] Ueniens igitur samuhel ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤20] (#1 yfen)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num134">[VII.ii.134] Saul uero professus ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤149r](£1)alias tulerunt</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤62v] (#1 require)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤21] (@1) lusio (@2) si * (@3) raguhel</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num140">[VII.iii.140] Cumque uicisset saul ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num141">[VII.iv.141] Saul igitur tamquam ...</rdg>
+				<rdg source="#BernBBMs50">[¤63r] (#1 trigon) (#2 trigon) (#3 trigon) (#4 trigon) (#5 trigon)</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤63r] (#1) ancora ? (#2) cryphia (#3) cryphia</rdg>
+				<rdg source="#MonzaBCMsb20">[¤119r] (#1 nota type NOTA grand) [¤119v] (#1 signe non répertorié par Steinova other type of quotation mark? Cross of 2 s-shaped) (#2 signe non repertorié H avec 2 petits s 1 horizontal 1 vertical)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num152">[VII.v.152] Saul autem uolens ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤150v](£1)alias cessisset</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num156">[VIII.i.156] Rex uero saul ...</rdg>
+				<rdg source="#BernBBMs50">[¤63v] (#1 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤126r] (£1) samuhel oleo in ungeris dauid ordinauit regem</rdg>
+				<rdg source="#ColognyBodmer98">[150v](#nota)[¤151r](#nota)(@1)filii dauid *</rdg>
+				<rdg source="#LeidenUBVLF17">[¤59v](#trigon)(#triangle)(@1)samuhelo leo inunguens dauid ordinuit regem</rdg>
+				<rdg source="#MilanBACimelioSP">[¤24] (#1 croix) (@2) de dauid (@3) dauid propheta (@3) oynira</rdg>
+				<rdg source="#MonzaBCMsb20">[¤120r] (#1 nota type NOT)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num166">[VIII.ii.166] Samuhel quidem dum ...</rdg>
+				<rdg source="#BernBBMs118">[¤126v] (£1) dauid uenit ad saul</rdg>
+				<rdg source="#ColognyBodmer98">[¤151v](£1)alias commouisset</rdg>
+				<rdg source="#LeidenUBVLF17">[59v](#trigon)(@2)dauid uenit ad saul</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num170">[IX.i.170] Post non multa ...</rdg>
+				<rdg source="#BernBBMs118">[126v] (£2) altitudo goliad quatuor cubitorum et palmi</rdg>
+				<rdg source="#LeidenUBVLF17">[¤59](#trigon)(@3) altitudo goliad quatuor cubitorum et palmi</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num175">[IX.ii.175] Bellum quidem consistere ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num181">[IX.iii.181] Saul autem eius ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num184">[IX.iv.184] Saul igitur uoluntatem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num189">[IX.v.189] Occurrit autem iuuenis ...</rdg>
+				<rdg source="#BernBBMs50">[¤64v] (#1 croix)</rdg>
+				<rdg source="#BernBBMs118">[¤128r] (£1) dauid amputauit caput goliae</rdg>
+				<rdg source="#LeidenUBVLF17">[¤60r](@1)dauid amp* capud golia</rdg>
+				<rdg source="#MilanBACimelioSP">[¤25] (@1) de gol(iad)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num193">[X.i.193] Porro circa dauid ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤26] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num196">[X.ii.196] Dauid autem deum ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤26] (#2 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num203">[X.iii.203] his uerbis dilatis ...</rdg>
+				<rdg source="#BernBBMs118">[¤129r] (£1) dauid sexcenta capita detulit ad regem (£2) dauid accepit uxorem melche filiam (§) (#3 obelus)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤60v](@1) dauid sexcenta capita detulit ad re (#triangle)(@2)dauid accepit uxorem melchom filiam facit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num205">[XI.i.205] Dumque saul non ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num209">[XI.ii.209] Altera uero die ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤27] (#1 croix) (§) cenari?</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤66v](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num213">[XI.iii.213] eodem uero tempore ...</rdg>
+				<rdg source="#BernBBMs118">[¤129v] (#1 obelus) (@2) cumque rursus eum ueniens (£3) saul lancia percute se uolens dauid</rdg>
+				<rdg source="#LeidenUBVLF17">[¤61r](@1)saul lancea percuto reuolens dauid ;</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num215">[XI.iv.215] Nocte uero mittens ...</rdg>
+				<rdg source="#BernBBMs50">[¤65r] (#1 quaerite)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤28] (@1) deiecare caprȩ</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num221">[XI.v.221] Cognoscens itaque propheta ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num224">[XI.vi.224] Ionathan uero saul ...</rdg>
+				<rdg source="#BernBBMs50">[¤65v] (#1 quaerite)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num226">[XI.vii.226] Contristatusque ionthas eo ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤156r](¦1)hic ponis crederet. Sed ut ad se respiceret et securus esset</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num229">[XI.viii.229] Quae uerba nouissima ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤30] (@1) mens*tium</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num235">[XI.ix.235] Altera uero die ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num239">[XI.x.239] Tunc ergo regis ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤31] (#1 croix) (@2) nauban ciuitate (#3 croix) (@4) lacea dauid de nota deo (@5) anchus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num242">[XII.i.242] Et dauid quidem ...</rdg>
+				<rdg source="#BernBBMs118">[¤132v] (@1) aliter naub (@2) aliter adtimilem</rdg>
+				<rdg source="#ColognyBodmer98">[¤157v](£1)dicens</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num245">[XII.ii.245] eamque sumens dauid ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num247">[XII.iii.247] et ita liberatus ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num249">[XII.iv.249] praecipiente propheta ut ...</rdg>
+				<rdg source="#BernBBMs118">[¤133r] (@1) aliter sarinit (@2) aliter demobfei*</rdg>
+				<rdg source="#ColognyBodmer98">[¤158r](£1)alias demoborei (£2)alias sarinit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤126r] (#1 trigon) uel de moborei (#2 trigon) uel sarinit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤68r](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num255">[XII.v.255] Tunc uocans sacerdotem ...</rdg>
+				<rdg source="#BernBBMs50">[¤66v] (#1 trigon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num259">[XII.vi.259] Haec dicens sacerdos ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤33] (@1) ruentes ciuitatem* (@2) de occiso* achimel edi et comeret pro geni et sacerdote (#3 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num262">[XII.vii.262] porro saul rex ...</rdg>
+				<rdg source="#BernBBMs50">[¤87v] (#1 nota NOA)</rdg>
+				<rdg source="#ColognyBodmer98">[¤159r](£1)et humiles nec fuerunt abusi(¦1)no [¤159v](¦1)ta</rdg>
+				<rdg source="#MonzaBCMsb20">[¤127r] (#1 chrisimon)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤34] (£1) QXI</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num271">[XII.viii.271] Abiathar itaque abimelech ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤67v] (¢1) Uuerinboldus (lire plutôt Werinboldus, un nom propre ?)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num272">[XIII.i.272] Eo siquidem tempore ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num275">[XIII.ii.275] Dauid autem surgens ...</rdg>
+				<rdg source="#BernBBMs50">[¤67r] (#1 trigon)</rdg>
+				<rdg source="#ColognyBodmer98">[¤160v](#u)(£1)alias mamon</rdg>
+				<rdg source="#MilanBACimelioSP">[¤35] (@1) zyfin qui uocatur noua (@2) de dauid et ionathan</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num281">[XIII.iii.281] Cumque saul eum ...</rdg>
+				<rdg source="#BernBBMs118">[¤134v] (@1) simonis (#2 croix) (#3 dimitte écrit)</rdg>
+				<rdg source="#MonzaBCMsb20">[¤128r] (#1 trigon) uel mamon</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num282">[XIII.iv.282] Sic ergo dauid ...</rdg>
+				<rdg source="#BernBBMs50">[¤67v] (#1 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤135r] (#1 dimitte écrit)</rdg>
+				<rdg source="#ColognyBodmer98">[¤161v](£1)alias quidem</rdg>
+				<rdg source="#MilanBACimelioSP">[¤36] (@1) de abscisa uerba dauid</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num292">[XIII.v.292] Hoc itaque tempore ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤37] (@1) de saul et dauid (§) de sam(uhel)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num295">[XIII.vi.295] Erat igitur quidam ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤162r](£1)alias hanc (£2)hic ponas et studiis malignissimus habans uitam</rdg>
+				<rdg source="#MilanBACimelioSP">[¤38] (@1) de ciuitate ammari (@2) de cynica secta</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num300">[XIII.vii.300] Interea quidam seruus ...</rdg>
+				<rdg source="#BernBBMs118">[¤136r] (#1 croix) (@2) aliter clemens</rdg>
+				<rdg source="#ColognyBodmer98">[¤163r](£1)alias demens</rdg>
+				<rdg source="#MonzaBCMsb20">[¤130r] (#1 trigon) uel *nens (§2) (#3 trigon) uel suspiciatur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num306">[XIII.viii.306] Haec dicens dimisit ...</rdg>
+				<rdg source="#BernBBMs50">[¤68v] (@1) deo dante illi penas, et se ab eius sang/i/ne liberante quiet (#2 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤136v] (£1) defunctus nabal (@2) aliter melcol</rdg>
+				<rdg source="#ColognyBodmer98">[163r](£2)alias suspiciatur</rdg>
+				<rdg source="#LeidenUBVLF17">[¤65r](#triangle)(@1)defuncto nabal</rdg>
+				<rdg source="#MilanBACimelioSP">[¤39] (§) (§)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤70r](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num310">[XIII.ix.310] Cumque fuissent gesta ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num319">[XIII.x.319] Et saul quidem ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤164v](£1)alias donum</rdg>
+				<rdg source="#MilanBACimelioSP">[¤41] (§) [¤42] (@1) si celauimus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num325">[XIV.i.325] Eodem uero tempore ...</rdg>
+				<rdg source="#MilanBACimelioSP">[42] (@2) anch* sunt iachim (@3) uentriloquos (@4) et … ciuitatem*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num327">[XIV.ii.327] Saul itaque rex ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤69v] (#1 require)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤43] (@1) genicitri loqu* (@2) ciuita* missa mulier (@3) uentriloquorum diuinatum (@4) animam samuhel euocauit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num337">[XIV.iii.337] Haec audiens saul ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[69v] (@2) uescentur</rdg>
+				<rdg source="#MilanBACimelioSP">[¤44] (§)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤71v](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num340">[XIV.iv.340] Iustum est autem ...</rdg>
+				<rdg source="#BernBBMs118">[¤139v] (#1 croix) (@2 avec le signe) non fugiit</rdg>
+				<rdg source="#ColognyBodmer98">[¤166r](#croix)[¤166v](£1)hic ponas optimum ludicauit. Cum eis magis cadere pro subiectis pugnando et filiis</rdg>
+				<rdg source="#RomeBAVPalLat814">[71v](#require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num351">[XIV.v.351] Palaestinos igitur castrametantibus ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤71v] (#1 cryphia) (#2 cryphia)</rdg>
+				<rdg source="#MilanBACimelioSP">[¤45] (@1) laudauit hic saul… (§) (§)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num357">[XIV.vi.357] Inueniens ergo dauid ...</rdg>
+				<rdg source="#ColognyBodmer98">[¤167v](£1)ac noctibus</rdg>
+				<rdg source="#MilanBACimelioSP">[¤46] (@1) quisquis</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num368">[XIV.vii.368] Palaestinis igitur dimicantibus ...</rdg>
+				<rdg source="#BernBBMs118">[¤141r] (£1) saul rex peremptus est</rdg>
+				<rdg source="#LeidenUBVLF17">[¤67r](#triangle)(@1)saul rex peremptus est</rdg>
+				<rdg source="#MilanBACimelioSP">[¤48] (@1) *iore Saul</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num374">[XIV.viii.374] palaestini uenissent hostes ...</rdg>
+				<rdg source="#MilanBACimelioSP">[¤49] (§) bes* et r*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book06-num378">[XIV.ix.378] Hunc itaque finem ...</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>

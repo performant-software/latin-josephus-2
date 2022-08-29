@@ -8,7 +8,18 @@
 				<p/>
 			</publicationStmt>
 			<sourceDesc>
-				<p/>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 	</teiHeader>
@@ -95,4 +106,177 @@
 			</div1>
 		</body>
 	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book12-num1">[I.i.1] Alexander rex machedonum ubi regnum</rdg>
+				<rdg source="#BernBBMs118">[¤255r] (#1 nota NT)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤134r](#obelus)(£1)alexander (#trigon)(£2)superfluam</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num17">[II.ii.17] Aristeus autem amicus regi, necessarius propter</rdg>
+				<rdg source="#BernBBMs50">[¤123r] (#1 trigon) (#2 trigon) (#3 trigon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num24">[II.iii.24] Post quam haec aristeus locutus</rdg>
+				<rdg source="#BernBBMs118">[¤256v] (@1) eorum (@2) agere</rdg>
+				<rdg source="#LeidenUBVLF17">[¤117v](#frontis)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num34">[II.iv.34] Cum hęc secundum regiam uolunta tem</rdg>
+				<rdg source="#BernBBMs50">[¤122v] (#1 trigon) (#2 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤257r] (#1 nota NT)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num40">[II.v.40] Igitur tali suggestione facta rex praecepit</rdg>
+				<rdg source="#BernBBMs118">[¤257v] (@1) uel et (#2 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num51">[II.vi.51] Cum regis epistula eleazaro fuisset</rdg>
+				<rdg source="#BernBBMs118">[¤258r] (#1 nota NT) (#2 croix) (@1) uel et</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤135v](£1)pietati uel</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num64">[II.ix.64] Promissa ergo complentes mensam</rdg>
+				<rdg source="#BernBBMs118">[¤258v] (#1 nota NT) (@2) partibus (#3 nota NT) [¤259r] (#1 croix) (#2 nota NT) (#3 nota NT)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num78">[II.x.78] Crateras etiam aurei duo sculp turam</rdg>
+				<rdg source="#BernBBMs118">[¤259v] (#1 nota NT) (#2 nota NT) (#3 croix) (§) qualterius*</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤136r](£1)pulchris</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num85">[II.xi.85] Cumque haec ad hierosolimam trans missa</rdg>
+				<rdg source="#BernBBMs50">[¤123v] (#1 trigon)</rdg>
+				<rdg source="#BernBBMs118">[259v] (#4 croix) (@5) deberat [¤260r] (@1) et uictoria * quo antigonum nauali</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num94">[II.xii.94] Nicanor autem super susceptionem</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤136v](#trigon)(£1)ita</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num101">[II.xiii.101] Mirante ue ro eos non tantum rege sed etiam</rdg>
+				<rdg source="#BernBBMs118">[¤260v] (#1 nota NT) (#2 nota NT)</rdg>
+				<rdg source="#RomeBAVPalLat814">[136v](£2)uideretur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num110">[II.xiv.110] gauisus ergo rex et uidens uolun tatem</rdg>
+				<rdg source="#BernBBMs118">[¤261r] (#1 nota NT) (#2 nota NT)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num119">[III.i.119] Imperauerunt autem et regibus asiae</rdg>
+				<rdg source="#BernBBMs118">[¤261v] (@1) supplice</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤137r](£1)nouembris. Aprilis (incertain en page du haut)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num129">[III.iii.129] Judaeos igitur sub imperio magni antiochi</rdg>
+				<rdg source="#BernBBMs118">[¤262r] (#1 nota NT) [¤262v] (#1 croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤120r](#croix)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤134r](#obelus)(£1)ad narrationem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num160">[IV.ii.160] Josepphus autem quidam iuuenis aetate</rdg>
+				<rdg source="#BernBBMs118">[¤264r] (#1 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num167">[IV.iii.167] Cumque legatus ad aegyprum peruenisset</rdg>
+				<rdg source="#BernBBMs50">[¤125v] (#1 trigon)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤121r](#trigon)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤138v](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num180">[IV.v.180] Ioseppus uero accipiens a rege </rdg>
+				<rdg source="#LeidenUBVLF17">[121r](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num186">[IV.vi.186] Potitus uero hac felicitate per annos uiginti quinque</rdg>
+				<rdg source="#BernBBMs118">[¤265v] (#1 nota NT)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤121v](@1)ex</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num196">[IV.vii.196] Ut uero nuntiauit quidam ioseppo per</rdg>
+				<rdg source="#BernBBMs118">[265v] (#2 require) (#3 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num208">[IV.ix.208] Cumque audisset arion quod ita</rdg>
+				<rdg source="#BernBBMs118">[¤266v] (@1) die metulis filii eius</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num225">[225] Mortuo quoque et isto filius</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤138v](£1)exempla (en marge du bas)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num237">[V.i.237] Per idem tempus defuncti onia principe</rdg>
+				<rdg source="#BernBBMs50">[¤127r] (§)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num242">[V.ii.242] Antiochus autem profuso feliciter imperio</rdg>
+				<rdg source="#BernBBMs118">[¤268r] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num246">[V.iii.246] Reuer sus ergo propter romanorum timorem</rdg>
+				<rdg source="#LeidenUBVLF17">[¤122v](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num257">[V.v.257] Uidentes samariae iudaeos haec pati</rdg>
+				<rdg source="#BernBBMs118">[¤269r] (#1 nota NT) (#2 nota NT) (#3 croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤123r](#croix)(#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num268">[VI.ii.268] Uenientibus autem ad modin uillam a rege</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤141r](£1)sanguinem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num287">[VII.i.287] Haec cum audisset appollonius dux samarię</rdg>
+				<rdg source="#BernBBMs50">[¤128v] (#1 trigon) (#2 trigon) (#3 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤270v] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num293">[VII.ii.293] Quae audiens rex antiochus maximo furore</rdg>
+				<rdg source="#BernBBMs118">[¤271r] (#1 croix) (§ effacé)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num298">[VII.iii.298] Lysias uero eligens ptolomeum dorimenis,</rdg>
+				<rdg source="#LeidenUBVLF17">[¤123v](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num305">[VII.iv.305] Iudas quidem incitans socios ita locutus</rdg>
+				<rdg source="#LeidenUBVLF17">[¤124r](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num313">[VII.v.313] Tunc lysias con fusus de perditione</rdg>
+				<rdg source="#BernBBMs50">[¤129r] (#1 trigon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num316">[VII.vi.316] Timens igitur uictis antiochi regis ducibus iudas</rdg>
+				<rdg source="#LeidenUBVLF17">[¤124r](#obelus)(¢1)et templum bidolis expirent legitimasque hosti* immolasent. Qui dum * multitudine ab hierosolimam (#croix)(#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num354">[IX.i.354] Eodem tempore et rex antio chus superiorem prouinciam</rdg>
+				<rdg source="#BernBBMs118">[¤274v] (#1 nota NT) (@2) tentus (#3 nota NT)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤143r](#trigon)(£1)in perfida</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num360">[IX.ii.360] Antiochus autem prius quam morire tur,</rdg>
+				<rdg source="#BernBBMs118">[274v] (#4 nota NT)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num362">[IX.iii.362] Eodem tem pore hi qui erant in arce</rdg>
+				<rdg source="#LeidenUBVLF17">[¤125r](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num367">[IX.iv.367] quinque quique producens exercitum, egres sus est</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤143v](£1)quodam</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num393">[X.ii.393] Demetrius autem commotus misit bachidem</rdg>
+				<rdg source="#LeidenUBVLF17">[¤126r](#croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book12-num426">[XI.ii.426] Bachi des uero producens de castris</rdg>
+				<rdg source="#LeidenUBVLF17">[¤126v](¦1)be hoc loco sed minus IIII libri; Et de iosepho ualentinensi et romanensi</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤144v](#trigon)(£1)fortiter</rdg>
+			</app>
+		</listApp>
+	</standOff>
 </TEI>
