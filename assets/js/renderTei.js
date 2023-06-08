@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const tei = new CETEI();
 
+  let bookName;
+
   let annotatedParagraphs;
   let englishData;
   let greekData;
@@ -52,15 +54,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const fetchData = async () => {
 
-    await tei.getHTML5(`../assets/xml/Latin/book-${state.bookNum}.xml`, (data) => {
+    await tei.getHTML5(`../assets/xml/${bookName}/Latin/book-${state.bookNum}.xml`, (data) => {
       fullLatinData = data;
     });
 
-    await tei.getHTML5(`../assets/xml/English/book-${state.bookNum}.xml`, (data) => {
+    await tei.getHTML5(`../assets/xml/${bookName}/English/book-${state.bookNum}.xml`, (data) => {
       fullEnglishData = data;
     });
 
-    await tei.getHTML5(`../assets/xml/Greek/book-${state.bookNum}.xml`, (data) => {
+    await tei.getHTML5(`../assets/xml/${bookName}/Greek/book-${state.bookNum}.xml`, (data) => {
       fullGreekData = data;
     });
 
@@ -280,10 +282,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
   };
 
+  switch (window.location.pathname) {
+    case '/antiquities/':
+      bookName = 'antiquities'
+      break
+    case '/bellum_judaicum/':
+      bookName = 'bellum_judaicum'
+  }
+
   addEventListeners();
   reload();
   setBookSelectOptions();
-
 });
 
 // var timer;
