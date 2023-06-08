@@ -160,8 +160,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let latinChapters = [];
     fullLatinData.getElementsByTagName("tei-div2").forEach(el => {
-      chapterNumber = parseInt(el.id.split("-")[2].replace("chapter",""));
-      latinChapters.push(chapterNumber);
+      // Null checking for chapters that are missing IDs
+      if (el.id.split("-")[2]) {
+        chapterNumber = parseInt(el.id.split("-")[2].replace("chapter",""));
+        latinChapters.push(chapterNumber);
+      }
     });
     let optionList = chapterSelectMenu.options;
     optionList.length = 0;
