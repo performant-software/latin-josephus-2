@@ -1,5 +1,5 @@
 ---
-layout: antiquities
+layout: book
 permalink: /antiquities/
 title: antiquities
 description: Antiquities

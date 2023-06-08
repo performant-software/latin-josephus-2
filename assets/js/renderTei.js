@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const bookLabel = document.getElementById("book-label");
   const bookSelectForm = document.querySelector("#book-select form");
   const bookSelectMenu = document.getElementById("book-selector");
+  const bookTitle = document.getElementById("book-title");
   const chapterLabel = document.getElementById("chapter-label");
   const chapterSelectForm = document.querySelector("#chapter-select form");
   const chapterSelectMenu = document.getElementById("chapter-selector");
@@ -284,10 +285,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   switch (window.location.pathname) {
     case '/antiquities/':
+      bookTitle.innerText = 'Antiquities'
       bookName = 'antiquities'
       break
-    case '/bellum_judaicum/':
-      bookName = 'bellum_judaicum'
+    case '/bellum-judaicum/':
+      bookTitle.innerText = 'Bellum Judaicum'
+      bookName = 'bellum'
   }
 
   addEventListeners();
