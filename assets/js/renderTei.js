@@ -90,7 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
         break;
       case "chapter-level":
         latinData = state.chapterNum ? fullLatinData.querySelector(`[id*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullLatinData;
-        console.log(`[id*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`)
         englishData = state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
         greekData = state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullGreekData;
         break;
@@ -153,8 +152,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!paragraphTag || !paragraphTag.includes(`latin-${bookIdString}`)) return;
 
       const paragraphId = paragraphTag.replace('#', '');
-
-      console.log(latinData)
 
       // Only show annotations that refer to displayed paragraphs
       if (!latinData.querySelector(`[id*="${paragraphId}"]`) && !latinData.id.includes(paragraphId)) return;
