@@ -1,0 +1,472 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:id="header">
+		<fileDesc>
+			<titleStmt>
+				<title>Latin Josephus</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="FlaviusJosephusAntiquities">Flavius Josephus, Antiquities (Bamberg Msc. Class. 78)</witness>
+					<witness xml:id="BernBBMs50">Bern BB Ms. 50 (Ant. I–XII &amp; Guerre)</witness>
+					<witness xml:id="BernBBMs118">Bern BB Ms. 118 (Ant. I–XII)</witness>
+					<witness xml:id="ChartresBMMs29">Chartres BM Ms. 29 (Ant. I–XII, XVII–XX, &amp; Guerre)</witness>
+					<witness xml:id="ColognyBodmer98">Cologny Bodmer 98 (Ant. I–VI)</witness>
+					<witness xml:id="CopenhagenGKS1572o">Copenhagen GKS 157 2o (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="LeidenUBVLF17">Leiden UB VLF 17 (Ant. I–XII, XVII–XX)</witness>
+					<witness xml:id="MilanBACimelioSP">Milan BA Cimelio S.P. 11/1 (Ant. V–X)</witness>
+					<witness xml:id="MonzaBCMsb20">Monza BC Ms. b 20/136 (Ant. I–VI)</witness>
+					<witness xml:id="RomeBAVPalLat814">Rome BAV Pal. Lat. 814 (Ant. I–XII)</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="book-01-text">
+		<body>
+			<p>Preface placeholder</p>
+		</body>
+	</text>
+	<standOff xml:id="annotations">
+		<listApp>
+			<app>
+				<rdg source="#latin-book00-num27">[I.i.27] In principio creauit ...</rdg>
+				<rdg source="#BernBBMs118">[¤2r] (@1 correction avec signe) lucem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num34">[I.ii.34] Post septimam uero ...</rdg>
+				<rdg source="#BernBBMs118">[¤2v] (§) dicit (@1) issa (#2 nota NT)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤2r](¬1)mulier</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num37">[I.iii.37] Dicit autem etiam ...</rdg>
+				<rdg source="#BernBBMs50">[¤3r] (@1) interpretatio IIII fluminem (@2) de pacto ad * (mot effacé?) (£3) CUM IUDA PRODIRE ANNA ET INFANQUE* PILATO DAMNATIONEM ACCIPIAT</rdg>
+				<rdg source="#BernBBMs118">[2v] (@2) fison et geta (@3) interpraetatio (@4) uel dispositionem (§)</rdg>
+				<rdg source="#MonzaBCMsb20">[¤4v] (£1) de adam et de paradiso</rdg>
+			</app>
+			<app>
+				<rdg source="#LeidenUBVLF17">[I.iv.40] Deius igitur Adam ...</rdg>
+				<rdg source="#BernBBMs50">[¤3v] (¬1) de prima adam (§ main plus récente) (@2) serpentia/s uoce abstulit (¬3) transgratio adam et (eve?)*</rdg>
+				<rdg source="#BernBBMs118">[¤3r] (#1 trigon) (@2) uel anide (§ correction difficile lisible parce que les lettres sont grasses) (§ corrections effacées en marge) (§ corrections effacées en marge) [¤3v] (@1) sepens (£2) de serpente (@3) quod uoce priuatus sit</rdg>
+				<rdg source="#LeidenUBVLF17">[¤1v] (@1) de serpente</rdg>
+				<rdg source="#MonzaBCMsb20">[¤5v] (£1) de serpente</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num52">[II.i.52] Nati sunt autem ...</rdg>
+				<rdg source="#BernBBMs50">[3v] (@4) de cain et abel (§)</rdg>
+				<rdg source="#BernBBMs118">[3v] (#3 nota NT) (£4) de cain de abel (@5) cain * arasse (@6) glorie potius sacrificium abel …</rdg>
+				<rdg>[1v] (@2) de cain et abel (@3)de cain</rdg>
+				<rdg source="#MonzaBCMsb20">[5v] (£2) de cain et abel [¤6r] (£1) de cain</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num60">[II.ii.60] Multam uero peragrans ...</rdg>
+				<rdg source="#BernBBMs50">[¤4r] (@1) cain primum ponderet et terminos ciuitates (inst)ituit (en marge durement lisible) (@2) iobal ferrariam artem primus inuenit</rdg>
+				<rdg source="#BernBBMs118">[¤4r] (@1) cain primus pondera … instituit (£2) Cain (difficile lisible le reste) [¤4v] (£1) iobal persanam artem primi inuenit</rdg>
+				<rdg source="#LeidenUBVLF17">[1v] (@4) cain primorum pondera et terminos et ciuitates instituit (@5) iobal ferrariam artem primus inuenit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤6v] (£1) cain primus pondera et terre et terminos et ciuitate instituit (£2) iubal ferrariam artem primus inuenit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤2ar](#obelus)(£1)ab arida tamen</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num67">[II.iii.67] Adam uero qui ...</rdg>
+				<rdg source="#BernBBMs50">[4r] (@3) de sedh filio adam (@4) dicit adam profetasse duas exterminationes omnium rerum unam aquis diluuii alteram agius*</rdg>
+				<rdg source="#BernBBMs118">[4v] (@2) Alteris (#3 croix) (@4) iobal autem (£5) die eodem diluuium propheta ira</rdg>
+				<rdg source="#LeidenUBVLF17">[¤2r](§1 annotation illisible en marge à gauche)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤2av](¢1)dicit adam diluuiam prophetasse</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num72">[III.i.72] Et isti quidem ...</rdg>
+				<rdg source="#BernBBMs118">[¤5r] (#1 nota N) (£2) angelos dii/e accepisse filias hominum</rdg>
+				<rdg source="#LeidenUBVLF17">[2r](@1) angelos nunc accipisse filius (@2) omnium</rdg>
+				<rdg source="#MonzaBCMsb20">[¤7r] (£1) angelos dicunt accepisse fit hom* (£2 - en marge à gauche il y en a une qu'on ne peut pas lire puisqu'elle est dans le pli du manuscrit)</rdg>
+				<rdg source="#RomeBAVPalLat814">[2av](@2)angelos dicit accipisse filias hominum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num75">[III.ii.75] Deus itaque noe ...</rdg>
+				<rdg source="#BernBBMs118">[5r] (£1) arcam dicit</rdg>
+				<rdg source="#LeidenUBVLF17">[2r](§ annotation illisible en marge à gauche)</rdg>
+				<rdg source="#MonzaBCMsb20">[¤7v] (£1) de arca dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num80">[III.iii.80] Contigit autem haec ...</rdg>
+				<rdg source="#BernBBMs118">[¤5v] (@1) sanctus (@2) anni abadam ad diliuuium II de LVI</rdg>
+				<rdg source="#LeidenUBVLF17">[¤2r](£1) ANNI PRIME ETATIS</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num83">[III.iv.83] Adae. Siquidem cum ...</rdg>
+				<rdg source="#BernBBMs50">[¤4v] (#1 nota NOA)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num89">[III.v.89] Igitur decernente deo ...</rdg>
+				<rdg source="#BernBBMs118">[¤6r] (@1) aliter decidente (#2 nota N) (§ caché dans la marge de gauche, impossible à lire) (§ caché dans la marge de gauche, impossible à lire)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤2v](@1) noe arcam aperuit (@2) noe arcam egreditur</rdg>
+				<rdg source="#MonzaBCMsb20">[¤8v] (£1) noe arcam aperuit (£2) noe arca egredit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num93">[III.vi.93] Huius uero diluuii...</rdg>
+				<rdg source="#BernBBMs118">[¤6v] (£1) berosus (@2) ieronim (#3 avec croix) (#4 require) (#5 require)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num96">[III.vii.96] Noe uero metuens ...</rdg>
+				<rdg source="#BernBBMs118">[6v] (#6 nota N)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num99">[4v] [III.viii.99] Noe uero has ...</rdg>
+				<rdg source="#BernBBMs118">[¤7r] (§) (§) (#1 nota N) (#2 require) (£3) iris (@4) nota de annis primorum hominum (@5) astrologi sunt plerique ait</rdg>
+				<rdg source="#LeidenUBVLF17">[2v](@3)note illisible [¤3r](@1) arcum dicit</rdg>
+				<rdg source="#MonzaBCMsb20">[¤9r] (@1) uidet [¤…] (#2 - en marge à droite : X) [¤9v] (@1 en haut de la page) uel ad haec (£2) di uerba (£3) arcum dicit</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤3v](¢1)dei uerba (@2)arcum dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num104">[III.ix.104] Noe uero cum ...</rdg>
+				<rdg source="#BernBBMs50">[¤5v] (£1) HIC EST LIBER SANCTI MAXIMINI MICIACENSIS (£2) QUEM SIQUIS ABEO ALIQUO INGENION REDDITURUS ABSTU(LE)RIT (plusieurs corrections) CUM DATHAN ET ABIRON IN INFERNO DAMPNETUR AM(EN) (§) (§) (§) (#3 nota NOA) (#4 nota NOA) (#5 trigon)</rdg>
+				<rdg source="#BernBBMs118">[¤7v] (@1) annum magnum DC anni impleri (@2) manechon mochus aenias</rdg>
+				<rdg source="#MonzaBCMsb20">[9v] (#4 trigon)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num109">[IV.i.109] filii autuem noe ...</rdg>
+				<rdg source="#BernBBMs118">[7v] (#3 signe inconnu) (@4) senaar</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num113">[IV.ii.113] Feci autem eos ...</rdg>
+				<rdg source="#BernBBMs118">[¤8r] (#1 quotation marks) (§) (§) (§) (@2) aliter prope</rdg>
+				<rdg source="#LeidenUBVLF17">[3r](@2)turrem aedifiant</rdg>
+				<rdg source="#MonzaBCMsb20">[¤10r] (£1) turrem aedificunt</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num115">[IV.iii.115] Multitudo autem prona...</rdg>
+				<rdg source="#BernBBMs118">[8r] (#3 nota N) (@4) sibilla (@5) aestius (#6 require) (#7 quotation marks)</rdg>
+				<rdg source="#LeidenUBVLF17">[3r](@3)linguue diuiduntur[@4] uerba sibille</rdg>
+				<rdg source="#MonzaBCMsb20">[¤10v] (£1) uerba sibillȩ (#2 crisimon en marge)</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤4r](¢1)lingua diuiduntur (@1)uerba sibill*</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num120">[V.i.120] Diuisi sunt itaque ...</rdg>
+				<rdg source="#BernBBMs50">[¤6r] (£1) MONASTENI</rdg>
+				<rdg source="#BernBBMs118">[¤8v] (@1) Graecos multa gentium nomina uel inuenisse uel mutasse</rdg>
+				<rdg source="#MonzaBCMsb20">[10v] (#2 crisimon en marge)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num122">[VI.i.122] fuerunt autem filiis ...</rdg>
+				<rdg source="#BernBBMs118">[8v] (#2 require) (@3) Taurus et Thanos et Europa Galath (#4 quotation marks) (@4) scithaeri (#5 croix) (@6) et hel hiberes (@7) cappadoc*</rdg>
+				<rdg source="#MonzaBCMsb20">[¤11r] (#1 - annotation en marge à droite effacé)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num130">[VI.ii.130] Filii uero Cham ...</rdg>
+				<rdg source="#BernBBMs50">[¤6v] (#1 digitum) (¬2) de britanos</rdg>
+				<rdg source="#BernBBMs118">[¤9r] (@1) traiam (#2 require) (#3 quotation marks) (@4) yegni (@5) paphlageni (@6) frigi (@7) eolei (@8) tharsi (#8 croix) [¤9v] (@1) Aethiopes chasei (@2) mersis aegiptus (#3 quotation marks) (@4) libias dicta (@5) genui (@6) Nebrot tyrannorum (#7 quotation marks) (@8) libiam [¤10r] (@1) sidonis (#2 quotation marks) (§ effacé)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num140">[VI.iii.140] Noe itaque, post ...</rdg>
+				<rdg source="#BernBBMs118">[10r] (§ en marge) (#6 quotation marks) (@7) helamitȩ et sami</rdg>
+				<rdg source="#LeidenUBVLF17">[¤4r](@1)noe ex *mo *brius *us</rdg>
+				<rdg source="#MonzaBCMsb20">[¤12r] (£1) noe ex uino ebrius et nudus</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤5r](¢1)Noe ex uino ebrius et nudus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num143">[VI.iv.143] Sem uero tertio ...</rdg>
+				<rdg source="#BernBBMs50">[6v] (£3) generatio hebreorum</rdg>
+				<rdg source="#BernBBMs118">[¤10v] (@1) hebreis (#2 signe inconnu)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num148">[VI.v.148] Faciam uero de ...</rdg>
+				<rdg source="book-04#latin-book04-num118">[10v] (£3) natus abraham (£4) ciuitas undicitur [¤11r] (@1) caute</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤140v] (@1) licemus</rdg>
+				<rdg source="#LeidenUBVLF17">[4r](@1) *us *abam (@2)ciuitas tus</rdg>
+				<rdg source="#MonzaBCMsb20">[¤13r] (£1) ciuitas ar* dicitur</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤5v](¢1)natus abraham (¢2)ciuitas ur dicitur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num154">[VII.i.154] Abraham uero loth ...</rdg>
+				<rdg source="#LeidenUBVLF17">[4r](§ annotation illisible en marge à gauche)[¤4v](@1) abraham primorum unum dicit creatorem deum</rdg>
+				<rdg source="#MonzaBCMsb20">[13r] (£2) abraham iubet exire de chaldea [¤13v] (£1) abraham primus unum …</rdg>
+				<rdg source="#RomeBAVPalLat814">[5v](¢3)abraham in betus exire de chaldea (¢4)abraham primorum unum dicit creatorem deum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num158">[VII.ii.158] Meminit autuem patris ...</rdg>
+				<rdg source="#BernBBMs118">[¤11v] (@1) berosus (#2 quotation marks) (@3) lecateus (@4) nicholaus (#5 quotation marks) (£6) abraham ad egyptium cum …</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num161">[VIII.i.161] Fame uero posteris ...</rdg>
+				<rdg source="#BernBBMs50">[¤7v] (#1 digitum)</rdg>
+				<rdg source="#BernBBMs118">[¤12r] (£1) primi hioseppi (#2 require) (@2) abraham tradidisse arithmenticam et astrologiam (§)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤4v](@2) abraham ad aegyptum cum sarra</rdg>
+				<rdg source="#MonzaBCMsb20">[13v] (£2) abraham ad aegyptum cum sarra</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num166">[VIII.ii.166] Nam cum essent ...</rdg>
+				<rdg source="#LeidenUBVLF17">[4v](@3)dicit abraham aegyptum arithmethiam et astrologia instituisse</rdg>
+				<rdg source="#MonzaBCMsb20">[¤14r] (£1) dicit abraham aegyptum rithi* etiam et astrologium infatuisse* (£2) uel plantato</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤6r] (¢1)dicit abraham aegyptis arithmethiam et astrologia instituisse</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num169">[VIII.iii.169] Et cum uenisset ...</rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤142v] (#1 croix)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num171">[IX.i.171] Illo namque tempore ...</rdg>
+				<rdg source="#BernBBMs118">[¤12v] (#1 quotation marks) (@2) gigante (@3) asfalt(is), nota bitumin(alis)</rdg>
+				<rdg>[¤14v] (£1 - X dans un carré)</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num176">[X.i.176] Abraham autem cum ...</rdg>
+				<rdg source="#LeidenUBVLF17">[¤5r](@1) abraham uictor</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤6v](¢1)abraham uictor</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num179">[X.ii.179] Abraham autem captiuos ...</rdg>
+				<rdg source="#BernBBMs118">[¤13r] (§) (@1) uerba ad abraham (#1 quotation marks) (@2) melchisedec (@3) salem, ipsam hierusalem (§ effacé)</rdg>
+				<rdg source="#LeidenUBVLF17">[5r](@2) ecce melchisedech</rdg>
+				<rdg source="#MonzaBCMsb20">[¤15r] (£1) uerbum dei abraham</rdg>
+				<rdg source="#RomeBAVPalLat814">[6v](¢2) ecce melchisedech (¢3)uerba dei ad abraham (¬1)*loco</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num183">[X.iii.183] Laudans autem deus</rdg>
+				<rdg source="#LeidenUBVLF17">[5r](@3) uerba ad abraham</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num186">[X.iv.186] Abraham autem habitauit ...</rdg>
+				<rdg source="#BernBBMs118">[¤13v] (#1 croix)</rdg>
+				<rdg source="#LeidenUBVLF17">[5r](@4) *elus *aru agar (@5) *ma *lua *s (§ annotation illisible en marge à droite)</rdg>
+				<rdg source="#MonzaBCMsb20">[¤15v] (£1) angelus apparuit agar: (£2) ismahel natus</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤7r](¢1)angelus apparuit agar (¢2)ismahel natus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num191">[X.v.191] Abraham. Itaque cum ...</rdg>
+				<rdg source="#BernBBMs118">[13v] (£2) angelus apparuit (£3) ismahel natus (#4 require) (@5) non genti [¤14r] (§)</rdg>
+				<rdg source="#LeidenUBVLF17">[¤5v](@1) abraham circum ciditur et ismahel</rdg>
+				<rdg source="#MonzaBCMsb20">[¤16r] (#1 annotation en marge à gauche illisible dans le pli du manuscrit)</rdg>
+				<rdg source="#RomeBAVPalLat814">[7r](¬1)curcumcisio (¢3)abraham circumcidit et ismahel</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num194">[XI.i.194] Eodem scilicet tempore ...</rdg>
+				<rdg source="#BernBBMs118">[14r] (§) unum ange* deum</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num196">[XI.ii.196] Cumque [haec] deus ...</rdg>
+				<rdg source="#BernBBMs118">[14r] (@1) defficio trium diuersorio</rdg>
+				<rdg source="#LeidenUBVLF17">[¤5v](@1) dicit unum ex angelis deum fuisse(#cryphia)(¢1) audiens</rdg>
+				<rdg source="#RomeBAVPalLat814">[7r](¢4)dicit unum ex angelis deum fuisse</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num199">[XI.iii.199] Haec audiens Abraham ...</rdg>
+				<rdg source="#LeidenUBVLF17">[5v](#asteriscus)(¢2)In hoc uero subridente muliere, et impossibile sibi esse filium habere dicente cum ipsa quidem</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num202">[XI.iv.202] Deus autuem eorum ...</rdg>
+				<rdg source="#BernBBMs118">[¤14v] (#1 trigon) (£2 avec le signe) sodomitarum (£3) deus sodomam subuestia uxor loth infalsata (#4 nota N)</rdg>
+				<rdg source="#LeidenUBVLF17">[5v](@2) Deus sodom subuestit et uxor loth in salsa</rdg>
+				<rdg source="#MonzaBCMsb20">[¤16v] (£1) os sodomam subuertit et uxor insulis statuum uestitur. (§) (¬3) hp* terramque similiter exterminauit incendio, sicut cladis a me dictum est, cum bellum iudaicum descripsissem.</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤7v](¢1) deus sodomam subuestit et uxor loth in salsata</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num205">[XI.v.205] Uirgines autem omne ...</rdg>
+			</app>
+			<app>
+				<rdg>[XII.i.207] Abraham uero migrauit ...</rdg>
+				<rdg source="#BernBBMs118">[14v] (£6) abraham iterim sarra sororem dicit (@7) bellum iudaicum his libris primus esse descriptum (£8) hic ponas eamque similiter exterminauit incendio, sicut dudum amedictum est cum bellum iudaicum descripsisse(t) SR [¤15r] (£1) admonitus est p*</rdg>
+				<rdg source="#LeidenUBVLF17">[5v](@3) abraham interum sarra sorore indicit (#cryphia)(¢4) deus eum increpauit, [¤6r][#croix)(¬1) quem uiri sabe uocari quod fedus</rdg>
+				<rdg source="#MonzaBCMsb20">[¤17v] (¢1) isaac natu</rdg>
+				<rdg source="#RomeBAVPalLat814">[7v](¢2)abraham interum sarram sororem dicit</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num213">[XII.ii.213] Post non multum ...</rdg>
+				<rdg source="#BernBBMs118">[15r] (#2 require) (£3) isaac natus (@4) arabes XIII annum … circumcisis</rdg>
+				<rdg source="#LeidenUBVLF17">[6r](@1) isaac natus</rdg>
+				<rdg source="#MonzaBCMsb20">[17v] (§)</rdg>
+				<rdg source="#RomeBAVPalLat814">[7v](¢3)isaac natus</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num215">[XII.iii.215] Sarra natum ismahel ...</rdg>
+				<rdg source="#BernBBMs118">[¤15v] (£1) aganeum angelo</rdg>
+				<rdg source="#LeidenUBVLF17">[6r](@2)*gur *an *lo</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤8r](¢1) agar cum angelo</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num220">[XII.iv.220] Cum uero puer ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num222">[XIII.i.222] Isaac autem suum ...</rdg>
+				<rdg source="#BernBBMs50">[¤9v] (#1 digitum) (#2 digitum) (#3 obelus)</rdg>
+				<rdg source="#BernBBMs118">[15v] (#3 obelus penché) (£4 avec le signe) pater (@5) temptatus abraham a deo [¤16r] (@1) morium</rdg>
+				<rdg source="#LeidenUBVLF17">[6r](@3) *abra *dem</rdg>
+				<rdg source="#RomeBAVPalLat814">[8r](¢2)temptatus abraham a deo (¢3)isaac XXV annorum immolatur</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num225">[XIII.ii.225] Abraham autem in ...</rdg>
+				<rdg source="#BernBBMs118">[16r] (#2 nota N) (§ en marge)  </rdg>
+				<rdg source="#LeidenUBVLF17">[6r](#croix)(¢1) et presetem felicitatem eius studio percepisset. [¤6v](@1) isaac XXV annorum immolatur </rdg>
+				<rdg source="#MonzaBCMsb20">[¤18r] (£1) isaac XXV annorum immolatus </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num228">[XIII.iii.228] Dum ergo altare ...</rdg>
+				<rdg>[16r] (@3) uata habrahe ad filium suum cum eum uellet immolare </rdg>
+				<rdg source="#LeidenUBVLF17">[6v](@2) uerba abraham ad isaac </rdg>
+				<rdg source="#MonzaBCMsb20">[¤18v] (£1) uerba abraham ad isaac</rdg>
+				<rdg source="#RomeBAVPalLat814">[¤8v](¢1) uerba abraham ad isaac  </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num232">[XIII.iv.232] Isaac autem habens ...</rdg>
+				<rdg source="#BernBBMs118">[¤16v] (£1) respondens isaac (£2) uerba dei ad abraham </rdg>
+				<rdg source="#LeidenUBVLF17">[6v](@3) respondens isaac (@4)uerba dei ad abraham </rdg>
+				<rdg source="#MonzaBCMsb20">[18v] (£2) uerba isaac ad patrem (£3) uerba dei abraham </rdg>
+				<rdg source="#RomeBAVPalLat814">[8v](¢2)respondens isaac (¢3)uerbadei ad abraham </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num237">[XIV.237] Et sarra quidem ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num238"> [XV.i.238] Post haec autem ... </rdg>
+				<rdg source="#BernBBMs118">[¤17r] (@1) trogoditen, felix arabia (@2) unde africa poli historia (@3) unde assyria (@4) hercul(e) </rdg>
+				<rdg source="#MonzaBCMsb20">[¤19r] (£1) uel principium ad futurum (£2) unde sit dicta africa </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num242">[XVI.i.242] Isaac autem circa ...</rdg>
+				<rdg source="#BernBBMs50">[¤10r] (¢1) ita cognosceretur </rdg>
+				<rdg source="#BernBBMs118">[17r] (@5) qualitas mesopotamie </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num246">[XVI.ii.246] Et ille quidem ... </rdg>
+				<rdg source="#BernBBMs118">[¤17v] (@1) rebecca increpat feminas, quas noluerunt seruum habraham potare (£2) uerba serui ad rebeccam </rdg>
+				<rdg source="#LeidenUBVLF17">[¤7r](@1)uerba *ui *rc ecca </rdg>
+				<rdg>[¤20r] (£1) uerba serui ad rebecca </rdg>
+			</app>
+			<app>
+				<rdg>[XVI.iii.252] Cum ergo hoc ...</rdg>
+				<rdg source="#BernBBMs118">[¤18r] (£1) serui uerba ad laban </rdg>
+				<rdg>[7r](@2)*erui *ba </rdg>
+				<rdg source="#MonzaBCMsb20">[¤20v] (£1) serui uerba ad laban </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤9r](¬1)serui uerba ad laban </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num256">[XVII.256] Post paululum uero ...</rdg>
+				<rdg source="#BernBBMs118">[18r] (£1) mortuus abraham </rdg>
+				<rdg source="#LeidenUBVLF17">[¤7v](@1) mortuus abraham </rdg>
+				<rdg source="#MonzaBCMsb20">[20v] (£2) mortuus abraham </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤9v](¢1)mortius abraham </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num257">[XVIII.i.257] Porro post mortem ...</rdg>
+				<rdg source="#BernBBMs118">[¤18v] (£1) iacob et esau nati (#2 nota N) (£3) isaac in egipto </rdg>
+				<rdg source="#CopenhagenGKS1572o">[¤145] (#1 croix)  </rdg>
+				<rdg source="#LeidenUBVLF17">[7v](@2) iacob et esau nati </rdg>
+				<rdg source="#MonzaBCMsb20">[20v] (£3) iacob et esau natis [¤21r] (£1 en marge à gauche difficile à lire) § (£2) primorum </rdg>
+				<rdg source="#RomeBAVPalLat814">[9v](¢2)iacob et esau nati </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num259">[XVIII.ii.259] fame uero superueniente ...</rdg>
+				<rdg source="#BernBBMs118">[18v] (#4 croix) (#5 nota N)  </rdg>
+				<rdg source="#LeidenUBVLF17">[7v](@3)isaac in aegypto </rdg>
+				<rdg source="#RomeBAVPalLat814">[9v](¢3)isaac in aegypto </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num263">[XVIII.iii.263] Isaac itaque rerum ...</rdg>
+				<rdg source="#BernBBMs118">[¤19r] (£1) isaac sanare </rdg>
+				<rdg source="#MonzaBCMsb20">[¤21v] (£1) isaac senuit (¢2) iacob benedicitur </rdg>
+				<rdg source="#RomeBAVPalLat814">[9v](¢4)isaac senuit </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num267">[XVIII.v.267] Cum senis[ex] ...</rdg>
+				<rdg source="#LeidenUBVLF17">[7v](@4)isaac senuit </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num269"> [XVIII.vi.269] Et esau quidem ... </rdg>
+				<rdg source="#BernBBMs118">[19r] (£2) iacob benedici* </rdg>
+				<rdg source="#LeidenUBVLF17">[¤8r](@1) iacob bene *icit </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤10r](¢1)iacob benedicitur </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num274">[XVIII.vii.274] Et ille quidem ...</rdg>
+				<rdg source="#BernBBMs118">[¤19v] (@1) censu quia accipent* (@2) quare iacob pergens mesopotamiam … (£3) uerba dei ad iacob </rdg>
+			</app>
+			<app>
+				<rdg>[XVIII.viii.276] Iacob autem metuentem ...</rdg>
+				<rdg source="#BernBBMs50">[¤11r] (¢1) uxorem ducere uoluit nam </rdg>
+				<rdg source="#RomeBAVPalLat814">[10r](#trigon)(£1)ducen. </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num278">[XIX.i.278] Iacob autem in ...</rdg>
+				<rdg source="#BernBBMs118">[¤20r] (#1 quaerite) (#2 quaerite) </rdg>
+				<rdg source="#LeidenUBVLF17">[8r](@2) uerba ad… </rdg>
+				<rdg source="#MonzaBCMsb20">[¤22r] (£1) uerba dei ad iacob </rdg>
+				<rdg source="#RomeBAVPalLat814">[10r](#trigon)(£1)meeuit (¢2)uerba dei ad iacob </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num284">[XIX.ii.284] Haec itaque deus ...</rdg>
+				<rdg source="#BernBBMs118">[20r] (#3 nota N) (@4) bethel </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num285">[XIX.iii.285] Procedens autem ad ...</rdg>
+				<rdg source="#BernBBMs50">[¤11v] (#1 trigon) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num288">[XIX.iv.288] Iacob autem non ...</rdg>
+				<rdg source="#BernBBMs118">[¤20v] (#1 quaerite)  </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num293">[XIX.v.293] Haec dicens, ducebat ...</rdg>
+				<rdg source="#MonzaBCMsb20">[¤23r] (¢1) uel matrina </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num297">[XIX.vi.297] Laban autem et ...</rdg>
+				<rdg source="#BernBBMs118">[¤21r] (£1) iacob filias laban accepit </rdg>
+				<rdg source="#LeidenUBVLF17">[¤8v](@1) iacob filia* *ban ac *it </rdg>
+				<rdg source="#MonzaBCMsb20">[¤23v] (£1) iacob filius laban accepit </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤11r](¢1) iacob filias laban accepit </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num303">[XIX.vii.303] Erant enim ambabus ...</rdg>
+				<rdg source="#BernBBMs118">[¤21v] (#1 nota N) (£2) iudas natus (£3) ioseph natus </rdg>
+				<rdg source="#LeidenUBVLF17">[¤9r](@1)iudas natus(@2) ioseph natus </rdg>
+				<rdg source="#MonzaBCMsb20">[¤24r] (£1) § (£2) reddit gre[g/c]os (£3) ioseph natus </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num309">[XIX.viii.309] Hoc ergo tempus ...</rdg>
+				<rdg source="#BernBBMs118">[¤22r] (£1 effacé) rachel idola (@2) quare rachel furata sit idola patris sui (#3 quaerite) </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num312">[XIX.ix.312] Laban autem post ...</rdg>
+				<rdg source="#BernBBMs50">[¤12v] (#1 croix) </rdg>
+				<rdg source="#BernBBMs118">[22r] (#4 quaerite) (£5) laban et iacob [¤22v] (£1) laban et iacob (#2 quaerite) (@3) omnino crudelem fuisset laban circa iacob (£4) laban et iacob foedus paciunt </rdg>
+				<rdg source="#LeidenUBVLF17">[9r](@3)laban iacob [¤9v](@1)laban et iacob </rdg>
+				<rdg source="#MonzaBCMsb20">[¤24v] (£1) quare furata sit rachel idola (£2) laban et iacob </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤11v](¢1)laban et iacob </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num322">[XIX.x.322] De sacris autem ...</rdg>
+				<rdg source="#LeidenUBVLF17">[9v](@2) laban et iacob foedus faciunt </rdg>
+				<rdg source="#MonzaBCMsb20">[¤25v] (£1) laban et iacob foedus faciunt </rdg>
+				<rdg source="#RomeBAVPalLat814">[11v](¢2)laban et iacob feodus faciunt </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num325">[XX.i.325] iacob autem in ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num331">[XX.ii.331] Haec disponens per ... </rdg>
+				<rdg source="#BernBBMs50">[¤13r] (#1 croix) </rdg>
+				<rdg source="#BernBBMs118">[¤24r] [¤22v] (£1) iacob cum angelo luctat et israhel appellatur (@2) israhel nota (£3) esau oscubatur iacob (@4) sceia (£5) dina rapitur (#6 quaerite)  </rdg>
+				<rdg source="#LeidenUBVLF17">[¤10r](@1)iacob cum angelo *rratisrael appellatur (§1 annotation illisible en marge à gauche) </rdg>
+				<rdg source="#MonzaBCMsb20">[¤26r] (£1) iacob cum angelo… (£2) § (£3) alia* precedebat .. </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤12r](¢1)iacob cum angelo *uctat et israel appellatur </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num337">[XXI.i.337] Iacob autem uenit ...</rdg>
+				<rdg source="#BernBBMs118">[¤24r] (#1 quaerite) (#2 quaerite)  </rdg>
+				<rdg source="#LeidenUBVLF17">[10r](§2 annotation illisible en marge à gauche) </rdg>
+				<rdg source="#RomeBAVPalLat814">[12r](¢2)dina rapitur </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num341">[XXI.ii.341] Iacob autem factorum ...</rdg>
+				<rdg source="#BernBBMs118">[24r] (@3) quod iacob, idola laban inuenerit </rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num343">[XXI.iii.343] hinc enim proficiscens ...</rdg>
+			</app>
+			<app>
+				<rdg source="#latin-book00-num345"> [XXII.1.345] Uenit ergo hinc ...</rdg>
+				<rdg source="#BernBBMs118">[¤24v] (£1) iacob mortuus </rdg>
+				<rdg source="#RomeBAVPalLat814">[¤12v](¢1)isaac mortuus</rdg>
+			</app>
+		</listApp>
+	</standOff>
+</TEI>

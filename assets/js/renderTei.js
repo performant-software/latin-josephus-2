@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let fullGreekData;
 
   let state = {
-    bookNum: "01",
+    bookNum: "00",
     chapterNum: null,
     sectionNum: null,
     viewingLevel: 'book-level'
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let bookCount = 0;
     switch (bookName) {
       case 'antiquities':
-        bookCount = 20
+        bookCount = 21
         break
       case 'bellum':
         bookCount = 7
@@ -55,6 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
       "text": (num + 1).toLocaleString(),
       "value": (num + 1).toLocaleString().padStart(2, "0")
     }));
+
+    // Set the label for the preface
+    options[0].text = "Preface"
+
     options[0].selected = true;
 
     options.forEach(option =>
@@ -65,19 +69,19 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const fetchData = async () => {
-    
+
     await tei.getHTML5(`../assets/xml/${bookName}/Latin/book-${state.bookNum}.xml`, (data) => {
       fullLatinData = data;
     });
-    
+
     await tei.getHTML5(`../assets/xml/${bookName}/English/book-${state.bookNum}.xml`, (data) => {
       fullEnglishData = data;
     });
-    
+
     await tei.getHTML5(`../assets/xml/${bookName}/Greek/book-${state.bookNum}.xml`, (data) => {
       fullGreekData = data;
     });
-    
+
     // Antiquities uses `01` format while Bellum uses no leading zeroes.
     const formattedNum = bookName === 'antiquities' ? state.bookNum : parseInt(state.bookNum)
     const bookIdString = bookName === 'antiquities' ? 'book' : bookName
@@ -126,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
       latinPane.appendChild(latinData);
     }
 
-    bookLabel.innerText = `Book ${state.bookNum}`;
+    bookLabel.innerText = state.bookNum === '00' ? 'Preface' : `Book ${ state.bookNum }`;
     chapterLabel.innerText = (state.chapterNum && state.viewingLevel !== "book-level") ? `Chapter ${state.chapterNum}` : '';
     sectionLabel.innerText = (state.sectionNum && state.viewingLevel === "section-level") ? `Section ${state.sectionNum}` : '';
   };
