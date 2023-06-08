@@ -40,7 +40,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const setBookSelectOptions = () => {
     let optionList = bookSelectMenu.options;
-    let options = [...Array(20).keys()].map(num => ({
+
+    let bookCount = 0;
+    switch (bookName) {
+      case 'antiquities':
+        bookCount = 20
+        break
+      case 'bellum':
+        bookCount = 7
+        break
+    }
+
+    let options = [...Array(bookCount).keys()].map(num => ({
       "text": (num + 1).toLocaleString(),
       "value": (num + 1).toLocaleString().padStart(2, "0")
     }));
@@ -54,18 +65,22 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const fetchData = async () => {
-
+    
     await tei.getHTML5(`../assets/xml/${bookName}/Latin/book-${state.bookNum}.xml`, (data) => {
       fullLatinData = data;
     });
-
+    
     await tei.getHTML5(`../assets/xml/${bookName}/English/book-${state.bookNum}.xml`, (data) => {
       fullEnglishData = data;
     });
-
+    
     await tei.getHTML5(`../assets/xml/${bookName}/Greek/book-${state.bookNum}.xml`, (data) => {
       fullGreekData = data;
     });
+    
+    // Antiquities uses `01` format while Bellum uses no leading zeroes.
+    const formattedNum = bookName === 'antiquities' ? state.bookNum : parseInt(state.bookNum)
+    const bookIdString = bookName === 'antiquities' ? 'book' : bookName
 
     switch(state.viewingLevel) {
       case "book-level":
@@ -74,14 +89,15 @@ document.addEventListener("DOMContentLoaded", () => {
         greekData = fullGreekData;
         break;
       case "chapter-level":
-        latinData = state.chapterNum ? fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullLatinData;
-        englishData = state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
-        greekData = state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
+        latinData = state.chapterNum ? fullLatinData.querySelector(`[id*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullLatinData;
+        console.log(`[id*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`)
+        englishData = state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
+        greekData = state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullGreekData;
         break;
       case "section-level":
-        latinData = state.sectionNum ? fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullLatinData.querySelector(`[id*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullLatinData;
-        englishData = state.sectionNum ? fullEnglishData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
-        greekData = state.sectionNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-book${state.bookNum}-chapter${state.chapterNum}"]`) : fullGreekData;
+        latinData = state.sectionNum ? fullLatinData.querySelector(`[id*="latin-${bookIdString}${formattedNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullLatinData.querySelector(`[id*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullLatinData;
+        englishData = state.sectionNum ? fullEnglishData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullEnglishData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullEnglishData;
+        greekData = state.sectionNum ? fullGreekData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-num${state.sectionNum}"]`) : state.chapterNum ? fullGreekData.querySelector(`[sameAs*="latin-${bookIdString}${formattedNum}-chapter${state.chapterNum}"]`) : fullGreekData;
       break;
     };
 
@@ -99,9 +115,17 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    englishPane.appendChild(englishData);
-    greekPane.appendChild(greekData);
-    latinPane.appendChild(latinData);
+    if (englishData) {
+      englishPane.appendChild(englishData);
+    }
+
+    if (greekData) {
+      greekPane.appendChild(greekData);
+    }
+
+    if (latinData) {
+      latinPane.appendChild(latinData);
+    }
 
     bookLabel.innerText = `Book ${state.bookNum}`;
     chapterLabel.innerText = (state.chapterNum && state.viewingLevel !== "book-level") ? `Chapter ${state.chapterNum}` : '';
@@ -119,14 +143,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const annotatedParagraphs = [];
     let htmlString = '';
 
+    const bookIdString = bookName === 'antiquities' ? 'book' : bookName
+
     annotations.forEach(anno => {
       if (anno.children.length < 1) return;
 
       const paragraphTag = anno.children[0].getAttribute('source')
 
-      if (!paragraphTag || !paragraphTag.includes('latin-book')) return;
+      if (!paragraphTag || !paragraphTag.includes(`latin-${bookIdString}`)) return;
 
       const paragraphId = paragraphTag.replace('#', '');
+
+      console.log(latinData)
 
       // Only show annotations that refer to displayed paragraphs
       if (!latinData.querySelector(`[id*="${paragraphId}"]`) && !latinData.id.includes(paragraphId)) return;
@@ -138,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (
           !child.getAttribute('source')
           || child.getAttribute('source') === ''
-          || child.getAttribute('source').includes('latin-book')
+          || child.getAttribute('source').includes(`latin-${bookIdString}`)
         ) return;
 
         const witnessElement = fullLatinData.querySelector(`[id*="${child.getAttribute('source').replace("#","")}"]`)
