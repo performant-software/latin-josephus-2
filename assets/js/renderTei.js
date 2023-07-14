@@ -42,18 +42,20 @@ document.addEventListener("DOMContentLoaded", () => {
     let optionList = bookSelectMenu.options;
 
     let bookCount = 0;
+    let skipPreface = true;
     switch (bookName) {
       case 'antiquities':
         bookCount = 21
         break
       case 'bellum':
         bookCount = 7
+        skipPreface = false
         break
     }
 
     let options = [...Array(bookCount).keys()].map(num => ({
-      "text": (num + 1).toLocaleString(),
-      "value": (num + 1).toLocaleString().padStart(2, "0")
+      "text": (num + skipPreface).toLocaleString(),
+      "value": (num + skipPreface).toLocaleString().padStart(2, "0")
     }));
 
     // Set the label for the preface
