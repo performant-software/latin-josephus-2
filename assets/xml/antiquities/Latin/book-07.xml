@@ -184,8 +184,8 @@
 				<rdg source="#BernBBMs50">[¤73v] (@1) nota hic militum decem (#2 obelus) (@3) unde israhelite non potuerit expellere chananeos usque dum ** eos obsedisset annorum quin genitorum quindecim</rdg>
 			</app>
 			<app>
-				<rdg source="#latin-book07-num69">[III.iii.69] Omitted in Bamberg MS </rdg>
-				<rdg source="#MilanBACimelioSP">[¤58] (@1) d.dam (§) (@2) tabernaculum arcet (#3 require) </rdg>
+				<rdg source="#latin-book07-num69">[III.iii.69] Omitted in Bamberg MS</rdg>
+				<rdg source="#MilanBACimelioSP">[¤58] (@1) d.dam (§) (@2) tabernaculum arcet (#3 require)</rdg>
 			</app>
 			<app>
 				<rdg source="#latin-book07-num71">[III.iii.71] Omitted in Bamberg MS</rdg>
@@ -205,14 +205,14 @@
 			</app>
 			<app>
 				<rdg source="#latin-book07-num100">[V.ii.100] Audiens autem damasci ...</rdg>
-				<rdg source="#MilanBACimelioSP">[¤60] (§) (§) </rdg>
+				<rdg source="#MilanBACimelioSP">[¤60] (§) (§)</rdg>
 			</app>
 			<app>
 				<rdg source="#latin-book07-num104">[V.iii.104] Igitur dauid castrametatus ...</rdg>
 				<rdg source="#RomeBAVPalLat814">[¤76r](#h)(#obelus)(£1)haec siquidem dum in loco proprio uenerimus singula quaeque narrarrauimus. (en marge du bas)</rdg>
 			</app>
 			<app>
-				<rdg source="#latin-book07-num107">[V.iv.107] Cumque rex amathenus ... </rdg>
+				<rdg source="#latin-book07-num107">[V.iv.107] Cumque rex amathenus ...</rdg>
 				<rdg source="#LeidenUBVLF17">[¤70v](#croix)</rdg>
 			</app>
 			<app>
@@ -229,7 +229,7 @@
 			</app>
 			<app>
 				<rdg source="#latin-book07-num127">[VI.iii.127] Haec ergo deuictio ...</rdg>
-				<rdg source="#MilanBACimelioSP">[¤64] (§) (§) (§) (les annotations sont difficilement lisibles en marge à gauche) </rdg>
+				<rdg source="#MilanBACimelioSP">[¤64] (§) (§) (§) (les annotations sont difficilement lisibles en marge à gauche)</rdg>
 			</app>
 			<app>
 				<rdg source="#latin-book07-num130">[VII.i.130] Contigit igitur ea ...</rdg>
@@ -274,7 +274,7 @@
 			<app>
 				<rdg source="#latin-book07-num188">[VIII.v.188] Praemisit autem dum ...</rdg>
 				<rdg source="#BernBBMs50">[¤76v] (#1 digitum) (#2 digitum)</rdg>
-				<rdg source="#MilanBACimelioSP">[¤68] (@1) de tunsuro ab essalos quȩ fuerat… (@2) libias (#3 require) </rdg>
+				<rdg source="#MilanBACimelioSP">[¤68] (@1) de tunsuro ab essalos quȩ fuerat… (@2) libias (#3 require)</rdg>
 			</app>
 			<app>
 				<rdg source="#latin-book07-num194">[IX.i.194] Absalon autem dum ...</rdg>
@@ -312,7 +312,7 @@
 			</app>
 			<app>
 				<rdg source="#latin-book07-num236">[X.ii.236] Ioab itaque aciem ...</rdg>
-				<rdg source="#BernBBMs118">[¤158v] (#1 croix) </rdg>
+				<rdg source="#BernBBMs118">[¤158v] (#1 croix)</rdg>
 				<rdg source="#LeidenUBVLF17">[¤74v](#croix)</rdg>
 			</app>
 			<app>
@@ -345,10 +345,10 @@
 			</app>
 			<app>
 				<rdg source="#latin-book07-num276">[XI.v.276] ueneruntque ad eum ...</rdg>
-				<rdg source="#MilanBACimelioSP">[¤77] (§) </rdg>
+				<rdg source="#MilanBACimelioSP">[¤77] (§)</rdg>
 			</app>
 			<app>
-				<rdg source="#latin-book07-num278">[XI.vi.278] Cum haec igitur ... </rdg>
+				<rdg source="#latin-book07-num278">[XI.vi.278] Cum haec igitur ...</rdg>
 				<rdg source="#LeidenUBVLF17">[¤76r](#croix)</rdg>
 				<rdg source="#MilanBACimelioSP">[¤78] (@1) amessa principes (@2) bebdadi (@3) sabeth (@4) abessa frater ioab (@5) de morte amessa</rdg>
 			</app>
@@ -424,7 +424,7 @@
 			</app>
 			<app>
 				<rdg source="#latin-book07-num363">[XIV.vii.363] Uolens autem dauid ...</rdg>
-				<rdg source="#BernBBMs118">[¤168v] (#1 require) (#2 croix) </rdg>
+				<rdg source="#BernBBMs118">[¤168v] (#1 require) (#2 croix)</rdg>
 				<rdg source="#RomeBAVPalLat814">[¤86r](#obelus)(£1)david</rdg>
 			</app>
 			<app>
@@ -455,7 +455,7 @@
 			</app>
 			<app>
 				<rdg source="#latin-book07-num392">[XV.iii.392] Sepeliuit autem eum ...</rdg>
-				<rdg source="#MilanBACimelioSP">[¤93] (@1) de dauid… (@2) antiocha pius </rdg>
+				<rdg source="#MilanBACimelioSP">[¤93] (@1) de dauid… (@2) antiocha pius</rdg>
 			</app>
 		</listApp>
 	</standOff>
